@@ -28,6 +28,8 @@ EN_Y = 790        # English base, 1 step lower than approved 760
 EN_W = W - 400
 GAP = 34          # gap between ruby syllable pairs
 SK_TOP, SK_SPAN = 90, 670   # Sanskrit block centers within [90, 760]
+LEAD = 0.28       # transition pattern: new page cuts in 0.28s BEFORE its first
+                  # syllable's voice beat (page pale -> word lights ON the beat)
 
 def bounds_check(im, tag):
     """Mistake-log rule: no dark pixels may touch frame edges."""
@@ -71,6 +73,18 @@ def main():
     en_y = min(EN_Y, H - en_h - 36)
     assert en_y >= 700, f"English block too tall for frame: {en_h}px (id={id_})"
 
+    # ── transition pattern: page cuts in LEAD before its first voice beat,
+    # so every page boundary is identical: new page PALE -> word ON at beat.
+    firsts = {p: next(s for s in syls if s["pada"] == p)["t_on"] for p in padas}
+    switches = {p: max(0.0, firsts[p] - LEAD) for p in padas}
+    print(f"[{id_}] rhythm pattern ({len(padas)} pages, lead={LEAD}s):")
+    for i in range(1, len(padas)):
+        pp, np_ = padas[i - 1], padas[i]
+        prev_end = max(s["t_off"] for s in syls if s["pada"] == pp)
+        warn = "  !!PREV STILL LIT AT CUT" if prev_end > switches[np_] else ""
+        print(f"  p{pp}->p{np_}: cut@{switches[np_]:.2f} | pale->lit beat {firsts[np_]:.2f}"
+              f" | prev ends {prev_end:.2f}{warn}")
+
     def ctext(d, s, ft, y, fill=INK):
         d.text(((W - ft.getlength(s)) / 2, y), s, font=ft, fill=fill)
 
@@ -78,10 +92,9 @@ def main():
         return max(tmp.textlength(s["d"], font=fd), tmp.textlength(s["r"], font=fr))
 
     def slide(t):
-        api = 0
+        api = padas[0]
         for p in padas:
-            first = next(s for s in syls if s["pada"] == p)
-            if first["t_on"] <= t:
+            if switches[p] <= t:
                 api = p
         cur_s = [s for s in syls if s["pada"] == api]
         rows, row, roww = [], [], 0
@@ -127,6 +140,37 @@ def main():
         im, api, lit = slide(t)
         im.save(outd / f"{tag}.png")
         allok &= bounds_check(im, tag)
+    # ── STORYBOARD (transitions reviewed before any render) ──
+    if "--storyboard" in sys.argv and not do_render:
+        cells = []
+        for i in range(1, len(padas)):
+            pp, np_ = padas[i - 1], padas[i]
+            sw, fo = switches[np_], firsts[np_]
+            cells.append((f"t={sw-0.06:.2f} cut-0.06 · p{pp} FULL LIT", sw - 0.06))
+            cells.append((f"t={sw+0.06:.2f} cut+0.06 · p{np_} PALE (page in)", sw + 0.06))
+            cells.append((f"t={fo+0.10:.2f} beat+0.10 · p{np_} 1st word LIT", fo + 0.10))
+        cells.append((f"t={dur*0.4:.2f} reference · mid-frame", dur * 0.4))
+        try:
+            capf = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 19)
+        except OSError:
+            capf = ImageFont.load_default()
+        cw, chh, cap, cols = 640, 360, 30, 3
+        rn = (len(cells) + cols - 1) // cols
+        sheet = Image.new("RGB", (cols * cw, rn * (chh + cap)), (250, 250, 250))
+        dr = ImageDraw.Draw(sheet)
+        allok = True
+        for k, (label, t) in enumerate(cells):
+            im, _, _ = slide(t)
+            allok &= bounds_check(im, f"{id_}#{k}")
+            sheet.paste(im.resize((cw, chh)), ((k % cols) * cw, (k // cols) * (chh + cap) + cap))
+            dr.text(((k % cols) * cw + 8, (k // cols) * (chh + cap) + 5), label, font=capf, fill=INK)
+        sp = outd / f"{id_}_storyboard.png"
+        sheet.save(sp)
+        print("STORYBOARD:", sp, "->", "ALL OK" if allok else "BOUNDS FAIL — DO NOT RENDER")
+        if not allok:
+            sys.exit(2)
+        return
+
     if not do_render:
         print("STILLS ONLY (no video):", [str(outd / f"{t[0]}.png") for t in still_t])
         if not allok:
@@ -134,7 +178,7 @@ def main():
         return
 
     # ── RENDER (explicit --render, only after stills approved) ──
-    bounds = sorted({0.0, dur} | {s["t_on"] for s in syls})
+    bounds = sorted({0.0, dur} | set(switches.values()) | {s["t_on"] for s in syls})
     fdir = outd / f"{id_}_frames"
     import shutil
     shutil.rmtree(fdir, ignore_errors=True); fdir.mkdir(parents=True)

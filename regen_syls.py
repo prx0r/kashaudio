@@ -15,7 +15,11 @@ from tts_weight import tag_weights
 AUD = "/home/ubuntu/kashmir_audio"
 
 def pada_syllables(pada_text):
-    syls = syllabify(to_slp1(normalize(pada_text)))
+    # normalize() emits jihvāmūlīya/upadhmānīya (ᳵᳶ) before k/p; SLP1 maps them
+    # to Z/z which the display path renders as literal ASCII — restore plain visarga
+    # (matches source Devanagari and fixes the guru-via-visarga weight rule too).
+    t = normalize(pada_text).replace("ᳵ", "ः").replace("ᳶ", "ः")
+    syls = syllabify(to_slp1(t))
     tag_weights(syls)
     return syls
 
