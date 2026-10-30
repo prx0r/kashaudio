@@ -19,7 +19,8 @@ def pada_syllables(pada_text):
     tag_weights(syls)
     return syls
 
-for sub in ["bhairavastava", "anuttarashtika"]:
+subs = sys.argv[1:] or ["bhairavastava", "anuttarashtika"]
+for sub in subs:
     clips = json.load(open(f"{AUD}/{sub}/word_timings.json", encoding="utf-8"))
     for c in clips:
         by_pada = {}

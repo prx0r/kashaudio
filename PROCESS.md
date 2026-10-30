@@ -4,6 +4,15 @@ One verse in → karaoke card out. Every stage is scripted; no manual steps.
 
 ## Stages
 
+0. **Traditional audio preferred** — where a real recording exists (Lakshmanjoo
+   tradition, Dyczkowski, etc.), use it instead of AI render. Same chain below
+   applies to any audio: segment → MMS-align → matra regen → card.
+   For long files with chant/explanation interleaved (e.g. Anuttarāṣṭikā 14min):
+   `segment_trad.py` — 1s-RMS loud-region detection (thr=0.025, merge<25s gaps)
+   isolates chant blocks, pairs them to verses in order, cuts per-verse wavs.
+   MMS scores confirm pairing (expect >0.9). Output dir: `<work>_trad/`,
+   cards to `cards/trad/`.
+
 1. **Text** — Devanagari verses from SanskritDocuments/GRETIL into a shard:
    `stotras/<work>.json` as `[{id, meter, padas:[...], seed, no_sandhi, out}]`.
    Meter: auto-detect CPU-first (`render_core.detect_meter_key`); Bhairavastava-class

@@ -21,9 +21,11 @@ EN_Y, EN_W = 878, W - 360
 
 def main():
     id_ = sys.argv[1] if len(sys.argv) > 1 else "bhairava_01"
-    textdir = "bhairavastava" if id_.startswith("bhairava") else "anuttarashtika"
+    textdir = sys.argv[2] if len(sys.argv) > 2 else (
+        "bhairavastava" if id_.startswith("bhairava") else "anuttarashtika")
     wt = {c["id"]: c for c in json.load(open(AUD / textdir / "word_timings.json"))}[id_]
     en = json.load(open(AUD / "translations.json", encoding="utf-8"))[id_]
+    outd = OUT / "trad" if "_trad" in textdir else OUT
     syls = wt["syls"]
     dur = wt["dur"]
     padas = sorted({s["pada"] for s in syls})
@@ -102,7 +104,8 @@ def main():
         return im, api, lit
 
     bounds = sorted({0.0, dur} | {s["t_on"] for s in syls})
-    fdir = OUT / f"{id_}_frames"
+    outd.mkdir(parents=True, exist_ok=True)
+    fdir = outd / f"{id_}_frames"
     import shutil
     shutil.rmtree(fdir, ignore_errors=True); fdir.mkdir(parents=True)
     entries, idx = [], 0
@@ -114,15 +117,15 @@ def main():
         print(f"t={t:6.2f} pada={api} lit={len(lit)}")
         im.save(fdir / f"{idx:06d}.png")
         entries.append((idx, t1 - t0)); idx += 1
-    slide(dur - 0.2)[0].save(OUT / f"{id_}_held.png")
-    slide(2.0 if dur > 4 else dur * 0.3)[0].save(OUT / f"{id_}_mid.png")
+    slide(dur - 0.2)[0].save(outd / f"{id_}_held.png")
+    slide(2.0 if dur > 4 else dur * 0.3)[0].save(outd / f"{id_}_mid.png")
     lines = []
     for i, du in entries:
         lines += [f"file '{fdir / f'{i:06d}.png'}'", f"duration {du:.4f}"]
     lines.append(f"file '{fdir / f'{entries[-1][0]:06d}.png'}'")
     (fdir / "concat.txt").write_text("\n".join(lines) + "\n")
     wav = AUD / textdir / f"{id_}.wav"
-    mp4 = OUT / f"{id_}.mp4"
+    mp4 = outd / f"{id_}.mp4"
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", str(fdir / "concat.txt"),
                     "-i", str(wav), "-map", "0:v", "-map", "1:a", "-vf", "fps=30,format=yuv420p",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-c:a", "aac", "-b:a", "192k",

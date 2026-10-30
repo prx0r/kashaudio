@@ -5,7 +5,7 @@
 | Text | Verses | AI chant | Cards | Trad audio |
 |---|---|---|---|---|
 | Bhairavastava (+phala) | 10 | 10/10 wav ✅ | 1/10 (bhairava_01) | Dyczkowski recitation (browser) + YT (user pulls) |
-| Anuttarāṣṭikā | 8 | 8/8 wav ✅ | 0/8 | 14min chant+talk ✅ `ref/anuttarashtika-trad.mp3` |
+| Anuttarāṣṭikā | 8 | 8/8 wav ✅ | 8/8 trad ✅ + 8/8 AI (batch) | 14min chant+talk ✅ -> segmented, aligned, CARDS DONE (`cards/trad/`, 8min full) |
 | Śivastotrāvalī 1.1 | 1 (test) | demo spot ✅ | — (user has better audio) | user-sourced |
 
 ## Targets (in batch order)
