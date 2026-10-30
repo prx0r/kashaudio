@@ -105,3 +105,26 @@ One verse in → karaoke card out. Every stage is scripted; no manual steps.
    parked in `cards/trad/`. AI (Vagdhenu) stays the deliverable voice.
 5. **Check separation too, not just edges** — Sanskrit block and English must
    not collide (largest-gap check passed: 166-229px clear).
+
+## Syllable-level alignment (2026-10-30, "how do we be exact")
+
+Word-level MMS still left interior syllables as matra ESTIMATES — first/last
+on time, mid-pada rhythm drifting. Fix: `mms-align/align_sylls.js` feeds every
+DISPLAY SYLLABLE as its own MMS token (CTC Viterbi) → each ruby light comes
+from a forced-aligned boundary against the audio itself. Mean token score
+0.89-0.96 across all clips. Order: regen_syls (text/weights) → align_sylls
+(timings; authority) — never re-run regen after align (it overwrites).
+Known defect: bhairava_05 'ka' (kk-cluster) MMS-collapsed to 50ms @0.04 —
+sequence still correct, no room to repair, accepted.
+F32 cache names MUST include the dir (AI vs trad same ids — collision gave
+trad AI timings once).
+
+## Qwen round-2 evidence (adversarial mode)
+
+Asked qwen for up to 10 todos on 3 fresh renders: returned 3 "high" timing
+todos (syllables "lit before voice", "7 lit at t=7.0"). Data check:
+bhairava_05 first syl t_on=0.060 (voice starts there), bhairava_01 at t=7.0
+has exactly 1 lit (6.725) — claims FALSE. Its class-C (framing) and D
+(ruby/glyphs) checks passed. Reinforces rule: qwen for taste/layout/structure;
+TIMING verdicts only accepted when the JSON numbers also disagree with
+word_timings.json. Todos rejected with evidence, no changes made.
