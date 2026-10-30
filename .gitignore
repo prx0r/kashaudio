@@ -1,0 +1,5 @@
+*_frames/
+__pycache__/
+ref/
+node_modules/
+*.f32

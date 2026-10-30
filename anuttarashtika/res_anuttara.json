@@ -1,0 +1,58 @@
+[
+ {
+  "id": "anuttara_01",
+  "dur": 22.09,
+  "pieces": 4,
+  "seed": 60,
+  "out": "/kaggle/working/out_anuttara/anuttara_01.wav"
+ },
+ {
+  "id": "anuttara_02",
+  "dur": 21.714,
+  "pieces": 4,
+  "seed": 60,
+  "out": "/kaggle/working/out_anuttara/anuttara_02.wav"
+ },
+ {
+  "id": "anuttara_03",
+  "dur": 21.874,
+  "pieces": 4,
+  "seed": 60,
+  "out": "/kaggle/working/out_anuttara/anuttara_03.wav"
+ },
+ {
+  "id": "anuttara_04",
+  "dur": 22.271,
+  "pieces": 4,
+  "seed": 60,
+  "out": "/kaggle/working/out_anuttara/anuttara_04.wav"
+ },
+ {
+  "id": "anuttara_05",
+  "dur": 21.893,
+  "pieces": 4,
+  "seed": 60,
+  "out": "/kaggle/working/out_anuttara/anuttara_05.wav"
+ },
+ {
+  "id": "anuttara_06",
+  "dur": 21.774,
+  "pieces": 4,
+  "seed": 60,
+  "out": "/kaggle/working/out_anuttara/anuttara_06.wav"
+ },
+ {
+  "id": "anuttara_07",
+  "dur": 22.63,
+  "pieces": 4,
+  "seed": 60,
+  "out": "/kaggle/working/out_anuttara/anuttara_07.wav"
+ },
+ {
+  "id": "anuttara_08",
+  "dur": 21.274,
+  "pieces": 4,
+  "seed": 60,
+  "out": "/kaggle/working/out_anuttara/anuttara_08.wav"
+ }
+]

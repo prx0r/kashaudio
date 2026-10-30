@@ -1,0 +1,72 @@
+[
+ {
+  "id": "bhairava_01",
+  "dur": 12.37,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairava/bhairava_01.wav"
+ },
+ {
+  "id": "bhairava_02",
+  "dur": 12.694,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairava/bhairava_02.wav"
+ },
+ {
+  "id": "bhairava_03",
+  "dur": 12.11,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairava/bhairava_03.wav"
+ },
+ {
+  "id": "bhairava_04",
+  "dur": 12.07,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairava/bhairava_04.wav"
+ },
+ {
+  "id": "bhairava_05",
+  "dur": 12.45,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairava/bhairava_05.wav"
+ },
+ {
+  "id": "bhairava_06",
+  "dur": 12.01,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairava/bhairava_06.wav"
+ },
+ {
+  "id": "bhairava_07",
+  "dur": 11.75,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairava/bhairava_07.wav"
+ },
+ {
+  "id": "bhairava_08",
+  "dur": 12.574,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairava/bhairava_08.wav"
+ },
+ {
+  "id": "bhairava_09",
+  "dur": 12.834,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairava/bhairava_09.wav"
+ },
+ {
+  "id": "bhairava_10_phala",
+  "dur": 11.45,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairava/bhairava_10_phala.wav"
+ }
+]
