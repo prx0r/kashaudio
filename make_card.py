@@ -1,13 +1,21 @@
 #!/usr/bin/env python3
-"""Canonical karaoke card — ONE word per line; each Devanagari syllable with
-its romanization directly beneath (ruby). Matra-rhythm timing (MMS +
-tts_weight). Per-slide type sizing (big when few words, shrink to fit when
-many). Sanskrit centered/lower, English full-width near bottom.
-One pada per slide. Usage: python3 make_card.py bhairava_01
+"""APPROVED layout restored (owner: "OMG ITS PERFECT" 2026-10-30): ruby-syllable
+karaoke — each Devanagari syllable with its romanization directly underneath,
+pairs flow left-to-right in centered rows. One pada per slide. Hard cuts at
+syllable onsets. Matra-rhythm timing from MMS word_timings.json.
+
+Tweaks staged for still-approval (owner asks): Sanskrit block lowered/central,
+Sanskrit +1 size, English 1 step nearer bottom BUT hard-clamped inside frame
+(never off-page). English size unchanged from approved version.
+
+STILLS ONLY by default: python3 make_card.py <id> [textdir] [--stills]
+  --stills (or default when arg missing? no: explicit) -> PNGs only, no ffmpeg.
+Render: ... <id> [textdir] --render
 """
 import json, subprocess, sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
+import numpy as np
 
 W, H = 1920, 1080
 LIGHT, INK, INK50, FADE, FADE50 = (255, 255, 255), (23, 20, 15), (118, 115, 110), (207, 201, 190), (216, 210, 198)
@@ -16,22 +24,35 @@ FR = "/home/ubuntu/.fonts/CormorantGaramond-Italic.ttf"
 FE = "/home/ubuntu/.fonts/CormorantGaramond-Medium.ttf"
 AUD = Path("/home/ubuntu/kashmir_audio")
 OUT = AUD / "cards"
-TOP, BOT = 150, 850
-EN_Y, EN_W = 878, W - 360
+EN_Y = 790        # English base, 1 step lower than approved 760
+EN_W = W - 400
+GAP = 34          # gap between ruby syllable pairs
+SK_TOP, SK_SPAN = 90, 670   # Sanskrit block centers within [90, 760]
+
+def bounds_check(im, tag):
+    """Mistake-log rule: no dark pixels may touch frame edges."""
+    g = np.array(im.convert("L"))
+    ys = np.where((g < 150).any(axis=1))[0]
+    xs = np.where((g < 150).any(axis=0))[0]
+    ok = ys.max() < H - 8 and xs.min() > 8 and xs.max() < W - 8
+    print(f"  bounds[{tag}]: y {ys.min()}-{ys.max()} x {xs.min()}-{xs.max()} -> {'OK' if ok else 'OVERFLOW!'}")
+    return ok
 
 def main():
-    id_ = sys.argv[1] if len(sys.argv) > 1 else "bhairava_01"
-    textdir = sys.argv[2] if len(sys.argv) > 2 else (
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    do_render = "--render" in sys.argv
+    id_ = args[0] if args else "bhairava_01"
+    textdir = args[1] if len(args) > 1 else (
         "bhairavastava" if id_.startswith("bhairava") else "anuttarashtika")
     wt = {c["id"]: c for c in json.load(open(AUD / textdir / "word_timings.json"))}[id_]
     en = json.load(open(AUD / "translations.json", encoding="utf-8"))[id_]
-    outd = OUT / "trad" if "_trad" in textdir else OUT
     syls = wt["syls"]
     dur = wt["dur"]
     padas = sorted({s["pada"] for s in syls})
 
-    fe = ImageFont.truetype(FE, 48)
-    lh_e = int(48 * 1.4)
+    # approved sizes, Sanskrit +1: deva 64->70, roman 30->33, English unchanged 46
+    fd, fr, fe = ImageFont.truetype(FD, 70), ImageFont.truetype(FR, 33), ImageFont.truetype(FE, 46)
+    lh_d, lh_r, lh_e = int(70 * 1.35), int(33 * 1.35), int(46 * 1.4)
     tmp = ImageDraw.Draw(Image.new("RGB", (W, H)))
     enw, en_lines, cur, curw = en.split(), [], [], 0
     sp = tmp.textlength(" ", font=fe)
@@ -45,28 +66,16 @@ def main():
     if cur:
         en_lines.append(cur)
     en_txt = [" ".join(enw[i] for i in ln) for ln in en_lines]
+    # HARD CLAMP: English block bottom never crosses H-36 (mistake-log rule)
+    en_h = len(en_txt) * lh_e
+    en_y = min(EN_Y, H - en_h - 36)
+    assert en_y >= 700, f"English block too tall for frame: {en_h}px (id={id_})"
 
-    # per-pada word groups + font size (biggest that fits)
-    avail = BOT - TOP
-    pdata = {}
-    for p in padas:
-        cur = [s for s in syls if s["pada"] == p]
-        wmap, order = {}, []
-        for s in cur:
-            if s["word"] not in wmap:
-                wmap[s["word"]] = []; order.append(s["word"])
-            wmap[s["word"]].append(s)
-        n = len(order)
-        for ds, rs in [(96, 40), (84, 36), (74, 32), (64, 28), (56, 25), (48, 21)]:
-            word_h = int(ds * 1.4) + int(rs * 1.5) + 26
-            if n * word_h <= avail:
-                break
-        pdata[p] = dict(order=order, wmap=wmap, n=n,
-                        fd=ImageFont.truetype(FD, ds), fr=ImageFont.truetype(FR, rs),
-                        lh_d=int(ds * 1.4), lh_r=int(rs * 1.5), word_h=word_h)
+    def ctext(d, s, ft, y, fill=INK):
+        d.text(((W - ft.getlength(s)) / 2, y), s, font=ft, fill=fill)
 
-    def ctext(d, s, ft, y, fill=INK, cx=W / 2):
-        d.text((cx - ft.getlength(s) / 2, y), s, font=ft, fill=fill)
+    def pair_w(s):
+        return max(tmp.textlength(s["d"], font=fd), tmp.textlength(s["r"], font=fr))
 
     def slide(t):
         api = 0
@@ -74,37 +83,58 @@ def main():
             first = next(s for s in syls if s["pada"] == p)
             if first["t_on"] <= t:
                 api = p
-        P = pdata[api]
-        n, word_h = P["n"], P["word_h"]
-        y0 = TOP + (avail - n * word_h) / 2
+        cur_s = [s for s in syls if s["pada"] == api]
+        rows, row, roww = [], [], 0
+        for s in cur_s:
+            w = pair_w(s) + GAP
+            if row and roww + w - GAP > 1500:
+                rows.append(row); row, roww = [], 0
+            row.append(s); roww += w
+        if row:
+            rows.append(row)
+        block_h = len(rows) * (lh_d + lh_r + 26) - 26
+        y0 = SK_TOP + (SK_SPAN - block_h) / 2
         im = Image.new("RGB", (W, H), LIGHT)
         d = ImageDraw.Draw(im)
         lit = []
         y = y0
-        for wtext in P["order"]:
-            wsyls = P["wmap"][wtext]
-            fd, fr, lh_d = P["fd"], P["fr"], P["lh_d"]
-            dw = [tmp.textlength(s["d"], font=fd) for s in wsyls]
-            rw = [tmp.textlength(s["r"], font=fr) for s in wsyls]
-            total_w = sum(dw) + 8 * (len(wsyls) - 1)
-            x0 = (W - total_w) / 2
-            for i, s in enumerate(wsyls):
+        for r in rows:
+            total = sum(pair_w(s) + GAP for s in r) - GAP
+            x = (W - total) / 2
+            for s in r:
                 on = t >= s["t_on"]
                 if on:
                     lit.append(s["d"])
-                cx = x0 + dw[i] / 2
-                d.text((cx - dw[i] / 2, y), s["d"], font=fd, fill=INK if on else FADE)
-                d.text((cx - rw[i] / 2, y + lh_d), s["r"], font=fr, fill=INK50 if on else FADE50)
-                x0 += dw[i] + 8
-            y += word_h
-        yy = EN_Y
+                dw = tmp.textlength(s["d"], font=fd)
+                rw = tmp.textlength(s["r"], font=fr)
+                d.text((x + (pair_w(s) - dw) / 2, y), s["d"], font=fd, fill=INK if on else FADE)
+                d.text((x + (pair_w(s) - rw) / 2, y + lh_d), s["r"], font=fr,
+                       fill=INK50 if on else FADE50)
+                x += pair_w(s) + GAP
+            y += lh_d + lh_r + 26
+        yy = en_y
         for ln in en_txt:
-            ctext(d, " ".join(ln), fe, yy)
+            ctext(d, ln, fe, yy)
             yy += lh_e
         return im, api, lit
 
-    bounds = sorted({0.0, dur} | {s["t_on"] for s in syls})
+    # ── STILLS (default): mid + held, bounds-checked, NO video ──
+    outd = OUT / "trad" if "_trad" in textdir else OUT
     outd.mkdir(parents=True, exist_ok=True)
+    still_t = [(f"{id_}_mid", dur * 0.4), (f"{id_}_held", dur - 0.2)]
+    allok = True
+    for tag, t in still_t:
+        im, api, lit = slide(t)
+        im.save(outd / f"{tag}.png")
+        allok &= bounds_check(im, tag)
+    if not do_render:
+        print("STILLS ONLY (no video):", [str(outd / f"{t[0]}.png") for t in still_t])
+        if not allok:
+            sys.exit("BOUNDs FAILED — do not render")
+        return
+
+    # ── RENDER (explicit --render, only after stills approved) ──
+    bounds = sorted({0.0, dur} | {s["t_on"] for s in syls})
     fdir = outd / f"{id_}_frames"
     import shutil
     shutil.rmtree(fdir, ignore_errors=True); fdir.mkdir(parents=True)
@@ -112,13 +142,9 @@ def main():
     for t0, t1 in zip(bounds, bounds[1:]):
         if t1 - t0 < 1e-3:
             continue
-        t = (t0 + t1) / 2
-        im, api, lit = slide(t)
-        print(f"t={t:6.2f} pada={api} lit={len(lit)}")
+        im, api, lit = slide((t0 + t1) / 2)
         im.save(fdir / f"{idx:06d}.png")
         entries.append((idx, t1 - t0)); idx += 1
-    slide(dur - 0.2)[0].save(outd / f"{id_}_held.png")
-    slide(2.0 if dur > 4 else dur * 0.3)[0].save(outd / f"{id_}_mid.png")
     lines = []
     for i, du in entries:
         lines += [f"file '{fdir / f'{i:06d}.png'}'", f"duration {du:.4f}"]

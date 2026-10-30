@@ -83,3 +83,25 @@ One verse in → karaoke card out. Every stage is scripted; no manual steps.
 - `kashmir_audio/cards/` — finished mp4s + stills
 - `kashmir-cards/` — Kaggle dataset mirror
 - `.fonts/` — Tiro Devanagari + Cormorant (repo typography)
+
+## Mistakes (2026-10-30, owner caught)
+
+1. **Stills-first was violated.** Rendered and shipped videos without PNG
+   approval — the visuals repo law ("stills before renders") existed and I
+   ignored it. NOW: `make_card.py <id>` defaults to STILLS ONLY (mid+held PNG,
+   bounds-checked, no ffmpeg). Video requires explicit `--render` AFTER owner
+   approves the stills. Batch scripts must not call --render on unapproved art.
+2. **English ran off the page.** Long translations at a fixed EN_Y overflow
+   the 1080 frame (Anuttarāṣṭikā ran to y≈1150+). NOW: English block is
+   hard-clamped (`en_y = min(EN_Y, H - en_h - 36)`), every still prints a
+   bounds line (dark-pixel bbox), render aborts on overflow. Always test the
+   LONGEST text (anuttara_01), not just bhairava_01.
+3. **Approved = frozen.** Owner said "PERFECT" on the ruby-rows layout; I then
+   rewrote it (word-per-line) inside a batch render cycle. Layout changes are
+   now staged: edit → stills → owner approves → only then --render.
+4. **Audio source is the owner's call, per deliverable.** I switched Anuttarāṣṭikā
+   cards to the Lakshmanjoo traditional recording after one enthusiastic line;
+   owner wanted AI. Traditional recordings = EAR-REFERENCE (targets.md #5),
+   parked in `cards/trad/`. AI (Vagdhenu) stays the deliverable voice.
+5. **Check separation too, not just edges** — Sanskrit block and English must
+   not collide (largest-gap check passed: 166-229px clear).
