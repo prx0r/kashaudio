@@ -143,6 +143,10 @@ def main():
         if t1 - t0 < 1e-3:
             continue
         im, api, lit = slide((t0 + t1) / 2)
+        g = np.array(im.convert("L"))
+        ymax = int(np.where((g < 150).any(axis=1))[0].max())
+        if ymax >= H - 8:
+            sys.exit(f"FRAME OVERFLOW at t={t0:.2f} (ymax={ymax}) — refusing to render {id_}")
         im.save(fdir / f"{idx:06d}.png")
         entries.append((idx, t1 - t0)); idx += 1
     lines = []
