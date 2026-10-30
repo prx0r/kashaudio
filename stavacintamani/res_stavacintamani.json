@@ -1,0 +1,842 @@
+[
+ {
+  "id": "stc_001",
+  "dur": 9.55,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_001.wav"
+ },
+ {
+  "id": "stc_002",
+  "dur": 9.35,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_002.wav"
+ },
+ {
+  "id": "stc_003",
+  "dur": 9.17,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_003.wav"
+ },
+ {
+  "id": "stc_004",
+  "dur": 9.886,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_004.wav"
+ },
+ {
+  "id": "stc_005",
+  "dur": 9.41,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_005.wav"
+ },
+ {
+  "id": "stc_006",
+  "dur": 10.162,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_006.wav"
+ },
+ {
+  "id": "stc_007",
+  "dur": 10.01,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_007.wav"
+ },
+ {
+  "id": "stc_008",
+  "dur": 9.87,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_008.wav"
+ },
+ {
+  "id": "stc_009",
+  "dur": 9.77,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_009.wav"
+ },
+ {
+  "id": "stc_010",
+  "dur": 9.69,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_010.wav"
+ },
+ {
+  "id": "stc_011",
+  "dur": 9.79,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_011.wav"
+ },
+ {
+  "id": "stc_012",
+  "dur": 9.57,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_012.wav"
+ },
+ {
+  "id": "stc_013",
+  "dur": 9.53,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_013.wav"
+ },
+ {
+  "id": "stc_014",
+  "dur": 9.27,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_014.wav"
+ },
+ {
+  "id": "stc_015",
+  "dur": 9.61,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_015.wav"
+ },
+ {
+  "id": "stc_016",
+  "dur": 9.23,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_016.wav"
+ },
+ {
+  "id": "stc_017",
+  "dur": 9.49,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_017.wav"
+ },
+ {
+  "id": "stc_018",
+  "dur": 9.15,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_018.wav"
+ },
+ {
+  "id": "stc_019",
+  "dur": 10.026,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_019.wav"
+ },
+ {
+  "id": "stc_020",
+  "dur": 9.91,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_020.wav"
+ },
+ {
+  "id": "stc_021",
+  "dur": 10.13,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_021.wav"
+ },
+ {
+  "id": "stc_022",
+  "dur": 9.73,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_022.wav"
+ },
+ {
+  "id": "stc_023",
+  "dur": 9.59,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_023.wav"
+ },
+ {
+  "id": "stc_024",
+  "dur": 9.27,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_024.wav"
+ },
+ {
+  "id": "stc_025",
+  "dur": 9.33,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_025.wav"
+ },
+ {
+  "id": "stc_026",
+  "dur": 10.226,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_026.wav"
+ },
+ {
+  "id": "stc_027",
+  "dur": 10.13,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_027.wav"
+ },
+ {
+  "id": "stc_028",
+  "dur": 9.846,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_028.wav"
+ },
+ {
+  "id": "stc_029",
+  "dur": 9.69,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_029.wav"
+ },
+ {
+  "id": "stc_030",
+  "dur": 9.59,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_030.wav"
+ },
+ {
+  "id": "stc_031",
+  "dur": 10.346,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_031.wav"
+ },
+ {
+  "id": "stc_032",
+  "dur": 9.49,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_032.wav"
+ },
+ {
+  "id": "stc_033",
+  "dur": 9.27,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_033.wav"
+ },
+ {
+  "id": "stc_034",
+  "dur": 9.51,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_034.wav"
+ },
+ {
+  "id": "stc_035",
+  "dur": 9.946,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_035.wav"
+ },
+ {
+  "id": "stc_036",
+  "dur": 9.43,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_036.wav"
+ },
+ {
+  "id": "stc_037",
+  "dur": 8.99,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_037.wav"
+ },
+ {
+  "id": "stc_038",
+  "dur": 9.99,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_038.wav"
+ },
+ {
+  "id": "stc_039",
+  "dur": 9.81,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_039.wav"
+ },
+ {
+  "id": "stc_040",
+  "dur": 9.67,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_040.wav"
+ },
+ {
+  "id": "stc_041",
+  "dur": 9.39,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_041.wav"
+ },
+ {
+  "id": "stc_042",
+  "dur": 9.29,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_042.wav"
+ },
+ {
+  "id": "stc_043",
+  "dur": 10.03,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_043.wav"
+ },
+ {
+  "id": "stc_044",
+  "dur": 9.29,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_044.wav"
+ },
+ {
+  "id": "stc_045",
+  "dur": 9.646,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_045.wav"
+ },
+ {
+  "id": "stc_046",
+  "dur": 9.49,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_046.wav"
+ },
+ {
+  "id": "stc_047",
+  "dur": 10.73,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_047.wav"
+ },
+ {
+  "id": "stc_048",
+  "dur": 9.51,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_048.wav"
+ },
+ {
+  "id": "stc_049",
+  "dur": 10.146,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_049.wav"
+ },
+ {
+  "id": "stc_050",
+  "dur": 9.31,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_050.wav"
+ },
+ {
+  "id": "stc_051",
+  "dur": 9.07,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_051.wav"
+ },
+ {
+  "id": "stc_052",
+  "dur": 9.57,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_052.wav"
+ },
+ {
+  "id": "stc_053",
+  "dur": 9.37,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_053.wav"
+ },
+ {
+  "id": "stc_054",
+  "dur": 9.71,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_054.wav"
+ },
+ {
+  "id": "stc_055",
+  "dur": 9.13,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_055.wav"
+ },
+ {
+  "id": "stc_056",
+  "dur": 10.21,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_056.wav"
+ },
+ {
+  "id": "stc_057",
+  "dur": 9.11,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_057.wav"
+ },
+ {
+  "id": "stc_058",
+  "dur": 9.69,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_058.wav"
+ },
+ {
+  "id": "stc_059",
+  "dur": 9.75,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_059.wav"
+ },
+ {
+  "id": "stc_060",
+  "dur": 9.67,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_060.wav"
+ },
+ {
+  "id": "stc_061",
+  "dur": 10.382,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_061.wav"
+ },
+ {
+  "id": "stc_062",
+  "dur": 10.07,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_062.wav"
+ },
+ {
+  "id": "stc_063",
+  "dur": 9.926,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_063.wav"
+ },
+ {
+  "id": "stc_064",
+  "dur": 9.87,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_064.wav"
+ },
+ {
+  "id": "stc_065",
+  "dur": 9.45,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_065.wav"
+ },
+ {
+  "id": "stc_066",
+  "dur": 9.29,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_066.wav"
+ },
+ {
+  "id": "stc_067",
+  "dur": 9.93,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_067.wav"
+ },
+ {
+  "id": "stc_068",
+  "dur": 9.81,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_068.wav"
+ },
+ {
+  "id": "stc_069",
+  "dur": 10.106,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_069.wav"
+ },
+ {
+  "id": "stc_070",
+  "dur": 9.55,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_070.wav"
+ },
+ {
+  "id": "stc_071",
+  "dur": 10.19,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_071.wav"
+ },
+ {
+  "id": "stc_072",
+  "dur": 10.626,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_072.wav"
+ },
+ {
+  "id": "stc_073",
+  "dur": 10.25,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_073.wav"
+ },
+ {
+  "id": "stc_074",
+  "dur": 9.53,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_074.wav"
+ },
+ {
+  "id": "stc_075",
+  "dur": 9.946,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_075.wav"
+ },
+ {
+  "id": "stc_076",
+  "dur": 9.31,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_076.wav"
+ },
+ {
+  "id": "stc_077",
+  "dur": 9.73,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_077.wav"
+ },
+ {
+  "id": "stc_078",
+  "dur": 9.77,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_078.wav"
+ },
+ {
+  "id": "stc_079",
+  "dur": 10.19,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_079.wav"
+ },
+ {
+  "id": "stc_080",
+  "dur": 10.05,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_080.wav"
+ },
+ {
+  "id": "stc_081",
+  "dur": 9.33,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_081.wav"
+ },
+ {
+  "id": "stc_082",
+  "dur": 10.01,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_082.wav"
+ },
+ {
+  "id": "stc_083",
+  "dur": 9.53,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_083.wav"
+ },
+ {
+  "id": "stc_084",
+  "dur": 10.01,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_084.wav"
+ },
+ {
+  "id": "stc_085",
+  "dur": 10.206,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_085.wav"
+ },
+ {
+  "id": "stc_086",
+  "dur": 9.27,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_086.wav"
+ },
+ {
+  "id": "stc_087",
+  "dur": 10.306,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_087.wav"
+ },
+ {
+  "id": "stc_088",
+  "dur": 9.55,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_088.wav"
+ },
+ {
+  "id": "stc_089",
+  "dur": 9.87,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_089.wav"
+ },
+ {
+  "id": "stc_090",
+  "dur": 9.39,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_090.wav"
+ },
+ {
+  "id": "stc_091",
+  "dur": 9.21,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_091.wav"
+ },
+ {
+  "id": "stc_092",
+  "dur": 10.07,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_092.wav"
+ },
+ {
+  "id": "stc_093",
+  "dur": 10.05,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_093.wav"
+ },
+ {
+  "id": "stc_094",
+  "dur": 8.91,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_094.wav"
+ },
+ {
+  "id": "stc_095",
+  "dur": 10.19,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_095.wav"
+ },
+ {
+  "id": "stc_096",
+  "dur": 8.71,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_096.wav"
+ },
+ {
+  "id": "stc_097",
+  "dur": 9.57,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_097.wav"
+ },
+ {
+  "id": "stc_098",
+  "dur": 9.95,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_098.wav"
+ },
+ {
+  "id": "stc_099",
+  "dur": 10.086,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_099.wav"
+ },
+ {
+  "id": "stc_100",
+  "dur": 9.69,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_100.wav"
+ },
+ {
+  "id": "stc_101",
+  "dur": 9.41,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_101.wav"
+ },
+ {
+  "id": "stc_102",
+  "dur": 10.23,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_102.wav"
+ },
+ {
+  "id": "stc_103",
+  "dur": 10.186,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_103.wav"
+ },
+ {
+  "id": "stc_104",
+  "dur": 10.63,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_104.wav"
+ },
+ {
+  "id": "stc_105",
+  "dur": 9.65,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_105.wav"
+ },
+ {
+  "id": "stc_106",
+  "dur": 9.846,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_106.wav"
+ },
+ {
+  "id": "stc_107",
+  "dur": 10.49,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_107.wav"
+ },
+ {
+  "id": "stc_108",
+  "dur": 9.75,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_108.wav"
+ },
+ {
+  "id": "stc_109",
+  "dur": 9.81,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_109.wav"
+ },
+ {
+  "id": "stc_110",
+  "dur": 8.93,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_110.wav"
+ },
+ {
+  "id": "stc_111",
+  "dur": 9.47,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_111.wav"
+ },
+ {
+  "id": "stc_112",
+  "dur": 9.87,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_112.wav"
+ },
+ {
+  "id": "stc_113",
+  "dur": 9.81,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_113.wav"
+ },
+ {
+  "id": "stc_114",
+  "dur": 9.37,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_114.wav"
+ },
+ {
+  "id": "stc_115",
+  "dur": 9.59,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_115.wav"
+ },
+ {
+  "id": "stc_116",
+  "dur": 9.37,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_116.wav"
+ },
+ {
+  "id": "stc_117",
+  "dur": 9.37,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_117.wav"
+ },
+ {
+  "id": "stc_118",
+  "dur": 9.61,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_118.wav"
+ },
+ {
+  "id": "stc_119",
+  "dur": 9.526,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_119.wav"
+ },
+ {
+  "id": "stc_120",
+  "dur": 9.826,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_stavacintamani/stc_120.wav"
+ }
+]

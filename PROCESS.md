@@ -162,3 +162,12 @@ anuttara_02->03, the pūjā join). 4 transitions per verse cycle = every 4th.
 Fix: `build_fulls.py` — per join insert A (prev page's last frame held +
 silence) and B (next page pale + silence) so total gap = 1.05s and pale =
 exactly 0.28s, matching intra-clip pattern. Clip videos unchanged.
+
+## Qwen round on new works (2026-10-30) — 2nd false batch, rejected
+
+Storyboard QA claimed glyph/romanization defects (ru vs rū etc) — data check:
+all correct in word_timings (rū/vā/svāt present), no such syllables exist in
+claimed verses. Video QA claimed "6-7 syllables lit at t=0.0" on bpc/stc —
+first onsets are 0.060, zero lit at frame 0; "10 lit at t=1.0" on dhs — data
+shows 4. ALL 3 todos rejected with data evidence, no changes. Qwen remains
+taste/structure-only; two consecutive verdict batches now refuted.

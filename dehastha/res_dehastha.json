@@ -1,0 +1,114 @@
+[
+ {
+  "id": "dhs_01",
+  "dur": 10.486,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_01.wav"
+ },
+ {
+  "id": "dhs_02",
+  "dur": 9.833,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_02.wav"
+ },
+ {
+  "id": "dhs_03",
+  "dur": 9.89,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_03.wav"
+ },
+ {
+  "id": "dhs_04",
+  "dur": 8.97,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_04.wav"
+ },
+ {
+  "id": "dhs_05",
+  "dur": 9.73,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_05.wav"
+ },
+ {
+  "id": "dhs_06",
+  "dur": 9.63,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_06.wav"
+ },
+ {
+  "id": "dhs_07",
+  "dur": 9.477,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_07.wav"
+ },
+ {
+  "id": "dhs_08",
+  "dur": 9.37,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_08.wav"
+ },
+ {
+  "id": "dhs_09",
+  "dur": 9.274,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_09.wav"
+ },
+ {
+  "id": "dhs_10",
+  "dur": 9.05,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_10.wav"
+ },
+ {
+  "id": "dhs_11",
+  "dur": 9.93,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_11.wav"
+ },
+ {
+  "id": "dhs_12",
+  "dur": 9.39,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_12.wav"
+ },
+ {
+  "id": "dhs_13",
+  "dur": 10.133,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_13.wav"
+ },
+ {
+  "id": "dhs_14",
+  "dur": 9.635,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_14.wav"
+ },
+ {
+  "id": "dhs_15",
+  "dur": 9.73,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_15.wav"
+ },
+ {
+  "id": "dhs_16",
+  "dur": 9.593,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_dehastha/dhs_16.wav"
+ }
+]

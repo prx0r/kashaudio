@@ -1,11 +1,13 @@
-// Batch MMS-align all clips: reads word_timings.json per work, resamples via
+// Batch MMS-align all clips (dirs via argv). reads word_timings; word-level pass.
+// NOTE: for NEW works there is no word_timings yet — use seed_word_timings first.
+// Batch legacy comment: reads word_timings.json per work, resamples via
 // ffmpeg, aligns with sa-IN, merges corrected t_on/t_off back into the JSON.
 const fs = require("fs");
 const { execSync } = require("child_process");
 const { createAligner, alignNative } = require("mms-forced-align");
 
 const AUD = "/home/ubuntu/kashmir_audio";
-const WORKS = ["bhairavastava", "anuttarashtika"];
+const WORKS = process.argv.slice(2);
 
 async function main() {
   console.error("creating aligner (fp32)...");
