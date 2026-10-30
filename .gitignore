@@ -3,3 +3,4 @@ __pycache__/
 ref/
 node_modules/
 *.f32
+cards/_join_tmp/

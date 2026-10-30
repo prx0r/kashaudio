@@ -128,3 +128,37 @@ has exactly 1 lit (6.725) — claims FALSE. Its class-C (framing) and D
 (ruby/glyphs) checks passed. Reinforces rule: qwen for taste/layout/structure;
 TIMING verdicts only accepted when the JSON numbers also disagree with
 word_timings.json. Todos rejected with evidence, no changes made.
+
+## THE WINNING FORMULA (exact, as shipped 2026-10-30 — owner: "its amazing")
+
+Per verse, in this exact order:
+1. `stotras/<work>.json` shard + `check_text.py` (CPU meter check)
+2. Kaggle GPU `render.py` -> wav + res JSON (v8 kernel; env law above)
+3. `mms-align/align_all.js` — word-level MMS (metadata/word spans)
+4. `regen_syls.py <work>` — syllable TEXTS via tts_syllabify + guru/laghu
+   weights (jihvamuliya fix inline); matra times as placeholder ONLY
+5. `mms-align/align_sylls.js <work>` — SYLLABLE-level MMS (CTC Viterbi
+   tokens = every display syllable) -> exact t_on/t_off. Timing authority.
+   NEVER re-run step 4 after step 5 (overwrites).
+6. `make_card.py <id> [work] --storyboard` — pattern audit + bounds-checked
+   transition sheets (stills-first law)
+7. owner approves -> `make_card.py <id> --render` (per-frame overflow guard;
+   refuses on fail) -> `batch_cards.sh` -> concat fulls
+8. `qwen_todo.py` taste/structure review; timing todos only accepted if they
+   ALSO disagree with word_timings.json (they lied twice — evidence in log)
+9. publish: gofile spot links + `kaggle datasets version` + git push kashaudio
+
+Card constants (locked): white Essay-0, ruby syllable pairs centered rows,
+one pada per page, LEAD=0.28 page-in before first beat, EN clamp
+`min(790, H - en_h - 36)`, deva 70 / roman 33 / en 46.
+
+## Join rhythm (2026-10-30, owner: "every 4th... pūjā comes in early")
+
+Diagnosed with `diag_transitions.py`: intra-clip page cuts are perfect
+(pale exactly 0.28s before beat, 52/52 page starts within ±50ms of acoustic
+onset), but EVERY inter-clip join in the full recitations was rushed —
+new page pale only 0.02-0.14s, some prev-trails as short as 0.16s (worst:
+anuttara_02->03, the pūjā join). 4 transitions per verse cycle = every 4th.
+Fix: `build_fulls.py` — per join insert A (prev page's last frame held +
+silence) and B (next page pale + silence) so total gap = 1.05s and pale =
+exactly 0.28s, matching intra-clip pattern. Clip videos unchanged.
