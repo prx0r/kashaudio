@@ -1,98 +1,57 @@
-# Catalog — Kashmir Shaiva chant collection (2026-10-30)
+# Catalog — Kashmir Shaiva chant collection (2026-10-31)
 
-Single source of truth for what's done and what's next. Supersedes the
-pre-v9 snapshots in `STATUS.md` / `targets.md` (kept for history).
-"Audio" = AI (Vagdhenu) is the deliverable voice; traditional recordings
-are ear-references only unless the owner says otherwise.
+Single source of truth. Supersedes `STATUS.md` / `targets.md` (kept for history).
+"Audio" = AI (Vagdhenu) is the deliverable voice; traditional = ear-ref only.
+**My lane: audio (render + align).** Translations = prx0r/ipvv. Cards + fulls = alignment agent.
 
-## Completed — AI chant + karaoke cards + full recitation
+## Completed — AI chant rendered + aligned
 
-| # | Text | Author | Verses | Metre | Text src | AI chant | Cards | Full recitation | Trad audio (ear-ref only) |
+| # | Text | Author | Verses | AI chant | Aligned | Cards | Full | Translations | Notes |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | Bhairavastava (+ phala) | Abhinavagupta | 10 | mixed, 11-syll rathoddhata bank; colophon gadya | GRETIL | 10/10 wav ✅ | 10/10 ✅ (`bhairava_*`) | `bhairavastava_full.mp4` (3,963,738 B) | Dyczkowski recitation (browser) + YT (user pulls) |
-| 2 | Anuttarāṣṭikā | Abhinavagupta | 8 | long-metre, regular | GRETIL | 8/8 wav ✅ | 8/8 AI ✅ (`anuttara_*`) + 8 trad parked (`cards/trad/`) | `anuttarashtika_full.mp4` (6,093,238 B) | Lakshmanjoo 14min chant+talk → segmented to 8, MMS 0.93–0.96; `ref/anuttarashtika-trad.mp3` |
-| 3 | Stavacintāmaṇi | Bhaṭṭa Nārāyaṇa | 120 | anuṣṭubh throughout | GRETIL | 120/120 wav ✅ (v9) | 120/120 ✅ (`stc_001–120`) | `stavacintamani_full.mp4` (37,260,625 B) | Lakshmanjoo 6h set (user checkout) — ref only |
-| 4 | Dehasthadevatācakrastotra | anonymous Krama (Pandey prints it among Abhinavagupta's; verify from colophon) | 16 | mixed / anuṣṭubh-ish | SanskritDocs | 16/16 wav ✅ (v9) | 16/16 ✅ (`dhs_01–16`) | `dehastha_full.mp4` (5,124,299 B) | 53s sample ✅; full set = $24 (not pulled) |
-| 5 | Bodhapañcadaśikā | Abhinavagupta | 15 | anuṣṭubh-ish | GRETIL | 15/15 wav ✅ (v9) | 15/15 ✅ (`bpc_01–15`) | `bodhapanadasika_full.mp4` (4,603,612 B) | YT Ishaivite (user pulls) — ref only |
-| 6 | Śivastotrāvalī 1.1 (pilot) | Utpaladeva | 1 | — (pilot) | — | demo spot ✅ | — (user has better audio) | — | user-sourced |
+| 1 | Bhairavastava (+ phala) | Abhinavagupta | 10 | ✅ | ✅ | ✅ | ✅ | ✅ | v8 |
+| 2 | Anuttarāṣṭikā | Abhinavagupta | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | v8; trad parked in `cards/trad/` |
+| 3 | Stavacintāmaṇi | Bhaṭṭa Nārāyaṇa | 120 | ✅ | ✅ | ✅ | ✅ | ✅ | v9 |
+| 4 | Dehasthadevatācakra | anon (Krama; Pandey attrs Abhinavagupta) | 16 | ✅ | ✅ | ✅ | ✅ | ✅ | v9 |
+| 5 | Bodhapañcadaśikā | Abhinavagupta | 15 | ✅ | ✅ | ✅ | ✅ | ✅ | v9 |
+| 6 | Mahopadeśaviṃśatikā | Abhinavagupta | 20 | ✅ | ✅ | pending | pending | ✅ | v10; 16 anuṣṭubh |
+| 7 | Rahasyapañcadaśikā | Abhinavagupta | 15 + colophon | ✅ | ✅ | pending | pending | ✅ | v10; OCR source |
+| 8 | Paramārthadvādaśikā | Abhinavagupta | 12 + phala | ✅ | ✅ | pending | pending | ✅ | v10; OCR source |
+| 9 | Pañcaślokī | Abhinavagupta | 5, śārdūla | ✅ | ✅ | pending | pending | ✅ (canonical) | v10; OCR source |
+| 10 | Kramastotra | Abhinavagupta | 29 + dating v30 | ✅ | ✅ | pending | pending | ✅ (Singh/Maheshvarananda) | v10; long-metre test passed |
+| 11 | Śivastotrāvalī Stotra 1 rest | Utpaladeva | 25 (v2–26) | ✅ | ✅ | pending | pending | **pending ipvv** | v10; SING exception |
 
-Totals: 169 AI verses + 5 fulls (174 mp4s in `cards/`). All fulls rebuilt
-2026-10-30 on the fixed join code (stale-frame bug, see PROCESS.md) and
-re-scanned single-cut. Finals verified byte-identical at
-`r2:ets/finals-20261030/`; working tree backed up at
-`r2:kashaudio-backup/kashmir_audio-20261030/`. Gofile spot links from
-earlier tonight predate the fix and are superseded.
+**Totals: 278 AI verses rendered + aligned. 5 fulls shipped (v8/v9). 6 new fulls pending cards.**
 
-## Canonical trio catalog — every work, with its delivery (researched 2026-10-31)
+R2 backup: `r2:kashaudio-backup/kashmir_audio-20261030/` (pre-v10; re-publish after cards).
+Finals: `r2:ets/finals-20261030/` (v8/v9 fulls only; v10 fulls pending).
 
-The vibe, stated plainly: CHANT is mantra-recitation — short doctrinal or
-direct-address verse in regular metre, the Vagdhenu syllable pipeline as
-built. SING is melodic devotional song — the Śivastotrāvalī, still sung in
-Kashmir today, which deserves a singing voice in a later phase, not this
-chant engine. STUDY is treatises and commentaries — never audio targets.
+## Canonical delivery — CHANT vs SING vs STUDY
 
-### Abhinavagupta — stotras (all CHANT; Pandey's appendix lists 11)
+- **CHANT** = mantra-recitation, Vagdhenu pipeline as built.
+- **SING** = melodic bhakti song — Stotrāvalī Stotras 2–20 wait for singing phase.
+- **STUDY** = treatises, commentaries — never audio.
 
-| Work | Verses | Status |
-|---|---|---|
-| Bhairavastava (+ phala) | 10 | DONE |
-| Anuttarāṣṭikā | 8 | DONE |
-| Bodhapañcadaśikā | 15 | DONE |
-| Dehasthadevatācakra (attribution fn. above) | 16 | DONE |
-| Rahasyapañcadaśikā | 15 + colophon (shard `rahasyapanchadashika.json`: rhs_01–16 ✅, Vol-8 PDF OCR) | NEXT — same shape as Bodhapañcadaśikā (proven); long metres like Krama family |
-| Paramārthadvādaśikā | 12 + phala (shard `paramadvayadvadashika.json`: dvd_01–13 ✅, Vol-8 PDF OCR) | QUEUED — mixed śārdūla/anuṣṭubh |
-| Mahopadeśaviṃśatikā | 20 (shard `mahopadeshavimshatika.json` ✅, 16 anuṣṭubh; clean itx) | QUEUED — still one GPU run |
-| Pañcaślokī | 5, śārdūla (shard `pancashloki.json` ✅, Vol-8 PDF OCR) | QUEUED — 5-verse sprint after the shorts |
-| Kramastotra | 29 + dating v30 (shard `kramastotra.json` ✅, GRETIL TEI) | QUEUED — long metres make it the tolerance test, after the short ones |
-| Paryantapañcāśikā | 50 | Tier 2 |
-| Anubhavanivedana | 4, śārdūla (shard `anubhavanivedana.json` ✅, clean itx) | Tier 2 — tiny gem, ready |
-| Paramārthacarcā | count TBD — verify text | Tier 2 |
+## Next targets (Tier 2 — all CHANT, ready to render)
 
-Abhinavagupta kārikā-treatise, CHANT as recitation: Paramārthasāra (105 —
-the next Stavacintamani-scale capstone, jīvanmukti theme), Tier 2.
-Prose/massive works (Tantrāloka, Tantrasāra, commentaries): STUDY, never
-targets.
+| # | Text | Author | Verses | Text src | Status |
+|---|---|---|---|---|---|
+| 1 | Anubhavanivedana | Abhinavagupta | 4, śārdūla | clean itx | shard built; render next |
+| 2 | Pratyabhijñāhṛdayam | Kṣemarāja | 20 sūtras | GRETIL TEI | FORMAT FLAG: prose sūtras, pilot 2–3 gadya first |
+| 3 | Parāprāveśikā | Kṣemarāja | 1 aphorism | GRETIL | tiny; same pilot as Hṛdayam |
+| 4 | Bodhavilāsa | Kṣemarāja | 42 anuṣṭubh | GRETIL TEI | ready |
+| 5 | Bhairavānukaraṇastotra | Kṣemarāja | 48 mixed | GRETIL TEI | ready |
+| 6 | Ajadapramātṛsiddhi | Utpaladeva | 27 kārikās | GRETIL TEI | ready |
+| 7 | Paryantapañcāśikā | Abhinavagupta | 50 | verify text | need source |
+| 8 | Paramārthacarcā | Abhinavagupta | count TBD | verify text | need source |
+| 9 | Īśvara/Sambandha-siddhis | Utpaladeva | counts TBD | verify text | need source |
+| 10 | Paramārthasāra | Abhinavagupta | 105 | GRETIL | capstone; Tier 2 |
+| 11 | Kramastotra | Abhinavagupta | 29+dating | GRETIL TEI | **DONE (v10)** |
+| 12 | Tattvasandoha | Kṣemarāja | verify size | need source | Tier 2 if short |
 
-### Kṣemarāja — original works only (commentaries are STUDY, never targets)
+## Pipeline state (see PROCESS.md)
 
-| Work | Size | Delivery / status |
-|---|---|---|
-| Pratyabhijñāhṛdayam (sūtras + auto-vṛtti) | 20 sūtras (GRETIL TEI ✅) | CHANT* — the densest Trika essence ("Vedāntasāra of Trika"); FORMAT FLAG: prose sūtras, pilot 2–3 as gadya lines first |
-| Parāprāveśikā | 1 aphorism + short gloss | CHANT* — tiny tattva primer; same pilot covers it |
-| Bodhavilāsa | 42 anuṣṭubh (yogaśāstra; GRETIL TEI ✅) | CHANT, Tier 2 — Kṣemarāja's own short treatise, ready |
-| Bhairavānukaraṇastotra | 48 mixed (GRETIL TEI ✅) | CHANT, Tier 2 — Kṣemarāja stotra, medium length |
-| Tattvasandoha | verify size | Tier 2 if short |
-| Spandanirṇaya (long prose), Spandasandoha, Uddyotas, Śivasūtravimarśinī, Stavacintāmaṇiṭīkā | — | STUDY — commentaries on others' texts |
-
-### Utpaladeva — songs vs philosophy, split by delivery
-
-| Work | Size | Delivery / status |
-|---|---|---|
-| Śivastotrāvalī, Stotra 1 rest (Bhaktivilāsa) | 25 (shard `shivastotravali_1.json` ✅, 24 anuṣṭubh; local full text) | SING exception — finish the pilot song now, then STOP; Stotras 2–20 wait for the singing phase |
-| Śivastotrāvalī, Stotras 2–20 | 19 songs (Bailly/Rhodes translation; Kṣemarāja commented) | SING — lower priority NOW by owner rule; needs melodic voice, not chant engine |
-| Siddhitrayī: Ajadapramātṛsiddhi | 27 kārikās + Vṛtti (GRETIL TEI ✅) | CHANT as recitation, Tier 2 — ready |
-| Siddhitrayī: Īśvara/Sambandha-siddhis | counts TBD | CHANT as recitation, Tier 2 |
-| Īśvarapratyabhijñākārikā (~199 kārikās) | foundation stone of Pratyabhijñā | STUDY — dense polemical philosophy, not chant material |
-| Śivadṛṣṭivṛtti | commentary | STUDY |
-
-### Chant run order (the actual queue)
-
-Rahasyapañcadaśikā → Paramārthadvādaśikā → Mahopadeśaviṃśatikā →
-Pañcaślokī → Kramastotra → Stotra 1 completion → Hṛdayam/Parāprāveśikā
-pilot → full sūtras → Tier 2 (Paryantapañcāśikā, Anubhavanivedana,
-Bodhavilāsa, Bhairavānukaraṇastotra, Ajadapramātṛsiddhi,
-Paramārthacarcā, Paramārthasāra, remaining Siddhis).
-
-Text sources IN HAND 2026-10-31: all 7 next-queue shards built and
-meter-checked (`stotras/*.json` via `build_shards4.py`); GRETIL TEI for
-Kramastotra/Hṛdayam/Bodhavilāsa/Bhairavānukaraṇa/Ajaḍapramātṛsiddhi.
-Still to verify: Paramārthacarcā text + count, Īśvara/Sambandha-siddhis,
-Tattvasandoha size. OCR-uncertain verses flagged gadya (rhs_09 l2).
-Non-trio only if the well runs dry: Pañcastavī, Sāmbapañcāśikā.
-
-## Pipeline state (see PROCESS.md for laws)
-
-- Render: Kaggle GPU kernel v9 — 151 verses in 1h56m, 0 errors.
-- Align: word MMS sa-IN → syllable MMS (authority) → matra rhythm.
-- Cards: approved ruby-rows Essay-0 look, stills-first, per-frame overflow guard.
-- Quota: ~6h of 30h/week Kaggle GPU used. Demo API reserved for spot checks.
+- Render: Kaggle GPU v10 — 109 clips, ~2h, 0 errors. Env law: numpy 2.2.x, IndicF5 pinned to live HEAD, `indic-transliteration` explicit.
+- Align: word MMS → syllable MMS authority → matra rhythm. All v10 means 0.92–0.94.
+- Cards: pending for v10 works (translations blocking for stotra-1; rest ready).
+- Quota: ~8h of 30h/week used.
+- Disk: 4.1G free — watch /tmp on f32 caches.
