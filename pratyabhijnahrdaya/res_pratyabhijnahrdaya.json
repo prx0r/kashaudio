@@ -1,0 +1,142 @@
+[
+ {
+  "id": "hrd_01",
+  "dur": 6.501,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_01.wav"
+ },
+ {
+  "id": "hrd_02",
+  "dur": 7.113,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_02.wav"
+ },
+ {
+  "id": "hrd_03",
+  "dur": 7.746,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_03.wav"
+ },
+ {
+  "id": "hrd_04",
+  "dur": 9.65,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_04.wav"
+ },
+ {
+  "id": "hrd_05",
+  "dur": 1.535,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_05.wav"
+ },
+ {
+  "id": "hrd_06",
+  "dur": 5.41,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_06.wav"
+ },
+ {
+  "id": "hrd_07",
+  "dur": 5.83,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_07.wav"
+ },
+ {
+  "id": "hrd_08",
+  "dur": 6.93,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_08.wav"
+ },
+ {
+  "id": "hrd_09",
+  "dur": 8.33,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_09.wav"
+ },
+ {
+  "id": "hrd_10",
+  "dur": 7.013,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_10.wav"
+ },
+ {
+  "id": "hrd_11",
+  "dur": 0.655,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_11.wav"
+ },
+ {
+  "id": "hrd_12",
+  "dur": 2.475,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_12.wav"
+ },
+ {
+  "id": "hrd_13",
+  "dur": 5.949,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_13.wav"
+ },
+ {
+  "id": "hrd_14",
+  "dur": 3.778,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_14.wav"
+ },
+ {
+  "id": "hrd_15",
+  "dur": 6.461,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_15.wav"
+ },
+ {
+  "id": "hrd_16",
+  "dur": 7.81,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_16.wav"
+ },
+ {
+  "id": "hrd_17",
+  "dur": 6.541,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_17.wav"
+ },
+ {
+  "id": "hrd_18",
+  "dur": 2.853,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_18.wav"
+ },
+ {
+  "id": "hrd_19",
+  "dur": 8.138,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_19.wav"
+ },
+ {
+  "id": "hrd_20",
+  "dur": 3.558,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pratyabhijnahrdaya/hrd_20.wav"
+ }
+]

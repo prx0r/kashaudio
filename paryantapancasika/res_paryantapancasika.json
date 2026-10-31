@@ -1,0 +1,373 @@
+[
+ {
+  "id": "prc_01",
+  "dur": 10.03,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_01.wav"
+ },
+ {
+  "id": "prc_02",
+  "dur": 8.254,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_02.wav"
+ },
+ {
+  "id": "prc_03",
+  "dur": 9.65,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_03.wav"
+ },
+ {
+  "id": "prc_04",
+  "dur": 9.69,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_04.wav"
+ },
+ {
+  "id": "prc_05",
+  "dur": 9.686,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_05.wav"
+ },
+ {
+  "id": "prc_06",
+  "dur": 9.55,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_06.wav"
+ },
+ {
+  "id": "prc_07",
+  "dur": 9.846,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_07.wav"
+ },
+ {
+  "id": "prc_08",
+  "dur": 10.702,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_08.wav"
+ },
+ {
+  "id": "prc_09",
+  "dur": 10.246,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_09.wav"
+ },
+ {
+  "id": "prc_10",
+  "dur": 9.966,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_10.wav"
+ },
+ {
+  "id": "prc_11",
+  "dur": 9.87,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_11.wav"
+ },
+ {
+  "id": "prc_12",
+  "dur": 9.73,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_12.wav"
+ },
+ {
+  "id": "prc_13",
+  "dur": 10.19,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_13.wav"
+ },
+ {
+  "id": "prc_14",
+  "dur": 9.71,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_14.wav"
+ },
+ {
+  "id": "prc_15",
+  "dur": 9.21,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_15.wav"
+ },
+ {
+  "id": "prc_16",
+  "dur": 9.45,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_16.wav"
+ },
+ {
+  "id": "prc_17",
+  "dur": 10.146,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_17.wav"
+ },
+ {
+  "id": "prc_18",
+  "dur": 9.81,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_18.wav"
+ },
+ {
+  "id": "prc_19",
+  "dur": 9.87,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_19.wav"
+ },
+ {
+  "id": "prc_20",
+  "dur": 9.41,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_20.wav"
+ },
+ {
+  "id": "prc_21",
+  "dur": 10.206,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_21.wav"
+ },
+ {
+  "id": "prc_22",
+  "dur": 10.03,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_22.wav"
+ },
+ {
+  "id": "prc_23",
+  "dur": 9.846,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_23.wav"
+ },
+ {
+  "id": "prc_24",
+  "dur": 10.05,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_24.wav"
+ },
+ {
+  "id": "prc_25",
+  "dur": 9.61,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_25.wav"
+ },
+ {
+  "id": "prc_26",
+  "dur": 9.97,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_26.wav"
+ },
+ {
+  "id": "prc_27",
+  "dur": 10.126,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_27.wav"
+ },
+ {
+  "id": "prc_28",
+  "dur": 9.97,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_28.wav"
+ },
+ {
+  "id": "prc_29",
+  "dur": 10.43,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_29.wav"
+ },
+ {
+  "id": "prc_30",
+  "dur": 9.19,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_30.wav"
+ },
+ {
+  "id": "prc_31",
+  "dur": 10.25,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_31.wav"
+ },
+ {
+  "id": "prc_32",
+  "dur": 10.11,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_32.wav"
+ },
+ {
+  "id": "prc_33",
+  "dur": 10.086,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_33.wav"
+ },
+ {
+  "id": "prc_34",
+  "dur": 9.69,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_34.wav"
+ },
+ {
+  "id": "prc_35",
+  "dur": 9.99,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_35.wav"
+ },
+ {
+  "id": "prc_36",
+  "dur": 9.906,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_36.wav"
+ },
+ {
+  "id": "prc_37",
+  "dur": 9.806,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_37.wav"
+ },
+ {
+  "id": "prc_38",
+  "dur": 8.314,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_38.wav"
+ },
+ {
+  "id": "prc_39",
+  "dur": 8.454,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_39.wav"
+ },
+ {
+  "id": "prc_40",
+  "dur": 8.45,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_40.wav"
+ },
+ {
+  "id": "prc_41",
+  "dur": 9.09,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_41.wav"
+ },
+ {
+  "id": "prc_42",
+  "dur": 9.91,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_42.wav"
+ },
+ {
+  "id": "prc_43",
+  "dur": 9.39,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_43.wav"
+ },
+ {
+  "id": "prc_44",
+  "dur": 10.066,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_44.wav"
+ },
+ {
+  "id": "prc_45",
+  "dur": 9.47,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_45.wav"
+ },
+ {
+  "id": "prc_46",
+  "dur": 10.07,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_46.wav"
+ },
+ {
+  "id": "prc_47",
+  "dur": 9.51,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_47.wav"
+ },
+ {
+  "id": "prc_48",
+  "dur": 9.77,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_48.wav"
+ },
+ {
+  "id": "prc_49",
+  "dur": 10.326,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_49.wav"
+ },
+ {
+  "id": "prc_50",
+  "dur": 9.65,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_50.wav"
+ },
+ {
+  "id": "prc_51",
+  "dur": 10.026,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_51.wav"
+ },
+ {
+  "id": "prc_52",
+  "dur": 9.87,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_52.wav"
+ },
+ {
+  "id": "prc_53",
+  "dur": 9.73,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paryantapancasika/prc_53.wav"
+ }
+]

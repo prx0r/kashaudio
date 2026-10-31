@@ -1,0 +1,470 @@
+{
+ "spanda_1": {
+  "ref": "spanda:1 [prathamo niḥṣyandaḥ]",
+  "seq": 1,
+  "num": 1,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 96,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_2": {
+  "ref": "spanda:2 [prathamo niḥṣyandaḥ]",
+  "seq": 2,
+  "num": 2,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 103,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_3": {
+  "ref": "spanda:3 [prathamo niḥṣyandaḥ]",
+  "seq": 3,
+  "num": 3,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 94,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_4": {
+  "ref": "spanda:4 [prathamo niḥṣyandaḥ]",
+  "seq": 4,
+  "num": 4,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 106,
+  "syll": 33,
+  "form": "verse"
+ },
+ "spanda_5": {
+  "ref": "spanda:5 [prathamo niḥṣyandaḥ]",
+  "seq": 5,
+  "num": 5,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 106,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_6": {
+  "ref": "spanda:6 [prathamo niḥṣyandaḥ]",
+  "seq": 6,
+  "num": 6,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 97,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_7": {
+  "ref": "spanda:7 [prathamo niḥṣyandaḥ]",
+  "seq": 7,
+  "num": 7,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 98,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_8": {
+  "ref": "spanda:8 [prathamo niḥṣyandaḥ]",
+  "seq": 8,
+  "num": 8,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 95,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_9": {
+  "ref": "spanda:9 [prathamo niḥṣyandaḥ]",
+  "seq": 9,
+  "num": 9,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 99,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_10": {
+  "ref": "spanda:10 [prathamo niḥṣyandaḥ]",
+  "seq": 10,
+  "num": 10,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 96,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_11": {
+  "ref": "spanda:11 [prathamo niḥṣyandaḥ]",
+  "seq": 11,
+  "num": 11,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 94,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_12": {
+  "ref": "spanda:12 [prathamo niḥṣyandaḥ]",
+  "seq": 12,
+  "num": 12,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 98,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_13": {
+  "ref": "spanda:13 [prathamo niḥṣyandaḥ]",
+  "seq": 13,
+  "num": 13,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 103,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_14": {
+  "ref": "spanda:14 [prathamo niḥṣyandaḥ]",
+  "seq": 14,
+  "num": 14,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 96,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_15": {
+  "ref": "spanda:15 [prathamo niḥṣyandaḥ]",
+  "seq": 15,
+  "num": 15,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 106,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_16": {
+  "ref": "spanda:16 [prathamo niḥṣyandaḥ]",
+  "seq": 16,
+  "num": 16,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 102,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_17": {
+  "ref": "spanda:17 [prathamo niḥṣyandaḥ]",
+  "seq": 17,
+  "num": 17,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 99,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_18": {
+  "ref": "spanda:18 [prathamo niḥṣyandaḥ]",
+  "seq": 18,
+  "num": 18,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 96,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_19": {
+  "ref": "spanda:19 [prathamo niḥṣyandaḥ]",
+  "seq": 19,
+  "num": 19,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 102,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_20": {
+  "ref": "spanda:20 [prathamo niḥṣyandaḥ]",
+  "seq": 20,
+  "num": 20,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 96,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_21": {
+  "ref": "spanda:21 [prathamo niḥṣyandaḥ]",
+  "seq": 21,
+  "num": 21,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 94,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_22": {
+  "ref": "spanda:22 [prathamo niḥṣyandaḥ]",
+  "seq": 22,
+  "num": 22,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 108,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_23": {
+  "ref": "spanda:23 [prathamo niḥṣyandaḥ]",
+  "seq": 23,
+  "num": 23,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 101,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_24": {
+  "ref": "spanda:24 [prathamo niḥṣyandaḥ]",
+  "seq": 24,
+  "num": 24,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 103,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_25": {
+  "ref": "spanda:25 [prathamo niḥṣyandaḥ]",
+  "seq": 25,
+  "num": 25,
+  "section": "prathamo niḥṣyandaḥ",
+  "chars": 98,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_26": {
+  "ref": "spanda:1 [dvitīyo niḥṣyandaḥ]",
+  "seq": 26,
+  "num": 1,
+  "section": "dvitīyo niḥṣyandaḥ",
+  "chars": 93,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_27": {
+  "ref": "spanda:2 [dvitīyo niḥṣyandaḥ]",
+  "seq": 27,
+  "num": 2,
+  "section": "dvitīyo niḥṣyandaḥ",
+  "chars": 91,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_28": {
+  "ref": "spanda:3 [dvitīyo niḥṣyandaḥ]",
+  "seq": 28,
+  "num": 3,
+  "section": "dvitīyo niḥṣyandaḥ",
+  "chars": 92,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_29": {
+  "ref": "spanda:4 [dvitīyo niḥṣyandaḥ]",
+  "seq": 29,
+  "num": 4,
+  "section": "dvitīyo niḥṣyandaḥ",
+  "chars": 104,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_30": {
+  "ref": "spanda:5 [dvitīyo niḥṣyandaḥ]",
+  "seq": 30,
+  "num": 5,
+  "section": "dvitīyo niḥṣyandaḥ",
+  "chars": 99,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_31": {
+  "ref": "spanda:6 [dvitīyo niḥṣyandaḥ]",
+  "seq": 31,
+  "num": 6,
+  "section": "dvitīyo niḥṣyandaḥ",
+  "chars": 92,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_32": {
+  "ref": "spanda:7 [dvitīyo niḥṣyandaḥ]",
+  "seq": 32,
+  "num": 7,
+  "section": "dvitīyo niḥṣyandaḥ",
+  "chars": 88,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_33": {
+  "ref": "spanda:2 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 33,
+  "num": 2,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 155,
+  "syll": 48,
+  "form": "verse"
+ },
+ "spanda_34": {
+  "ref": "spanda:3 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 34,
+  "num": 3,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 100,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_35": {
+  "ref": "spanda:4 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 35,
+  "num": 4,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 102,
+  "syll": 33,
+  "form": "verse"
+ },
+ "spanda_36": {
+  "ref": "spanda:5 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 36,
+  "num": 5,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 101,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_37": {
+  "ref": "spanda:6 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 37,
+  "num": 6,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 101,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_38": {
+  "ref": "spanda:7 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 38,
+  "num": 7,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 99,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_39": {
+  "ref": "spanda:8 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 39,
+  "num": 8,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 98,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_40": {
+  "ref": "spanda:9 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 40,
+  "num": 9,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 94,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_41": {
+  "ref": "spanda:10 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 41,
+  "num": 10,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 94,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_42": {
+  "ref": "spanda:11 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 42,
+  "num": 11,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 97,
+  "syll": 33,
+  "form": "verse"
+ },
+ "spanda_43": {
+  "ref": "spanda:12 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 43,
+  "num": 12,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 99,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_44": {
+  "ref": "spanda:13 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 44,
+  "num": 13,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 97,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_45": {
+  "ref": "spanda:14 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 45,
+  "num": 14,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 94,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_46": {
+  "ref": "spanda:15 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 46,
+  "num": 15,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 95,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_47": {
+  "ref": "spanda:16 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 47,
+  "num": 16,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 98,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_48": {
+  "ref": "spanda:17 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 48,
+  "num": 17,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 99,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_49": {
+  "ref": "spanda:18 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 49,
+  "num": 18,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 99,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_50": {
+  "ref": "spanda:19 [yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān]",
+  "seq": 50,
+  "num": 19,
+  "section": "yathecchābhyarthito dhātā jāgrato 'rthān hṛdi sthitān",
+  "chars": 101,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_51": {
+  "ref": "spanda:1 [caturtho niḥṣyandaḥ]",
+  "seq": 51,
+  "num": 1,
+  "section": "caturtho niḥṣyandaḥ",
+  "chars": 92,
+  "syll": 32,
+  "form": "verse"
+ },
+ "spanda_52": {
+  "ref": "spanda:2 [caturtho niḥṣyandaḥ]",
+  "seq": 52,
+  "num": 2,
+  "section": "caturtho niḥṣyandaḥ",
+  "chars": 114,
+  "syll": 39,
+  "form": "verse"
+ }
+}
