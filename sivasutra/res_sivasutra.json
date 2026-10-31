@@ -1,0 +1,527 @@
+[
+ {
+  "id": "siv_01",
+  "dur": 2.813,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_01.wav"
+ },
+ {
+  "id": "siv_02",
+  "dur": 2.613,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_02.wav"
+ },
+ {
+  "id": "siv_03",
+  "dur": 5.063,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_03.wav"
+ },
+ {
+  "id": "siv_04",
+  "dur": 5.615,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_04.wav"
+ },
+ {
+  "id": "siv_05",
+  "dur": 3.898,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_05.wav"
+ },
+ {
+  "id": "siv_06",
+  "dur": 7.173,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_06.wav"
+ },
+ {
+  "id": "siv_07",
+  "dur": 2.295,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_07.wav"
+ },
+ {
+  "id": "siv_08",
+  "dur": 2.853,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_08.wav"
+ },
+ {
+  "id": "siv_09",
+  "dur": 5.143,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_09.wav"
+ },
+ {
+  "id": "siv_10",
+  "dur": 5.65,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_10.wav"
+ },
+ {
+  "id": "siv_11",
+  "dur": 5.41,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_11.wav"
+ },
+ {
+  "id": "siv_12",
+  "dur": 4.983,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_12.wav"
+ },
+ {
+  "id": "siv_13",
+  "dur": 3.133,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_13.wav"
+ },
+ {
+  "id": "siv_14",
+  "dur": 6.993,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_14.wav"
+ },
+ {
+  "id": "siv_15",
+  "dur": 4.178,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_15.wav"
+ },
+ {
+  "id": "siv_16",
+  "dur": 5.063,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_16.wav"
+ },
+ {
+  "id": "siv_17",
+  "dur": 6.109,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_17.wav"
+ },
+ {
+  "id": "siv_18",
+  "dur": 8.178,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_18.wav"
+ },
+ {
+  "id": "siv_19",
+  "dur": 7.133,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_19.wav"
+ },
+ {
+  "id": "siv_20",
+  "dur": 8.45,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_20.wav"
+ },
+ {
+  "id": "siv_21",
+  "dur": 2.933,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_21.wav"
+ },
+ {
+  "id": "siv_22",
+  "dur": 3.978,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_22.wav"
+ },
+ {
+  "id": "siv_23",
+  "dur": 6.781,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_23.wav"
+ },
+ {
+  "id": "siv_24",
+  "dur": 8.138,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_24.wav"
+ },
+ {
+  "id": "siv_25",
+  "dur": 9.143,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_25.wav"
+ },
+ {
+  "id": "siv_26",
+  "dur": 3.01,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_26.wav"
+ },
+ {
+  "id": "siv_27",
+  "dur": 5.597,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_27.wav"
+ },
+ {
+  "id": "siv_28",
+  "dur": 3.326,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_28.wav"
+ },
+ {
+  "id": "siv_29",
+  "dur": 2.341,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_29.wav"
+ },
+ {
+  "id": "siv_30",
+  "dur": 7.373,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_30.wav"
+ },
+ {
+  "id": "siv_31",
+  "dur": 2.621,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_31.wav"
+ },
+ {
+  "id": "siv_32",
+  "dur": 2.613,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_32.wav"
+ },
+ {
+  "id": "siv_33",
+  "dur": 7.013,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_33.wav"
+ },
+ {
+  "id": "siv_34",
+  "dur": 5.123,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_34.wav"
+ },
+ {
+  "id": "siv_35",
+  "dur": 10.57,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_35.wav"
+ },
+ {
+  "id": "siv_36",
+  "dur": 4.25,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_36.wav"
+ },
+ {
+  "id": "siv_37",
+  "dur": 10.01,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_37.wav"
+ },
+ {
+  "id": "siv_38",
+  "dur": 4.41,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_38.wav"
+ },
+ {
+  "id": "siv_39",
+  "dur": 2.853,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_39.wav"
+ },
+ {
+  "id": "siv_40",
+  "dur": 2.853,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_40.wav"
+ },
+ {
+  "id": "siv_41",
+  "dur": 3.938,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_41.wav"
+ },
+ {
+  "id": "siv_42",
+  "dur": 4.37,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_42.wav"
+ },
+ {
+  "id": "siv_43",
+  "dur": 4.45,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_43.wav"
+ },
+ {
+  "id": "siv_44",
+  "dur": 5.21,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_44.wav"
+ },
+ {
+  "id": "siv_45",
+  "dur": 3.053,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_45.wav"
+ },
+ {
+  "id": "siv_46",
+  "dur": 6.341,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_46.wav"
+ },
+ {
+  "id": "siv_47",
+  "dur": 5.949,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_47.wav"
+ },
+ {
+  "id": "siv_48",
+  "dur": 6.029,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_48.wav"
+ },
+ {
+  "id": "siv_49",
+  "dur": 8.53,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_49.wav"
+ },
+ {
+  "id": "siv_50",
+  "dur": 6.189,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_50.wav"
+ },
+ {
+  "id": "siv_51",
+  "dur": 5.097,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_51.wav"
+ },
+ {
+  "id": "siv_52",
+  "dur": 6.189,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_52.wav"
+ },
+ {
+  "id": "siv_53",
+  "dur": 4.33,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_53.wav"
+ },
+ {
+  "id": "siv_54",
+  "dur": 9.303,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_54.wav"
+ },
+ {
+  "id": "siv_55",
+  "dur": 3.838,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_55.wav"
+ },
+ {
+  "id": "siv_56",
+  "dur": 4.078,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_56.wav"
+ },
+ {
+  "id": "siv_57",
+  "dur": 2.733,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_57.wav"
+ },
+ {
+  "id": "siv_58",
+  "dur": 3.586,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_58.wav"
+ },
+ {
+  "id": "siv_59",
+  "dur": 5.495,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_59.wav"
+ },
+ {
+  "id": "siv_60",
+  "dur": 5.51,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_60.wav"
+ },
+ {
+  "id": "siv_61",
+  "dur": 2.301,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_61.wav"
+ },
+ {
+  "id": "siv_62",
+  "dur": 7.746,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_62.wav"
+ },
+ {
+  "id": "siv_63",
+  "dur": 5.555,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_63.wav"
+ },
+ {
+  "id": "siv_64",
+  "dur": 4.97,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_64.wav"
+ },
+ {
+  "id": "siv_65",
+  "dur": 5.61,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_65.wav"
+ },
+ {
+  "id": "siv_66",
+  "dur": 7.213,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_66.wav"
+ },
+ {
+  "id": "siv_67",
+  "dur": 5.533,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_67.wav"
+ },
+ {
+  "id": "siv_68",
+  "dur": 5.47,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_68.wav"
+ },
+ {
+  "id": "siv_69",
+  "dur": 7.546,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_69.wav"
+ },
+ {
+  "id": "siv_70",
+  "dur": 6.501,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_70.wav"
+ },
+ {
+  "id": "siv_71",
+  "dur": 8.57,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_71.wav"
+ },
+ {
+  "id": "siv_72",
+  "dur": 9.65,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_72.wav"
+ },
+ {
+  "id": "siv_73",
+  "dur": 5.375,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_73.wav"
+ },
+ {
+  "id": "siv_74",
+  "dur": 10.61,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_74.wav"
+ },
+ {
+  "id": "siv_75",
+  "dur": 5.575,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_sivasutra/siv_75.wav"
+ }
+]
