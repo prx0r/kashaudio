@@ -1,0 +1,86 @@
+[
+ {
+  "id": "ptv_01",
+  "dur": 9.55,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ptvmadhyama/ptv_01.wav"
+ },
+ {
+  "id": "ptv_02",
+  "dur": 9.41,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ptvmadhyama/ptv_02.wav"
+ },
+ {
+  "id": "ptv_03",
+  "dur": 8.058,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ptvmadhyama/ptv_03.wav"
+ },
+ {
+  "id": "ptv_04",
+  "dur": 10.386,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ptvmadhyama/ptv_04.wav"
+ },
+ {
+  "id": "ptv_05",
+  "dur": 9.35,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ptvmadhyama/ptv_05.wav"
+ },
+ {
+  "id": "ptv_06",
+  "dur": 7.735,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ptvmadhyama/ptv_06.wav"
+ },
+ {
+  "id": "ptv_07",
+  "dur": 9.13,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ptvmadhyama/ptv_07.wav"
+ },
+ {
+  "id": "ptv_08",
+  "dur": 9.45,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ptvmadhyama/ptv_08.wav"
+ },
+ {
+  "id": "ptv_09",
+  "dur": 7.239,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ptvmadhyama/ptv_09.wav"
+ },
+ {
+  "id": "ptv_10",
+  "dur": 9.906,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ptvmadhyama/ptv_10.wav"
+ },
+ {
+  "id": "ptv_11",
+  "dur": 9.99,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ptvmadhyama/ptv_11.wav"
+ },
+ {
+  "id": "ptv_12",
+  "dur": 6.677,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ptvmadhyama/ptv_12.wav"
+ }
+]

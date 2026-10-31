@@ -1,0 +1,121 @@
+[
+ {
+  "id": "iss_01",
+  "dur": 4.793,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_01.wav"
+ },
+ {
+  "id": "iss_02",
+  "dur": 3.05,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_02.wav"
+ },
+ {
+  "id": "iss_03",
+  "dur": 5.446,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_03.wav"
+ },
+ {
+  "id": "iss_04",
+  "dur": 9.886,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_04.wav"
+ },
+ {
+  "id": "iss_05",
+  "dur": 6.214,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_05.wav"
+ },
+ {
+  "id": "iss_06",
+  "dur": 2.51,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_06.wav"
+ },
+ {
+  "id": "iss_07",
+  "dur": 9.17,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_07.wav"
+ },
+ {
+  "id": "iss_08",
+  "dur": 9.03,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_08.wav"
+ },
+ {
+  "id": "iss_09",
+  "dur": 2.843,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_09.wav"
+ },
+ {
+  "id": "iss_10",
+  "dur": 9.37,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_10.wav"
+ },
+ {
+  "id": "iss_11",
+  "dur": 11.063,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_11.wav"
+ },
+ {
+  "id": "iss_12",
+  "dur": 8.837,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_12.wav"
+ },
+ {
+  "id": "iss_13",
+  "dur": 8.314,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_13.wav"
+ },
+ {
+  "id": "iss_14",
+  "dur": 1.785,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_14.wav"
+ },
+ {
+  "id": "iss_15",
+  "dur": 9.33,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_15.wav"
+ },
+ {
+  "id": "iss_16",
+  "dur": 9.646,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_16.wav"
+ },
+ {
+  "id": "iss_17",
+  "dur": 5.254,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_isvarasiddhi/iss_17.wav"
+ }
+]
