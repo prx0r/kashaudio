@@ -1,0 +1,58 @@
+[
+ {
+  "id": "svb_01",
+  "dur": 12.79,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_svabodhasiddhi/svb_01.wav"
+ },
+ {
+  "id": "svb_02",
+  "dur": 16.63,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_svabodhasiddhi/svb_02.wav"
+ },
+ {
+  "id": "svb_03",
+  "dur": 24.19,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_svabodhasiddhi/svb_03.wav"
+ },
+ {
+  "id": "svb_04",
+  "dur": 20.67,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_svabodhasiddhi/svb_04.wav"
+ },
+ {
+  "id": "svb_05",
+  "dur": 6.501,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_svabodhasiddhi/svb_05.wav"
+ },
+ {
+  "id": "svb_06",
+  "dur": 20.854,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_svabodhasiddhi/svb_06.wav"
+ },
+ {
+  "id": "svb_07",
+  "dur": 5.546,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_svabodhasiddhi/svb_07.wav"
+ },
+ {
+  "id": "svb_08",
+  "dur": 26.19,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_svabodhasiddhi/svb_08.wav"
+ }
+]

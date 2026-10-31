@@ -1,0 +1,93 @@
+[
+ {
+  "id": "spa_01",
+  "dur": 12.51,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_spandakarika/spa_01.wav"
+ },
+ {
+  "id": "spa_02",
+  "dur": 16.71,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_spandakarika/spa_02.wav"
+ },
+ {
+  "id": "spa_03",
+  "dur": 12.857,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_spandakarika/spa_03.wav"
+ },
+ {
+  "id": "spa_04",
+  "dur": 12.77,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_spandakarika/spa_04.wav"
+ },
+ {
+  "id": "spa_05",
+  "dur": 14.73,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_spandakarika/spa_05.wav"
+ },
+ {
+  "id": "spa_06",
+  "dur": 12.27,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_spandakarika/spa_06.wav"
+ },
+ {
+  "id": "spa_07",
+  "dur": 14.438,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_spandakarika/spa_07.wav"
+ },
+ {
+  "id": "spa_08",
+  "dur": 12.277,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_spandakarika/spa_08.wav"
+ },
+ {
+  "id": "spa_09",
+  "dur": 14.154,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_spandakarika/spa_09.wav"
+ },
+ {
+  "id": "spa_10",
+  "dur": 13.183,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_spandakarika/spa_10.wav"
+ },
+ {
+  "id": "spa_11",
+  "dur": 14.73,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_spandakarika/spa_11.wav"
+ },
+ {
+  "id": "spa_12",
+  "dur": 12.45,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_spandakarika/spa_12.wav"
+ },
+ {
+  "id": "spa_13",
+  "dur": 14.545,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_spandakarika/spa_13.wav"
+ }
+]
