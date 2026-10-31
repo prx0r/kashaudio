@@ -1,25 +1,39 @@
-# Kashmir Shaiva chant collection — status (2026-10-30)
+# Kashmir Shaiva chant collection — status (2026-10-31)
 
-## Done (AI + cards pipeline proven end-to-end)
+> **CATALOG.md is now the source of truth.** This file kept for history.
 
-| Text | Verses | AI chant | Cards | Trad audio |
-|---|---|---|---|---|
-| Bhairavastava (+phala) | 10 | 10/10 wav ✅ | 1/10 (bhairava_01) | Dyczkowski recitation (browser) + YT (user pulls) |
-| Anuttarāṣṭikā | 8 | 8/8 wav ✅ | 8/8 trad ✅ + 8/8 AI (batch) | 14min chant+talk ✅ -> segmented, aligned, CARDS DONE (`cards/trad/`, 8min full) |
-| Śivastotrāvalī 1.1 | 1 (test) | demo spot ✅ | — (user has better audio) | user-sourced |
+## Done — all render + align complete
 
-## Targets (in batch order)
+| Text | Author | Verses | AI chant | Aligned | Cards | Full | Translations |
+|---|---|---|---|---|---|---|---|
+| Bhairavastava (+phala) | Abhinavagupta | 10 | ✅ v8 | ✅ | ✅ | ✅ | ✅ |
+| Anuttarāṣṭikā | Abhinavagupta | 8 | ✅ v8 | ✅ | ✅ | ✅ | ✅ |
+| Stavacintāmaṇi | Bhaṭṭa Nārāyaṇa | 120 | ✅ v9 | ✅ | ✅ | ✅ | ✅ |
+| Dehasthadevatācakra | anon (Krama) | 16 | ✅ v9 | ✅ | ✅ | ✅ | ✅ |
+| Bodhapañcadaśikā | Abhinavagupta | 15 | ✅ v9 | ✅ | ✅ | ✅ | ✅ |
+| Mahopadeśaviṃśatikā | Abhinavagupta | 20 | ✅ v10 | ✅ | pending | pending | ✅ |
+| Rahasyapañcadaśikā | Abhinavagupta | 15+colophon | ✅ v10 | ✅ | pending | pending | ✅ |
+| Paramārthadvādaśikā | Abhinavagupta | 12+phala | ✅ v10 | ✅ | pending | pending | ✅ |
+| Pañcaślokī | Abhinavagupta | 5 | ✅ v10 | ✅ | pending | pending | ✅ |
+| Kramastotra | Abhinavagupta | 29+dating | ✅ v10 | ✅ | pending | pending | ✅ (Singh) |
+| Śivastotrāvalī Stotra 1 rest | Utpaladeva | 25 | ✅ v10 | ✅ | pending | pending | **pending ipvv** |
 
-| # | Text | Verses | Metre | Text src | Trad audio | State |
-|---|---|---|---|---|---|---|
-| 1 | Stavacintāmaṇi (Bhaṭṭa Nārāyaṇa) | ~120 | anuṣṭubh | GRETIL ✅ | Lakshmanjoo 6h, $0 checkout (user) | TODO shard → v9 kernel |
-| 2 | Dehasthadevatācakra (anon Krama) | 16 | mixed/anuṣṭubh-ish | SanskritDocs ✅ | 53s sample ✅, full = $24 set | TODO shard → v9 kernel |
-| 3 | Bodhapañcadaśikā | 15 | anuṣṭubh-ish | GRETIL ✅ | YT Ishaivite (user pulls) | TODO shard → v9 kernel |
-| 4 | Kramastotra | 29+dating | śikharinī/mālinī/śārdūla/vasanta | GRETIL ✅ | none (Dyczkowski vol = user's) | TODO, long-metre tolerance test |
+## In flight
 
-## Quotas / limits to respect
+| Text | Author | Verses | State |
+|---|---|---|---|
+| Anubhavanivedana | Abhinavagupta | 4 | v11 rendering |
+| Bodhavilāsa | Kṣemarāja | 42 | v11 rendering |
+| Bhairavānukaraṇastotra | Kṣemarāja | 48 | v11 rendering |
+| Ajadapramātṛsiddhi | Utpaladeva | 27 | v11 rendering |
 
-- Kaggle GPU: 30h/week. Used ~4h so far (v1–v8). Stavacintāmaṇi 120 verses ≈ 3h — fits.
-- Demo API: 10 chants/day/IP. Spent 1. Reserve for spot checks only.
-- tmpfiles/gofile links expire — Kaggle dataset is the permanent home.
-- Traditional recordings are study/reference only, not for redistribution.
+## Next after v11
+
+Pratyabhijñāhṛdayam (Kṣemarāja, 20 sūtras, pilot first) → Parāprāveśikā →
+Paryantapañcāśikā → Paramārthacarcā → Paramārthasāra → remaining Siddhis.
+
+## Quotas
+
+- Kaggle GPU: ~8h of 30h/week used (v8–v11).
+- R2 backup: `r2:kashaudio-backup/` + `r2:ets/finals-` (see `publish_r2.sh`).
+- Disk: 4.1G free — watch /tmp f32 caches.
