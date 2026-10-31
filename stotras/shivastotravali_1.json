@@ -1,0 +1,277 @@
+[
+ {
+  "id": "shivastotravali_1_2",
+  "meter": "anushtubh",
+  "padas": [
+   "आत्मा मम भवद्भक्तिसुधापानयुवापि सन् ।",
+   "लोकयात्रारजोरागात् पलितैर् इव धूसरः ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_2.wav"
+ },
+ {
+  "id": "shivastotravali_1_3",
+  "meter": "anushtubh",
+  "padas": [
+   "लब्धतत्संपदां भक्तिमतां त्वत्पुरवासिनाम् ।",
+   "संचारो लोकमार्गे ऽपि स्यात् तयैव विजृम्भया ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_3.wav"
+ },
+ {
+  "id": "shivastotravali_1_4",
+  "meter": "anushtubh",
+  "padas": [
+   "साक्षाद्भवन्मये नाथ सर्वस्मिन् भुवनान्तरे ।",
+   "किं न भक्तिमतां क्षेत्रम् मन्त्रः क्वैषाम् न सिद्ध्यति ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_4.wav"
+ },
+ {
+  "id": "shivastotravali_1_5",
+  "meter": "anushtubh",
+  "padas": [
+   "जयन्ति भक्तिपीयूषरसासववरोन्मदाः ।",
+   "अद्वितीया अपि सदा त्वद्द्वितीया अपि प्रभो ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_5.wav"
+ },
+ {
+  "id": "shivastotravali_1_6",
+  "meter": "anushtubh",
+  "padas": [
+   "अनन्तानन्दसिन्धोस् ते नाथ तत्त्वं विदन्ति ते ।",
+   "तादृश एव ये सान्द्रभक्त्यानन्दरसाप्लुताः ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_6.wav"
+ },
+ {
+  "id": "shivastotravali_1_7",
+  "meter": "anushtubh",
+  "padas": [
+   "त्वम् एवात्मेश सर्वस्य सर्वश् चात्मनि रागवान् ।",
+   "इति स्वभावसिद्धांस् त्वद्भक्तिं जानञ् जयेज् जनः ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_7.wav"
+ },
+ {
+  "id": "shivastotravali_1_8",
+  "meter": "anushtubh",
+  "padas": [
+   "नाथ वेद्यक्षये केन न दृश्यो ऽस्येककः स्थितः ।",
+   "वेद्यवेदकसंक्षोभे ऽप्य् असि भक्तैः सुदर्शनः ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_8.wav"
+ },
+ {
+  "id": "shivastotravali_1_9",
+  "meter": "anushtubh",
+  "padas": [
+   "अनन्तानन्दसरसी देवी प्रियतमा यथा ।",
+   "अवियुक्तास्ति ते तद्वद् एका त्वद्भक्तिर् अस्तु मे ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_9.wav"
+ },
+ {
+  "id": "shivastotravali_1_10",
+  "meter": "anushtubh",
+  "padas": [
+   "सर्व एव भवल्लाभहेतुर् भक्तिमतां विभो ।",
+   "संविन्मार्गो ऽयम् आह्लाददुःखमोहैस् त्रिधा स्थितः ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_10.wav"
+ },
+ {
+  "id": "shivastotravali_1_11",
+  "meter": "anushtubh",
+  "padas": [
+   "भवद्भक्त्यमृतास्वादाद् बोधस्य स्यात् परापि या ।",
+   "दशा सा मां प्रति स्वामिन् नासवस्येव शुक्तता ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_11.wav"
+ },
+ {
+  "id": "shivastotravali_1_12",
+  "meter": "anushtubh",
+  "padas": [
+   "भवद्भक्तिमहाविद्या येषाम् अभ्यासम् आगता ।",
+   "विद्याविद्योभयस्यापि ता एते तत्त्ववेदिनः ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_12.wav"
+ },
+ {
+  "id": "shivastotravali_1_13",
+  "meter": "anushtubh",
+  "padas": [
+   "आमुलाद् वाग्लता सेयं क्रमविस्फारशालिनी ।",
+   "त्वद्भक्तिसुधया सिक्ता तद्रसाढ्यफलास्तु मे ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_13.wav"
+ },
+ {
+  "id": "shivastotravali_1_14",
+  "meter": "anushtubh",
+  "padas": [
+   "शिवो भूत्वा यजेतेति भक्तो भूत्वेति कथ्यते ।",
+   "त्वम् एव हि वपुः सारं भक्तैर् अद्वयशोधितम् ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_14.wav"
+ },
+ {
+  "id": "shivastotravali_1_15",
+  "meter": "anushtubh",
+  "padas": [
+   "भक्तानां भवदद्वैतसिद्ध्यै का नोपपत्तयः ।",
+   "तदसिद्ध्यै निकृष्टानां कानि नावरणानि वा ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_15.wav"
+ },
+ {
+  "id": "shivastotravali_1_16",
+  "meter": "anushtubh",
+  "padas": [
+   "कदाचित् क्वापि लभ्यो ऽसि योगेनेतीश वञ्चना ।",
+   "अन्यथा सर्वकक्ष्यासु भासि भक्तिमतां कथम् ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_16.wav"
+ },
+ {
+  "id": "shivastotravali_1_17",
+  "meter": "anushtubh",
+  "padas": [
+   "प्रत्याहाराद्यसंस्पृष्टो विशेषो ऽस्ति महानयम् ।",
+   "योगिभ्यो भक्तिभाजाम् यद् व्युत्थाने ऽपि समाहिताः ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_17.wav"
+ },
+ {
+  "id": "shivastotravali_1_18",
+  "meter": "anushtubh",
+  "padas": [
+   "न योगो न तपो नार्चाक्रमः को ऽपि प्रनीयते ।",
+   "अमाये शिवमार्गे ऽस्मिन् भक्तिर् एका प्रशस्यते ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_18.wav"
+ },
+ {
+  "id": "shivastotravali_1_19",
+  "meter": "anushtubh",
+  "padas": [
+   "सर्वतो विलसद्भक्तितेजोध्वस्तावृतेर् मम ।",
+   "प्रत्यक्षसर्वभावस्य चिन्तानाम् अपि नश्यतु ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_19.wav"
+ },
+ {
+  "id": "shivastotravali_1_20",
+  "meter": "anushtubh",
+  "padas": [
+   "शिव इत्य् एकशब्दस्य जिह्वाग्रे तिष्ठतः सदा ।",
+   "समस्तविषयास्वादो भक्तेष्व् एवास्ति को ऽप्य् अहो ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_20.wav"
+ },
+ {
+  "id": "shivastotravali_1_21",
+  "meter": "anushtubh",
+  "padas": [
+   "शान्तकल्लोलशीताच्छस्वादुभक्तिसुधाम्बुधौ ।",
+   "अलौकिकरसास्वादे सुस्थैः को ऽनाम गण्यते ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_21.wav"
+ },
+ {
+  "id": "shivastotravali_1_22",
+  "meter": "anushtubh",
+  "padas": [
+   "सादृशैः किं न चर्व्येत भवद्भक्तिमहौषधिः ।",
+   "तादृशी भगवन् यस्या मोक्षाख्यो ऽनन्तरो रसः ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_22.wav"
+ },
+ {
+  "id": "shivastotravali_1_23",
+  "meter": "anushtubh",
+  "padas": [
+   "ता एव परमर्थ्यन्ते सम्पदः सद्भिर् ईश याः ।",
+   "त्वद् भक्तिरससम्भोगविस्रम्भपरिपोषिकाः ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_23.wav"
+ },
+ {
+  "id": "shivastotravali_1_24",
+  "meter": "gadya",
+  "padas": [
+   "भवद्भक्तिसुधासारस् तैः किम् अप्य् उपलक्षितः ।",
+   "ये न रागादि पङ्के ऽस्मिंऌ लिप्यन्ते पतिता अपि ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_24.wav"
+ },
+ {
+  "id": "shivastotravali_1_25",
+  "meter": "anushtubh",
+  "padas": [
+   "अणिमादिषु मोक्षान्तेष्व् अङ्गेष्व् एव फलाभिधा ।",
+   "भवद्भक्तेर् विपक्वाया लताया इव केषु चित् ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_25.wav"
+ },
+ {
+  "id": "shivastotravali_1_26",
+  "meter": "anushtubh",
+  "padas": [
+   "चित्रं निसर्गतो नाथ दुःखबीजम् इदं मनः ।",
+   "त्वद्भक्तिरससंसिक्तम् निःश्रेयसमहाफलम् ॥"
+  ],
+  "seed": 34,
+  "no_sandhi": false,
+  "out": "out/shivastotravali_1_26.wav"
+ }
+]

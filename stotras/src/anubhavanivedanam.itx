@@ -1,0 +1,59 @@
+% Text title            : Anubhavanivedanam by Abhinavagupta
+% File name             : anubhavanivedanam.itx
+% Category              : yoga, abhinavagupta, kAshmIrashaivadarshanam
+% Location              : doc\_yoga
+% Author                : Abhinavagupta
+% Transliterated by     : Ruma Dewan
+% Proofread by          : Ruma Dewan
+% Description-comments  : from Abhinavastotravali
+% Latest update         : December 18, 2021
+% Send corrections to   : sanskrit at cheerful dot c om
+%
+% This text is prepared by volunteers and is to be used for personal study 
+% and research. The file is not to be copied or reposted for promotion of 
+% any website or individuals or for commercial purpose without permission. 
+% Please help to maintain respect for volunteer spirit.
+%
+\documentstyle[11pt,multicol,itrans]{article}
+#include=ijag.inc
+#endwordvowel=.h
+\portraitwide
+\parindent=100pt                
+\let\usedvng=\Largedvng      % for 1 column     
+\pagenumbering{itrans} 
+\def\engtitle#1{\hrule\medskip\centerline{\LARGE #1}}
+\def\itxtitle#1{\medskip\centerline{\LARGEdvng #1}\medskip\hrule}
+\def\endtitles{\medskip\obeyspaceslines}
+%%
+\begin{document}
+\engtitle{.. Anubhava Nivedanam ..}##
+\itxtitle{.. anubhavanivedanam ..}##\endtitles ##
+antarlakShyavilInachittapavano yogI yadA vartate
+     dR^iShTyA nishchalatArayA bahirasau pashyannapashyannapi |
+mudreyaM khalu shAmbhavI bhavati sA yuShmatprasAdAdguro
+     shUnyAshUnyavivarjitaM bhavati yat tattvaM padaM shAmbhavam || 1||
+ardhoddhATitalochanaH sthiramanA nAsAgradattekShaNa\-
+     shchandrArkAvapi lInatAmupagatau trispandabhAvAntare |
+jyotIrUpamasheShabAhyarahitaM chaikaM pumAMsaM paraM
+     tattvaM tatpadameti vastu paramaM vAchyaM kimatrAdhikam || 2||
+shabdaH kashchana yo mukhAdudayate mantraH sa lokottaraH
+     saMsthAnaM sukhaduHkhajanmavapuSho yatkApi mudraiva sA |
+prANasya svarasena yatpravahaNaM yogaH sa evAdbhutaH
+     shAktaM dhAma paraM mamAnubhavataH kinnAma na bhrAjate || 3||
+mantraH sa pratibhAti varNarachanA yasminna saMlakShyate
+     mudrA sA samudeti yatra galitA kR^itsnA kriyA kAyikI |
+yogaH sa prathate yataH pravahaNaM prANasya sa.nkShIyate
+     tvaddhAmAdhigamotsaveShu sudhiyAM kiM kiM na nAmAdbhutam || 4||
+
+|| iti shrIabhinavaguptapAdAchAryakR^itaM anubhavanivedanaM sampUrNam ||
+
+##
+Encoded and proofread by Ruma Dewan
+
+\medskip\hrule\obeylines
+
+Please send corrections to sanskrit@cheerful.com
+Last updated \today
+https://sanskritdocuments.org
+
+\end{document}

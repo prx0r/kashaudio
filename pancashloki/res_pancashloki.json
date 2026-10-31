@@ -1,0 +1,37 @@
+[
+ {
+  "id": "psl_01",
+  "dur": 19.55,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pancashloki/psl_01.wav"
+ },
+ {
+  "id": "psl_02",
+  "dur": 17.57,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pancashloki/psl_02.wav"
+ },
+ {
+  "id": "psl_03",
+  "dur": 19.41,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pancashloki/psl_03.wav"
+ },
+ {
+  "id": "psl_04",
+  "dur": 17.45,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pancashloki/psl_04.wav"
+ },
+ {
+  "id": "psl_05",
+  "dur": 19.07,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_pancashloki/psl_05.wav"
+ }
+]

@@ -33,9 +33,10 @@ def parse(txt):
 
 def main():
     bs = int(sys.argv[1]) if len(sys.argv) > 1 else 10
+    works = sys.argv[2:] or ["bodhapanadasika", "dehastha", "stavacintamani"]
     existing = json.load(open(TR, encoding="utf-8"))
     todo = []
-    for name in ["bodhapanadasika", "dehastha", "stavacintamani"]:
+    for name in works:
         for c in json.load(open(ST / f"{name}.json", encoding="utf-8")):
             if c["id"] not in existing:
                 todo.append(c)
@@ -68,7 +69,7 @@ def main():
             break
     json.dump(existing, open(TR, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     # verify
-    need = {c["id"] for name in ["bodhapanadasika", "dehastha", "stavacintamani"]
+    need = {c["id"] for name in works
             for c in json.load(open(ST / f"{name}.json", encoding="utf-8"))}
     have = set(existing)
     print(f"done. coverage: {len(need & have)}/{len(need)}; total translations {len(existing)}")

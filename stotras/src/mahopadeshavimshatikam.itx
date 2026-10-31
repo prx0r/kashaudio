@@ -1,0 +1,87 @@
+% Text title            : Mahopadesha Vimshatikam by Abhinavagupta
+% File name             : mahopadeshaviMshatikam.itx
+% Category              : major\_works, abhinavagupta, viMshati, upadesha, kAshmIrashaivadarshanam
+% Location              : doc\_z\_misc\_major\_works
+% Author                : Abhinavagupta
+% Transliterated by     : Ruma Dewan
+% Proofread by          : Ruma Dewan
+% Description-comments  : from Abhinavastotravali
+% Latest update         : December 18, 2021
+% Send corrections to   : sanskrit at cheerful dot c om
+%
+% This text is prepared by volunteers and is to be used for personal study 
+% and research. The file is not to be copied or reposted for promotion of 
+% any website or individuals or for commercial purpose without permission. 
+% Please help to maintain respect for volunteer spirit.
+%
+\documentstyle[11pt,multicol,itrans]{article}
+#include=ijag.inc
+#endwordvowel=.h
+\portraitwide
+\parindent=100pt                
+\let\usedvng=\Largedvng      % for 1 column     
+\pagenumbering{itrans} 
+\def\engtitle#1{\hrule\medskip\centerline{\LARGE #1}}
+\def\itxtitle#1{\medskip\centerline{\LARGEdvng #1}\medskip\hrule}
+\def\endtitles{\medskip\obeyspaceslines}
+%%
+\begin{document}
+\engtitle{.. Mahopadesha Vimshatikam ..}##
+\itxtitle{.. mahopadeshaviMshatikam ..}##\endtitles ##
+(mahopadeshaviMshatikA)
+prapa~nchottIrNarUpAya namaste vishvamUrtaye |
+sadAdivyaprakAshAya svAtmane.anantashaktaye || 1|| (sadAnandaprakAshAya)
+
+tvaM tvamevAhamevAhaM tvamevAsi na chAsmyaham |
+ahaM tvamityubhau na sto yatra tasmai namo namaH || 2||
+antardehe mayA nityaM tvamAtmA cha gaveShitaH |
+na dR^iShTastvaM nachaivAtmA yachcha dR^iShTaM tvameva tat || 3||
+bhavadbhaktasya saj~nAtabhavadrUpasyatha me punaH | (sa~njAta) (me.adhunA)
+tvAmAtmarUpaM samprekShya tubhyaM mahyaM namo namaH || 4||
+etadgachananaipuNyaM yatkartavyetimUlayA | (matkarttavyaM hi mUlataH)
+bhavanmAyAtmanastasya kena kasmin kuto layaH || 5||
+ahaM tvaM tvamahaM cheti bhinnatA nAvayoH kvachit |
+samAdhigrahaNechChAyA bhedasyAvasthitirhyasau || 6||
+tvamahaM so.ayamityAdi so.anantAni sadA tvayi | (soyamityAdi nUnaM tAni)
+na labhante chAvakAshaM vachanAni kuto jagat || 7||
+alaM bhedAnukathayA tvadbhaktirasacharvaNAt |
+sarvamekamidaM shAntamiti vaktuM cha lajjate || 8||
+tvatsvarUpe jR^imbhamANe tvaM chAhaM chAkhilaM jagat |
+jAte tasya tirodhAne na tvaM nAhaM na vai jagat || 9||
+jAgratasvapnasuShuptyAdyA dhArayaMshcha nijAH kalAH|
+svechChayA bhAsi naTavan niShkalo.asi cha tattvataHH|| 10||
+tvatprabodhAt prabodho.asya tvannidrAto layo.asya yat |
+atastvadAtmakaM sarvaM vishva sadasadAtmakam || 11||
+jihvA shrAntA bhavannAmni manaH shrAntaM bhavatsmR^itau |
+arUpasya kuto dhyAna nirguNasya cha nAma kim || 12||
+pUrNasyAvAhanaM kutra sarvAdhArasya chAsanam |
+svachChasya pAdyamarghya~ncha shuddhasyAchamanaM kutaH || 13||
+nirmalasya kutaH snAnaM vastraM vishvodarasya cha |
+nirlepasya kuto gandho ramyasyAbharaNaM kutaH|| 14||
+nirAlambasyopavItaM puShpaM nirvAsanasya cha |
+aghrANasya kuto dhUpashchakShurhInasya dIpakaH || 15|| (aprANasya kuto)
+
+nityatR^iptasya naivedyaM tAmbUlaM cha kuto vibhoH|
+pradakShiNamanantasyA.advitIyasyaya kuto natiH || 16||
+svayaM prakAshamAnasya kuto nIrAjanaM vibhoH |
+vedavAchAmavedyasya kutaH stotraM vidhIyate || 17||
+antarbahishcha pUrNasya kathamudvAsanaM bhavet |
+bhedahInasya vishvatra kathaM cha havanaM bhavet || 18||
+pUrNasya dakShiNA kutra nityatR^iptasya tarpaNam |
+visarjanaM vyApakasyA.apratyakShasya kShamApaNam || 19||
+evameva parA pUjA sarvAvasthAsu sarvadA |
+aikyabuddhayA tu sarveshe mano deve niyojayet || 20||
+
+|| iti mahAmAheshvarAchAryAbhinavaguptakR^itaM mahopadeshaviMshatikaM sampUrNam ||
+(|| iti mahAmAheshvarAchAryAbhinavaguptakR^itA mahopadeshaviMshatikA samAptA ||)
+
+##
+Encoded and proofread by Ruma Dewan
+
+\medskip\hrule\obeylines
+
+Please send corrections to sanskrit@cheerful.com
+Last updated \today
+https://sanskritdocuments.org
+
+\end{document}

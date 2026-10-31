@@ -1,0 +1,114 @@
+[
+ {
+  "id": "rhs_01",
+  "dur": 11.474,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_01.wav"
+ },
+ {
+  "id": "rhs_02",
+  "dur": 10.115,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_02.wav"
+ },
+ {
+  "id": "rhs_03",
+  "dur": 12.142,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_03.wav"
+ },
+ {
+  "id": "rhs_04",
+  "dur": 12.395,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_04.wav"
+ },
+ {
+  "id": "rhs_05",
+  "dur": 12.25,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_05.wav"
+ },
+ {
+  "id": "rhs_06",
+  "dur": 8.63,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_06.wav"
+ },
+ {
+  "id": "rhs_07",
+  "dur": 13.093,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_07.wav"
+ },
+ {
+  "id": "rhs_08",
+  "dur": 11.862,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_08.wav"
+ },
+ {
+  "id": "rhs_09",
+  "dur": 9.657,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_09.wav"
+ },
+ {
+  "id": "rhs_10",
+  "dur": 11.726,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_10.wav"
+ },
+ {
+  "id": "rhs_11",
+  "dur": 12.098,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_11.wav"
+ },
+ {
+  "id": "rhs_12",
+  "dur": 12.141,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_12.wav"
+ },
+ {
+  "id": "rhs_13",
+  "dur": 8.933,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_13.wav"
+ },
+ {
+  "id": "rhs_14",
+  "dur": 11.87,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_14.wav"
+ },
+ {
+  "id": "rhs_15",
+  "dur": 11.938,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_15.wav"
+ },
+ {
+  "id": "rhs_16",
+  "dur": 10.13,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_rahasyapanchadashika/rhs_16.wav"
+ }
+]

@@ -1,0 +1,212 @@
+[
+ {
+  "id": "kra_01",
+  "dur": 17.51,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_01.wav"
+ },
+ {
+  "id": "kra_02",
+  "dur": 17.43,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_02.wav"
+ },
+ {
+  "id": "kra_03",
+  "dur": 17.19,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_03.wav"
+ },
+ {
+  "id": "kra_04",
+  "dur": 17.33,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_04.wav"
+ },
+ {
+  "id": "kra_05",
+  "dur": 17.87,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_05.wav"
+ },
+ {
+  "id": "kra_06",
+  "dur": 17.13,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_06.wav"
+ },
+ {
+  "id": "kra_07",
+  "dur": 16.95,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_07.wav"
+ },
+ {
+  "id": "kra_08",
+  "dur": 17.31,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_08.wav"
+ },
+ {
+  "id": "kra_09",
+  "dur": 17.61,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_09.wav"
+ },
+ {
+  "id": "kra_10",
+  "dur": 17.25,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_10.wav"
+ },
+ {
+  "id": "kra_11",
+  "dur": 16.79,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_11.wav"
+ },
+ {
+  "id": "kra_12",
+  "dur": 17.63,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_12.wav"
+ },
+ {
+  "id": "kra_13",
+  "dur": 17.47,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_13.wav"
+ },
+ {
+  "id": "kra_14",
+  "dur": 17.59,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_14.wav"
+ },
+ {
+  "id": "kra_15",
+  "dur": 16.97,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_15.wav"
+ },
+ {
+  "id": "kra_16",
+  "dur": 17.853,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_16.wav"
+ },
+ {
+  "id": "kra_17",
+  "dur": 17.17,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_17.wav"
+ },
+ {
+  "id": "kra_18",
+  "dur": 17.273,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_18.wav"
+ },
+ {
+  "id": "kra_19",
+  "dur": 16.83,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_19.wav"
+ },
+ {
+  "id": "kra_20",
+  "dur": 16.63,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_20.wav"
+ },
+ {
+  "id": "kra_21",
+  "dur": 17.03,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_21.wav"
+ },
+ {
+  "id": "kra_22",
+  "dur": 17.17,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_22.wav"
+ },
+ {
+  "id": "kra_23",
+  "dur": 17.37,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_23.wav"
+ },
+ {
+  "id": "kra_24",
+  "dur": 16.85,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_24.wav"
+ },
+ {
+  "id": "kra_25",
+  "dur": 17.21,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_25.wav"
+ },
+ {
+  "id": "kra_26",
+  "dur": 17.313,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_26.wav"
+ },
+ {
+  "id": "kra_27",
+  "dur": 17.19,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_27.wav"
+ },
+ {
+  "id": "kra_28",
+  "dur": 11.975,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_28.wav"
+ },
+ {
+  "id": "kra_29",
+  "dur": 14.55,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_29.wav"
+ },
+ {
+  "id": "kra_30",
+  "dur": 9.53,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_kramastotra/kra_30.wav"
+ }
+]

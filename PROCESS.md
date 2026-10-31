@@ -171,3 +171,54 @@ claimed verses. Video QA claimed "6-7 syllables lit at t=0.0" on bpc/stc —
 first onsets are 0.060, zero lit at frame 0; "10 lit at t=1.0" on dhs — data
 shows 4. ALL 3 todos rejected with data evidence, no changes. Qwen remains
 taste/structure-only; two consecutive verdict batches now refuted.
+
+## R2 publish (2026-10-30, "don't lose it when Kaggle goes")
+
+- Full backup: `rclone sync` of the working tree (minus `.git`, `__pycache__`,
+  `*_frames`, `*.f32`) to `r2:kashaudio-backup/kashmir_audio-<date>/`.
+  GitHub (`prx0r/kashaudio`) already holds the git history incl. wavs;
+  R2 holds the working files so nothing depends on Kaggle outputs.
+- Finals: every `cards/*_full.mp4` to `r2:ets/finals-<date>/` (fresh bucket
+  per ship; byte-checked against local after copy).
+- One command: `bash publish_r2.sh [label]` (default today). Verifies by
+  listing remote + printing local byte sizes.
+- Known quirk: old rclone (1.60) logs `501 NotImplemented` noise on R2 and
+  retries once, then transfers clean — treat "Attempt 2/3 succeeded" + full
+  byte match as success, not failure.
+
+## Stale-frame double-cut (2026-10-30, user caught listening to bpc full)
+
+- Symptom: at some verse joins, a cut to a held frame, ~0.5s linger, then
+  another cut — intermittent, about half the joins across all five fulls.
+- Cause: `build_fulls` grabbed the old page with `ffmpeg -sseof -0.05`,
+  which silently writes an EMPTY file on ~72/169 clips (exit 0, no error).
+  The shared `tmp/last.png` then stayed stale from the previous join, so
+  segment A held the WRONG page. Frame-diff at 30fps proved it (two large
+  diffs ~0.5s apart on bad joins, one on good joins); Qwen confirmed
+  double-cut feel on the bad join, clean single join on the good one.
+- Fix: unique temp names per join, seek by measured duration minus 0.2s
+  (inside the trailing last-page hold), verify non-empty and fail loudly.
+  Rebuilt all 5 fulls; all 14 Bodhapanadasika joins re-scanned single-cut.
+- Note: 2 Bhairavastava joins (03, phala) print CHECK — pre-existing long
+  natural trails (1.14s, 1.08s) exceed the 1.05s gap target with s1=0.
+  Pale still exactly 0.28. Do NOT chase; informational only.
+
+## Session notes (2026-10-30 evening — timeout recovery to R2 ship)
+
+- Kaggle re-auth: PI token belongs in `~/.kaggle/access_token` (chmod 600),
+  exported as `KAGGLE_API_TOKEN`; CLI via `python3 -m kaggle` (system kaggle
+  binary absent, v2.2.4 outdated warning ignorable). Kernel
+  `priortrades/vagdhenu-chant-gpu` read COMPLETE, last run Oct 30 11:31 —
+  the v9 batch. Local tree matched remote verse-for-verse (169 wavs, 169
+  word_timings, 174 mp4s), commit `9c3cb45` clean: the timed-out session
+  lost nothing.
+- Gofile spots shipped for the 3 new fulls (stavacintamani/dehastha/
+  bodhapanadasika) — SUPERSEDED: those uploads predate the stale-frame fix
+  above. Do not use for review; the R2 finals below are the fixed builds.
+- R2 backup verified byte-identical tonight (local `ls -l` vs `rclone ls`):
+  anuttarashtika 6093238, bhairavastava 3963738, bodhapanadasika 4603612,
+  dehastha 5124299, stavacintamani 37260625. Backup path
+  `r2:kashaudio-backup/kashmir_audio-20261030/`, finals at
+  `r2:ets/finals-20261030/`. Ship + verify script: `publish_r2.sh`.
+- Uncommitted at time of writing: `build_fulls.py` fix, 5 rebuilt fulls,
+  `publish_r2.sh`, this PROCESS entry. Commit + push when owner confirms.

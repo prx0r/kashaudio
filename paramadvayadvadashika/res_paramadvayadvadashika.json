@@ -1,0 +1,93 @@
+[
+ {
+  "id": "dvd_01",
+  "dur": 19.59,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramadvayadvadashika/dvd_01.wav"
+ },
+ {
+  "id": "dvd_02",
+  "dur": 10.49,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramadvayadvadashika/dvd_02.wav"
+ },
+ {
+  "id": "dvd_03",
+  "dur": 19.97,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramadvayadvadashika/dvd_03.wav"
+ },
+ {
+  "id": "dvd_04",
+  "dur": 14.25,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramadvayadvadashika/dvd_04.wav"
+ },
+ {
+  "id": "dvd_05",
+  "dur": 18.81,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramadvayadvadashika/dvd_05.wav"
+ },
+ {
+  "id": "dvd_06",
+  "dur": 14.83,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramadvayadvadashika/dvd_06.wav"
+ },
+ {
+  "id": "dvd_07",
+  "dur": 11.85,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramadvayadvadashika/dvd_07.wav"
+ },
+ {
+  "id": "dvd_08",
+  "dur": 19.37,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramadvayadvadashika/dvd_08.wav"
+ },
+ {
+  "id": "dvd_09",
+  "dur": 19.65,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramadvayadvadashika/dvd_09.wav"
+ },
+ {
+  "id": "dvd_10",
+  "dur": 21.933,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramadvayadvadashika/dvd_10.wav"
+ },
+ {
+  "id": "dvd_11",
+  "dur": 19.67,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramadvayadvadashika/dvd_11.wav"
+ },
+ {
+  "id": "dvd_12",
+  "dur": 12.114,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramadvayadvadashika/dvd_12.wav"
+ },
+ {
+  "id": "dvd_13",
+  "dur": 17.17,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramadvayadvadashika/dvd_13.wav"
+ }
+]

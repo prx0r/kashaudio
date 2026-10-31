@@ -49,12 +49,29 @@ def build(work):
             nlight = min(s["t_on"] for s in c["syls"])
             s1 = max(0.0, G - trail - LEAD)
             s2 = max(0.0, LEAD - nlight)
-            ff("-sseof", "-0.05", "-i", str(prev_mp4), "-frames:v", "1", str(tmp / "last.png"))
-            ff("-i", str(mp4), "-frames:v", "1", str(tmp / "first.png"))
+            # Robust last-frame grab (2026-10-30 fix): `-sseof -0.05`
+            # silently produced EMPTY output on ~72/169 clips (exit 0,
+            # no error), leaving a STALE tmp/last.png from the previous
+            # join -> A held the WRONG page -> double-cut feel. Fix:
+            # unique names per join + seek to dur-0.2 (safely inside the
+            # trailing last-page hold) + verify non-empty, fail loudly.
+            last_png, first_png = tmp / f"last{i}.png", tmp / f"first{i}.png"
+            for p in (last_png, first_png):
+                if p.exists():
+                    p.unlink()
+            prev_dur = dur_of(prev_mp4)
+            ff("-ss", f"{max(0.0, prev_dur - 0.2):.3f}", "-i", str(prev_mp4),
+               "-frames:v", "1", str(last_png))
+            ff("-i", str(mp4), "-frames:v", "1", str(first_png))
+            for p in (last_png, first_png):
+                if not p.exists() or p.stat().st_size == 0:
+                    sys.exit(f"FRAME GRAB FAILED for {p} (prev={prev['id']}) — refusing to build with stale frame")
             a = tmp / f"A{i}.mp4"; b = tmp / f"B{i}.mp4"
-            if still_seg(tmp / "last.png", s1, a):
+            if a.exists(): a.unlink()
+            if b.exists(): b.unlink()
+            if still_seg(last_png, s1, a):
                 files.append(a)
-            if still_seg(tmp / "first.png", s2, b):
+            if still_seg(first_png, s2, b):
                 files.append(b)
             gap = trail + s1 + s2 + nlight
             pale = s2 + nlight
