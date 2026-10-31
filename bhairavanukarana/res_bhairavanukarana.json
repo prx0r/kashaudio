@@ -1,0 +1,338 @@
+[
+ {
+  "id": "bna_01",
+  "dur": 10.45,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_01.wav"
+ },
+ {
+  "id": "bna_02",
+  "dur": 10.231,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_02.wav"
+ },
+ {
+  "id": "bna_03",
+  "dur": 9.87,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_03.wav"
+ },
+ {
+  "id": "bna_04",
+  "dur": 10.315,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_04.wav"
+ },
+ {
+  "id": "bna_05",
+  "dur": 9.593,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_05.wav"
+ },
+ {
+  "id": "bna_06",
+  "dur": 8.934,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_06.wav"
+ },
+ {
+  "id": "bna_07",
+  "dur": 10.018,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_07.wav"
+ },
+ {
+  "id": "bna_08",
+  "dur": 9.715,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_08.wav"
+ },
+ {
+  "id": "bna_09",
+  "dur": 9.213,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_09.wav"
+ },
+ {
+  "id": "bna_10",
+  "dur": 9.793,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_10.wav"
+ },
+ {
+  "id": "bna_11",
+  "dur": 9.27,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_11.wav"
+ },
+ {
+  "id": "bna_12",
+  "dur": 9.69,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_12.wav"
+ },
+ {
+  "id": "bna_13",
+  "dur": 9.333,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_13.wav"
+ },
+ {
+  "id": "bna_14",
+  "dur": 9.597,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_14.wav"
+ },
+ {
+  "id": "bna_15",
+  "dur": 9.53,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_15.wav"
+ },
+ {
+  "id": "bna_16",
+  "dur": 9.85,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_16.wav"
+ },
+ {
+  "id": "bna_17",
+  "dur": 9.615,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_17.wav"
+ },
+ {
+  "id": "bna_18",
+  "dur": 10.07,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_18.wav"
+ },
+ {
+  "id": "bna_19",
+  "dur": 10.355,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_19.wav"
+ },
+ {
+  "id": "bna_20",
+  "dur": 10.313,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_20.wav"
+ },
+ {
+  "id": "bna_21",
+  "dur": 9.67,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_21.wav"
+ },
+ {
+  "id": "bna_22",
+  "dur": 10.57,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_22.wav"
+ },
+ {
+  "id": "bna_23",
+  "dur": 9.81,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_23.wav"
+ },
+ {
+  "id": "bna_24",
+  "dur": 9.673,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_24.wav"
+ },
+ {
+  "id": "bna_25",
+  "dur": 8.954,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_25.wav"
+ },
+ {
+  "id": "bna_26",
+  "dur": 10.415,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_26.wav"
+ },
+ {
+  "id": "bna_27",
+  "dur": 10.258,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_27.wav"
+ },
+ {
+  "id": "bna_28",
+  "dur": 9.633,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_28.wav"
+ },
+ {
+  "id": "bna_29",
+  "dur": 9.95,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_29.wav"
+ },
+ {
+  "id": "bna_30",
+  "dur": 9.617,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_30.wav"
+ },
+ {
+  "id": "bna_31",
+  "dur": 10.798,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_31.wav"
+ },
+ {
+  "id": "bna_32",
+  "dur": 9.199,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_32.wav"
+ },
+ {
+  "id": "bna_33",
+  "dur": 10.11,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_33.wav"
+ },
+ {
+  "id": "bna_34",
+  "dur": 9.437,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_34.wav"
+ },
+ {
+  "id": "bna_35",
+  "dur": 9.117,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_35.wav"
+ },
+ {
+  "id": "bna_36",
+  "dur": 11.19,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_36.wav"
+ },
+ {
+  "id": "bna_37",
+  "dur": 9.85,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_37.wav"
+ },
+ {
+  "id": "bna_38",
+  "dur": 10.414,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_38.wav"
+ },
+ {
+  "id": "bna_39",
+  "dur": 9.117,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_39.wav"
+ },
+ {
+  "id": "bna_40",
+  "dur": 9.71,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_40.wav"
+ },
+ {
+  "id": "bna_41",
+  "dur": 9.553,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_41.wav"
+ },
+ {
+  "id": "bna_42",
+  "dur": 10.015,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_42.wav"
+ },
+ {
+  "id": "bna_43",
+  "dur": 10.133,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_43.wav"
+ },
+ {
+  "id": "bna_44",
+  "dur": 9.873,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_44.wav"
+ },
+ {
+  "id": "bna_45",
+  "dur": 9.83,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_45.wav"
+ },
+ {
+  "id": "bna_46",
+  "dur": 9.613,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_46.wav"
+ },
+ {
+  "id": "bna_47",
+  "dur": 10.238,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_47.wav"
+ },
+ {
+  "id": "bna_48",
+  "dur": 8.857,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_bhairavanukarana/bna_48.wav"
+ }
+]

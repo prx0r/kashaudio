@@ -1,0 +1,191 @@
+[
+ {
+  "id": "ajs_01",
+  "dur": 9.61,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_01.wav"
+ },
+ {
+  "id": "ajs_02",
+  "dur": 6.65,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_02.wav"
+ },
+ {
+  "id": "ajs_03",
+  "dur": 6.49,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_03.wav"
+ },
+ {
+  "id": "ajs_04",
+  "dur": 6.777,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_04.wav"
+ },
+ {
+  "id": "ajs_05",
+  "dur": 6.67,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_05.wav"
+ },
+ {
+  "id": "ajs_06",
+  "dur": 6.61,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_06.wav"
+ },
+ {
+  "id": "ajs_07",
+  "dur": 6.797,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_07.wav"
+ },
+ {
+  "id": "ajs_08",
+  "dur": 6.41,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_08.wav"
+ },
+ {
+  "id": "ajs_09",
+  "dur": 6.45,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_09.wav"
+ },
+ {
+  "id": "ajs_10",
+  "dur": 6.51,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_10.wav"
+ },
+ {
+  "id": "ajs_11",
+  "dur": 6.697,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_11.wav"
+ },
+ {
+  "id": "ajs_12",
+  "dur": 6.37,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_12.wav"
+ },
+ {
+  "id": "ajs_13",
+  "dur": 6.47,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_13.wav"
+ },
+ {
+  "id": "ajs_14",
+  "dur": 7.017,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_14.wav"
+ },
+ {
+  "id": "ajs_15",
+  "dur": 5.99,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_15.wav"
+ },
+ {
+  "id": "ajs_16",
+  "dur": 6.757,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_16.wav"
+ },
+ {
+  "id": "ajs_17",
+  "dur": 6.69,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_17.wav"
+ },
+ {
+  "id": "ajs_18",
+  "dur": 6.41,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_18.wav"
+ },
+ {
+  "id": "ajs_19",
+  "dur": 6.53,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_19.wav"
+ },
+ {
+  "id": "ajs_20",
+  "dur": 6.23,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_20.wav"
+ },
+ {
+  "id": "ajs_21",
+  "dur": 6.55,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_21.wav"
+ },
+ {
+  "id": "ajs_22",
+  "dur": 6.797,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_22.wav"
+ },
+ {
+  "id": "ajs_23",
+  "dur": 6.677,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_23.wav"
+ },
+ {
+  "id": "ajs_24",
+  "dur": 6.49,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_24.wav"
+ },
+ {
+  "id": "ajs_25",
+  "dur": 6.65,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_25.wav"
+ },
+ {
+  "id": "ajs_26",
+  "dur": 6.757,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_26.wav"
+ },
+ {
+  "id": "ajs_27",
+  "dur": 6.59,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_ajadapramatrsiddhi/ajs_27.wav"
+ }
+]

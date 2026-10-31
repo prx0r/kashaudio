@@ -1,0 +1,30 @@
+[
+ {
+  "id": "anb_01",
+  "dur": 19.11,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_anubhavanivedana/anb_01.wav"
+ },
+ {
+  "id": "anb_02",
+  "dur": 19.63,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_anubhavanivedana/anb_02.wav"
+ },
+ {
+  "id": "anb_03",
+  "dur": 19.25,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_anubhavanivedana/anb_03.wav"
+ },
+ {
+  "id": "anb_04",
+  "dur": 19.11,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_anubhavanivedana/anb_04.wav"
+ }
+]
