@@ -1,0 +1,49 @@
+### Provenance: sanskrit-trikashaivism.com — Ṣaṭtriṁśattattvasandoha page (Gabriel Pradīpaka), fetched 2026-10-31
+### Text: Ṣaṭtriṁśattattvasandoha ('Nectar of the36 tattvas'), sage Amṛtānandanātha (12th c.),
+###        commentary Rājānakānanda (17th c.) — underlying text PD; page layout © Pradipaka (private research copy)
+### Source file: site/data/sanskrit/tattvasandoha.iast.txt · verse stanzas only, IAST (shard-ready)
+### Alt edition: archive.org KSTS13 scan (ShatTrimshatTattvaSandohaKSTS), different recension, not merged
+### Vendored: research/education use
+
+
+yadayamanuttaramūrtirnajecchayākhilamidaṃ jagatsraṣṭum| paspande sa spandaḥ prathamaḥ śivatattvamucyate tajjñaiḥ||1||
+
+icchā saiva svacchā santatasamavāyinī satī śaktiḥ| sacarācarasya jagato bījaṃ nikhilasya nijanilīnasya||2||
+
+svecchāśaktyudgīrṇaṃ jagadātmatayā samācchādya| nivasan sa eva nikhilānugrahanirataḥ sadāśivo'bhihitaḥ||3||
+
+viśvaṃ paścātpaśyanidantayā nikhilamīśvaro jātaḥ| sā bhavati śuddhavidyā yedantāhantayorabhedamatiḥ||4||
+
+māyā vibhedabuddhirnijāṃśajāteṣu nikhilajīveṣu| nityaṃ tasya niraṅkuśavibhavaṃ veleva vāridhe rundhe||5||
+
+sa tayā parimitamūrtiḥ saṅkucitasamastaśaktireṣa pumān| raviriva sandhyāraktaḥ saṃhṛtaśaktiḥ svabhāsane'pyapaṭuḥ||6||
+
+sampūrṇakartṛtādyā bahvyaḥ santyasya śaktayastasya| saṅkocātsaṅkucitāḥ kalādirūpeṇa rūḍhayantyevam||7||
+
+tatsarvakartṛtā sā saṅkucitā katipayārthamātraparā| kiñcitkartāramamuṃ kalayantī kīrtyate kalā nāma||8||
+
+sarvajñatāsya śaktiḥ parimitatanuralpavedyamātraparā| jñānamutpādayantī vidyeti nigadyate budhairādyaiḥ||9||
+
+nityaparipūrṇatṛptiḥ śaktistasyaiva parimitā tu satī| bhogeṣu rañjayantī satatamamuṃ rāgatattvatāṃ yātā||10||
+
+sā nityatāsya śaktirnikṛṣya nidhanodayapradānena| niyataparicchedakarī kḷptā syātkālatattvarūpeṇa||11||
+
+yāsya svatantratākhyā śaktiḥ saṅkocaśālinī saiva| kṛtyākṛtyeṣvavaśaṃ niyatamamuṃ niyamayantyabhūnniyatiḥ||12||
+
+icchāditrisamaṣṭiḥ śaktiḥ śāntāsya saṅkucadrūpā| saṅkalitecchādyātmakasattvādikasāmyarūpiṇī tu satī||13||
+
+buddhyādisāmarasyasvarūpacittātmikā matā prakṛtiḥ| icchāsya rajorūpāhaṅkṛtirāsīdahampratītikarī||14||
+
+sattvapariṇāminī jñānaśaktirevārthādhyavasāyalakṣaṇā buddhiḥ| tamaḥpariṇāminī kriyāśaktiḥ| vikalpakaraṇalakṣaṇaṃ manastattvamucyate||15||
+
+vāmādipañcabhedaḥ sa eva saṅkucitavigraho devaḥ| jñānakriyoparāgaprādhānyādvividhaviṣayarūpo'bhūt||16||
+
+śrotraṃ cakṣuḥ sparśanajihvāghrāṇāni bodhakaraṇāni| śabdasparśau rūpaṃ rasagandhau ceti bhūtasūkṣmāṇi||17||
+
+ayamevātinikṛṣṭo jāto bhūtātmanāpi bhūteśaḥ| gaganamanilaśca tejaḥ salilaṃ bhūmiśca pañcabhūtāni||18||
+
+śrotrādikaraṇavedyāḥ śabdādyāstāni vedakānyeṣām| vacanakarī vāgāsīt pāṇiḥ syātkaraṇabhūta ādāne||19||
+
+gamanavisargānandatritaye pādādikaṃ karaṇam| gandhavatī bhūmiḥ syādāpaḥ sāṃsiddhikadravāstejaḥ||20||
+
+uṣṇasparśamarūpasparśo vāyurambaraṃ saśabdam| ṣaṭtriṃśattattvamayaṃ vande kaulaṃ kulātigaṃ śambhum||21||
