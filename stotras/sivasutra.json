@@ -1,0 +1,827 @@
+[
+ {
+  "id": "siv_01",
+  "meter": "gadya",
+  "padas": [
+   "चैतन्यम् आत्मा ।",
+   "चैतन्यम् आत्मा ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_01.wav"
+ },
+ {
+  "id": "siv_02",
+  "meter": "gadya",
+  "padas": [
+   "ज्ञानं बन्धः ।",
+   "ज्ञानं बन्धः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_02.wav"
+ },
+ {
+  "id": "siv_03",
+  "meter": "gadya",
+  "padas": [
+   "योनिवर्गः कलाशरीरम् ।",
+   "योनिवर्गः कलाशरीरम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_03.wav"
+ },
+ {
+  "id": "siv_04",
+  "meter": "anushtubh",
+  "padas": [
+   "ज्ञानाधिष्ठानं मातृका ।",
+   "ज्ञानाधिष्ठानं मातृका ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_04.wav"
+ },
+ {
+  "id": "siv_05",
+  "meter": "gadya",
+  "padas": [
+   "उद्यमो भैरवः ।",
+   "उद्यमो भैरवः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_05.wav"
+ },
+ {
+  "id": "siv_06",
+  "meter": "gadya",
+  "padas": [
+   "शक्तिचक्रसंधाने विश्वसंहारः ।",
+   "शक्तिचक्रसंधाने विश्वसंहारः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_06.wav"
+ },
+ {
+  "id": "siv_07",
+  "meter": "gadya",
+  "padas": [
+   "ज्ञानं जाग्रत् ।",
+   "ज्ञानं जाग्रत् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_07.wav"
+ },
+ {
+  "id": "siv_08",
+  "meter": "gadya",
+  "padas": [
+   "स्वप्नो विकल्पाः ।",
+   "स्वप्नो विकल्पाः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_08.wav"
+ },
+ {
+  "id": "siv_09",
+  "meter": "gadya",
+  "padas": [
+   "अविवेको माया सौषुप्तम् ।",
+   "अविवेको माया सौषुप्तम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_09.wav"
+ },
+ {
+  "id": "siv_10",
+  "meter": "anushtubh",
+  "padas": [
+   "त्रितयभोक्ता वीरेशः. ।",
+   "त्रितयभोक्ता वीरेशः. ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_10.wav"
+ },
+ {
+  "id": "siv_11",
+  "meter": "anushtubh",
+  "padas": [
+   "विस्मयो योगभूमिकाः ।",
+   "विस्मयो योगभूमिकाः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_11.wav"
+ },
+ {
+  "id": "siv_12",
+  "meter": "gadya",
+  "padas": [
+   "इच्छा शक्तिर् उमा कुमारी ।",
+   "इच्छा शक्तिर् उमा कुमारी ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_12.wav"
+ },
+ {
+  "id": "siv_13",
+  "meter": "gadya",
+  "padas": [
+   "दृश्यं शरीरम् ।",
+   "दृश्यं शरीरम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_13.wav"
+ },
+ {
+  "id": "siv_14",
+  "meter": "gadya",
+  "padas": [
+   "शुद्धतत्त्वसंधानाद् वापशुशक्तिः ।",
+   "शुद्धतत्त्वसंधानाद् वापशुशक्तिः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_14.wav"
+ },
+ {
+  "id": "siv_15",
+  "meter": "gadya",
+  "padas": [
+   "वितर्क आत्मज्ञानम् ।",
+   "वितर्क आत्मज्ञानम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_15.wav"
+ },
+ {
+  "id": "siv_16",
+  "meter": "gadya",
+  "padas": [
+   "लोकानन्दः समाधिसुखम् ।",
+   "लोकानन्दः समाधिसुखम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_16.wav"
+ },
+ {
+  "id": "siv_17",
+  "meter": "gadya",
+  "padas": [
+   "शक्तिसंधाने शरीरोत्पत्तिः ।",
+   "शक्तिसंधाने शरीरोत्पत्तिः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_17.wav"
+ },
+ {
+  "id": "siv_18",
+  "meter": "gadya",
+  "padas": [
+   "भूतसंधानभूतपृथक्त्वविश्वसंघट्टाः ।",
+   "भूतसंधानभूतपृथक्त्वविश्वसंघट्टाः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_18.wav"
+ },
+ {
+  "id": "siv_19",
+  "meter": "gadya",
+  "padas": [
+   "शुद्धविद्योदयाच् चक्रेशत्वसिद्धिः ।",
+   "शुद्धविद्योदयाच् चक्रेशत्वसिद्धिः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_19.wav"
+ },
+ {
+  "id": "siv_20",
+  "meter": "gadya",
+  "padas": [
+   "महाह्रदानुसंधानान् मन्त्रवीर्यानुभवः. ।",
+   "महाह्रदानुसंधानान् मन्त्रवीर्यानुभवः. ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_20.wav"
+ },
+ {
+  "id": "siv_21",
+  "meter": "gadya",
+  "padas": [
+   "चित्तं मन्त्रः ।",
+   "चित्तं मन्त्रः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_21.wav"
+ },
+ {
+  "id": "siv_22",
+  "meter": "gadya",
+  "padas": [
+   "प्रयत्नः साधकः ।",
+   "प्रयत्नः साधकः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_22.wav"
+ },
+ {
+  "id": "siv_23",
+  "meter": "gadya",
+  "padas": [
+   "विद्याशरीरसत्ता मन्त्ररहस्यम् ।",
+   "विद्याशरीरसत्ता मन्त्ररहस्यम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_23.wav"
+ },
+ {
+  "id": "siv_24",
+  "meter": "gadya",
+  "padas": [
+   "गर्भे चित्तविकासो ऽविशिष्टविद्यास्वप्नः ।",
+   "गर्भे चित्तविकासो ऽविशिष्टविद्यास्वप्नः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_24.wav"
+ },
+ {
+  "id": "siv_25",
+  "meter": "gadya",
+  "padas": [
+   "विद्यासमुत्थाने स्वाभाविके खेचरी शिवावस्था ।",
+   "विद्यासमुत्थाने स्वाभाविके खेचरी शिवावस्था ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_25.wav"
+ },
+ {
+  "id": "siv_26",
+  "meter": "gadya",
+  "padas": [
+   "गुरुर् उपायः ।",
+   "गुरुर् उपायः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_26.wav"
+ },
+ {
+  "id": "siv_27",
+  "meter": "anushtubh",
+  "padas": [
+   "मातृकाचक्रसंबोधः ।",
+   "मातृकाचक्रसंबोधः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_27.wav"
+ },
+ {
+  "id": "siv_28",
+  "meter": "gadya",
+  "padas": [
+   "शरीरं हविः ।",
+   "शरीरं हविः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_28.wav"
+ },
+ {
+  "id": "siv_29",
+  "meter": "gadya",
+  "padas": [
+   "ज्ञानम् अन्नम् ।",
+   "ज्ञानम् अन्नम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_29.wav"
+ },
+ {
+  "id": "siv_30",
+  "meter": "gadya",
+  "padas": [
+   "विद्यासंहारे तदुत्थस्वप्नदर्शनम्. ।",
+   "विद्यासंहारे तदुत्थस्वप्नदर्शनम्. ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_30.wav"
+ },
+ {
+  "id": "siv_31",
+  "meter": "gadya",
+  "padas": [
+   "आत्मा चित्तम् ।",
+   "आत्मा चित्तम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_31.wav"
+ },
+ {
+  "id": "siv_32",
+  "meter": "gadya",
+  "padas": [
+   "ज्ञानं बन्धः ।",
+   "ज्ञानं बन्धः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_32.wav"
+ },
+ {
+  "id": "siv_33",
+  "meter": "gadya",
+  "padas": [
+   "कलादीनां तत्त्वानाम् अविवेको माया ।",
+   "कलादीनां तत्त्वानाम् अविवेको माया ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_33.wav"
+ },
+ {
+  "id": "siv_34",
+  "meter": "gadya",
+  "padas": [
+   "शरीरे संहारः कलानाम् ।",
+   "शरीरे संहारः कलानाम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_34.wav"
+ },
+ {
+  "id": "siv_35",
+  "meter": "gadya",
+  "padas": [
+   "नाडीसंहारभूतजयभूतकैवल्यभूतपृथक्त्वानि ।",
+   "नाडीसंहारभूतजयभूतकैवल्यभूतपृथक्त्वानि ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_35.wav"
+ },
+ {
+  "id": "siv_36",
+  "meter": "gadya",
+  "padas": [
+   "मोहावरणात् सिद्धिः ।",
+   "मोहावरणात् सिद्धिः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_36.wav"
+ },
+ {
+  "id": "siv_37",
+  "meter": "anushtubh",
+  "padas": [
+   "मोहजयाद् अनन्ताभोगात् सहजविद्याजयः ।",
+   "मोहजयाद् अनन्ताभोगात् सहजविद्याजयः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_37.wav"
+ },
+ {
+  "id": "siv_38",
+  "meter": "gadya",
+  "padas": [
+   "जाग्रद् द्वितीयकरः ।",
+   "जाग्रद् द्वितीयकरः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_38.wav"
+ },
+ {
+  "id": "siv_39",
+  "meter": "gadya",
+  "padas": [
+   "नर्तक आत्मा ।",
+   "नर्तक आत्मा ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_39.wav"
+ },
+ {
+  "id": "siv_40",
+  "meter": "gadya",
+  "padas": [
+   "रङ्गो ऽन्तरात्मा. ।",
+   "रङ्गो ऽन्तरात्मा. ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_40.wav"
+ },
+ {
+  "id": "siv_41",
+  "meter": "gadya",
+  "padas": [
+   "प्रेक्षकाणीन्द्रियाणि ।",
+   "प्रेक्षकाणीन्द्रियाणि ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_41.wav"
+ },
+ {
+  "id": "siv_42",
+  "meter": "gadya",
+  "padas": [
+   "धीवशात् सत्त्वसिद्धिः ।",
+   "धीवशात् सत्त्वसिद्धिः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_42.wav"
+ },
+ {
+  "id": "siv_43",
+  "meter": "gadya",
+  "padas": [
+   "सिद्धः स्वतन्त्रभावः ।",
+   "सिद्धः स्वतन्त्रभावः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_43.wav"
+ },
+ {
+  "id": "siv_44",
+  "meter": "anushtubh",
+  "padas": [
+   "यथा तत्र तथान्यत्र ।",
+   "यथा तत्र तथान्यत्र ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_44.wav"
+ },
+ {
+  "id": "siv_45",
+  "meter": "gadya",
+  "padas": [
+   "बीजावधानम् ।",
+   "बीजावधानम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_45.wav"
+ },
+ {
+  "id": "siv_46",
+  "meter": "gadya",
+  "padas": [
+   "आसनस्थः सुखं ह्रदे निमज्जति ।",
+   "आसनस्थः सुखं ह्रदे निमज्जति ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_46.wav"
+ },
+ {
+  "id": "siv_47",
+  "meter": "gadya",
+  "padas": [
+   "स्वमात्रानिर्माणम् आपादयति ।",
+   "स्वमात्रानिर्माणम् आपादयति ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_47.wav"
+ },
+ {
+  "id": "siv_48",
+  "meter": "gadya",
+  "padas": [
+   "विद्याविनाशे जन्मविनाशः ।",
+   "विद्याविनाशे जन्मविनाशः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_48.wav"
+ },
+ {
+  "id": "siv_49",
+  "meter": "gadya",
+  "padas": [
+   "कवर्गादिषु माहेश्वर्याद्याः पशुमातरः ।",
+   "कवर्गादिषु माहेश्वर्याद्याः पशुमातरः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_49.wav"
+ },
+ {
+  "id": "siv_50",
+  "meter": "gadya",
+  "padas": [
+   "त्रिषु चतुर्थं तैलवद् आसेच्यम्. ।",
+   "त्रिषु चतुर्थं तैलवद् आसेच्यम्. ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_50.wav"
+ },
+ {
+  "id": "siv_51",
+  "meter": "gadya",
+  "padas": [
+   "मग्नः स्वचित्तेन प्रविशेत् ।",
+   "मग्नः स्वचित्तेन प्रविशेत् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_51.wav"
+ },
+ {
+  "id": "siv_52",
+  "meter": "gadya",
+  "padas": [
+   "प्राणसमाचारे समदर्शनम् ।",
+   "प्राणसमाचारे समदर्शनम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_52.wav"
+ },
+ {
+  "id": "siv_53",
+  "meter": "gadya",
+  "padas": [
+   "मध्ये ऽवरप्रसवः ।",
+   "मध्ये ऽवरप्रसवः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_53.wav"
+ },
+ {
+  "id": "siv_54",
+  "meter": "gadya",
+  "padas": [
+   "मात्रास्व् अप्रत्ययसंधाने नष्टस्य पुनर् उत्थानम् ।",
+   "मात्रास्व् अप्रत्ययसंधाने नष्टस्य पुनर् उत्थानम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_54.wav"
+ },
+ {
+  "id": "siv_55",
+  "meter": "gadya",
+  "padas": [
+   "शिवतुल्यो जायते ।",
+   "शिवतुल्यो जायते ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_55.wav"
+ },
+ {
+  "id": "siv_56",
+  "meter": "gadya",
+  "padas": [
+   "शरीरवृत्तिर् व्रतम् ।",
+   "शरीरवृत्तिर् व्रतम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_56.wav"
+ },
+ {
+  "id": "siv_57",
+  "meter": "gadya",
+  "padas": [
+   "कथा जपः ।",
+   "कथा जपः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_57.wav"
+ },
+ {
+  "id": "siv_58",
+  "meter": "gadya",
+  "padas": [
+   "दानम् आत्मज्ञानम् ।",
+   "दानम् आत्मज्ञानम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_58.wav"
+ },
+ {
+  "id": "siv_59",
+  "meter": "anushtubh",
+  "padas": [
+   "यो ऽविपस्थो ज्ञाहेतुश् च ।",
+   "यो ऽविपस्थो ज्ञाहेतुश् च ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_59.wav"
+ },
+ {
+  "id": "siv_60",
+  "meter": "anushtubh",
+  "padas": [
+   "स्वशक्तिप्रचयो विश्वम्. ।",
+   "स्वशक्तिप्रचयो विश्वम्. ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_60.wav"
+ },
+ {
+  "id": "siv_61",
+  "meter": "gadya",
+  "padas": [
+   "स्थितिलयौ ।",
+   "स्थितिलयौ ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_61.wav"
+ },
+ {
+  "id": "siv_62",
+  "meter": "gadya",
+  "padas": [
+   "तत्प्रवृत्ताव् अप्य् अनिरासः संवेत्तृभावात् ।",
+   "तत्प्रवृत्ताव् अप्य् अनिरासः संवेत्तृभावात् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_62.wav"
+ },
+ {
+  "id": "siv_63",
+  "meter": "gadya",
+  "padas": [
+   "सुखासुखयोर् बहिर् मननम् ।",
+   "सुखासुखयोर् बहिर् मननम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_63.wav"
+ },
+ {
+  "id": "siv_64",
+  "meter": "anushtubh",
+  "padas": [
+   "तद्विमुक्तस् तु केवली ।",
+   "तद्विमुक्तस् तु केवली ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_64.wav"
+ },
+ {
+  "id": "siv_65",
+  "meter": "gadya",
+  "padas": [
+   "मोहप्रतिसंहतस् तु कर्मात्मा ।",
+   "मोहप्रतिसंहतस् तु कर्मात्मा ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_65.wav"
+ },
+ {
+  "id": "siv_66",
+  "meter": "gadya",
+  "padas": [
+   "भेदतिरस्कारे सर्गान्तरकर्मत्वम् ।",
+   "भेदतिरस्कारे सर्गान्तरकर्मत्वम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_66.wav"
+ },
+ {
+  "id": "siv_67",
+  "meter": "gadya",
+  "padas": [
+   "करणशक्तिः स्वतो ऽनुभवात् ।",
+   "करणशक्तिः स्वतो ऽनुभवात् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_67.wav"
+ },
+ {
+  "id": "siv_68",
+  "meter": "anushtubh",
+  "padas": [
+   "त्रिपदाद्यनुप्राणनम् ।",
+   "त्रिपदाद्यनुप्राणनम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_68.wav"
+ },
+ {
+  "id": "siv_69",
+  "meter": "gadya",
+  "padas": [
+   "चित्तस्थितिवच् छरीरकरणबाह्येषु ।",
+   "चित्तस्थितिवच् छरीरकरणबाह्येषु ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_69.wav"
+ },
+ {
+  "id": "siv_70",
+  "meter": "gadya",
+  "padas": [
+   "अभिलापाद् बहिर्गतिः संवाह्यस्य. ।",
+   "अभिलापाद् बहिर्गतिः संवाह्यस्य. ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_70.wav"
+ },
+ {
+  "id": "siv_71",
+  "meter": "gadya",
+  "padas": [
+   "तदारूढप्रमितेस् तत्क्षयाज् जीवसंक्षयः ।",
+   "तदारूढप्रमितेस् तत्क्षयाज् जीवसंक्षयः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_71.wav"
+ },
+ {
+  "id": "siv_72",
+  "meter": "gadya",
+  "padas": [
+   "भूतकञ्चुकी तदा विमुक्तो भूयः पतिसमः परः ।",
+   "भूतकञ्चुकी तदा विमुक्तो भूयः पतिसमः परः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_72.wav"
+ },
+ {
+  "id": "siv_73",
+  "meter": "gadya",
+  "padas": [
+   "नैसर्गिकः प्राणसम्बन्धः ।",
+   "नैसर्गिकः प्राणसम्बन्धः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_73.wav"
+ },
+ {
+  "id": "siv_74",
+  "meter": "gadya",
+  "padas": [
+   "नासिकान्तर्मध्यसंयमात् किम् अत्र सव्यापसव्यसौषुम्नेषु ।",
+   "नासिकान्तर्मध्यसंयमात् किम् अत्र सव्यापसव्यसौषुम्नेषु ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_74.wav"
+ },
+ {
+  "id": "siv_75",
+  "meter": "anushtubh",
+  "padas": [
+   "भूयः स्यात् प्रतिमीलनम्. ।",
+   "भूयः स्यात् प्रतिमीलनम्. ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/siv_75.wav"
+ }
+]

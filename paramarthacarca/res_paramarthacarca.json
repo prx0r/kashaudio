@@ -1,0 +1,58 @@
+[
+ {
+  "id": "pac_01",
+  "dur": 12.201,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramarthacarca/pac_01.wav"
+ },
+ {
+  "id": "pac_02",
+  "dur": 12.427,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramarthacarca/pac_02.wav"
+ },
+ {
+  "id": "pac_03",
+  "dur": 11.598,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramarthacarca/pac_03.wav"
+ },
+ {
+  "id": "pac_04",
+  "dur": 11.39,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramarthacarca/pac_04.wav"
+ },
+ {
+  "id": "pac_05",
+  "dur": 12.15,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramarthacarca/pac_05.wav"
+ },
+ {
+  "id": "pac_06",
+  "dur": 12.215,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramarthacarca/pac_06.wav"
+ },
+ {
+  "id": "pac_07",
+  "dur": 12.421,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramarthacarca/pac_07.wav"
+ },
+ {
+  "id": "pac_08",
+  "dur": 14.693,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_paramarthacarca/pac_08.wav"
+ }
+]

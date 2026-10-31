@@ -1,0 +1,79 @@
+[
+ {
+  "id": "prv_01",
+  "dur": 30.67,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_parapravesika/prv_01.wav"
+ },
+ {
+  "id": "prv_02",
+  "dur": 8.953,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_parapravesika/prv_02.wav"
+ },
+ {
+  "id": "prv_03",
+  "dur": 10.053,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_parapravesika/prv_03.wav"
+ },
+ {
+  "id": "prv_04",
+  "dur": 5.399,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_parapravesika/prv_04.wav"
+ },
+ {
+  "id": "prv_05",
+  "dur": 5.455,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_parapravesika/prv_05.wav"
+ },
+ {
+  "id": "prv_06",
+  "dur": 3.711,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_parapravesika/prv_06.wav"
+ },
+ {
+  "id": "prv_07",
+  "dur": 44.05,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_parapravesika/prv_07.wav"
+ },
+ {
+  "id": "prv_08",
+  "dur": 5.199,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_parapravesika/prv_08.wav"
+ },
+ {
+  "id": "prv_09",
+  "dur": 2.554,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_parapravesika/prv_09.wav"
+ },
+ {
+  "id": "prv_10",
+  "dur": 2.453,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_parapravesika/prv_10.wav"
+ },
+ {
+  "id": "prv_11",
+  "dur": 11.174,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_parapravesika/prv_11.wav"
+ }
+]

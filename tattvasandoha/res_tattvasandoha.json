@@ -1,0 +1,149 @@
+[
+ {
+  "id": "tsa_01",
+  "dur": 10.198,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_01.wav"
+ },
+ {
+  "id": "tsa_02",
+  "dur": 10.21,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_02.wav"
+ },
+ {
+  "id": "tsa_03",
+  "dur": 9.97,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_03.wav"
+ },
+ {
+  "id": "tsa_04",
+  "dur": 9.89,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_04.wav"
+ },
+ {
+  "id": "tsa_05",
+  "dur": 10.277,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_05.wav"
+ },
+ {
+  "id": "tsa_06",
+  "dur": 10.95,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_06.wav"
+ },
+ {
+  "id": "tsa_07",
+  "dur": 9.359,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_07.wav"
+ },
+ {
+  "id": "tsa_08",
+  "dur": 9.933,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_08.wav"
+ },
+ {
+  "id": "tsa_09",
+  "dur": 9.63,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_09.wav"
+ },
+ {
+  "id": "tsa_10",
+  "dur": 9.81,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_10.wav"
+ },
+ {
+  "id": "tsa_11",
+  "dur": 10.018,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_11.wav"
+ },
+ {
+  "id": "tsa_12",
+  "dur": 10.034,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_12.wav"
+ },
+ {
+  "id": "tsa_13",
+  "dur": 9.555,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_13.wav"
+ },
+ {
+  "id": "tsa_14",
+  "dur": 9.95,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_14.wav"
+ },
+ {
+  "id": "tsa_15",
+  "dur": 12.27,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_15.wav"
+ },
+ {
+  "id": "tsa_16",
+  "dur": 10.098,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_16.wav"
+ },
+ {
+  "id": "tsa_17",
+  "dur": 9.379,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_17.wav"
+ },
+ {
+  "id": "tsa_18",
+  "dur": 10.075,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_18.wav"
+ },
+ {
+  "id": "tsa_19",
+  "dur": 9.818,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_19.wav"
+ },
+ {
+  "id": "tsa_20",
+  "dur": 9.695,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_20.wav"
+ },
+ {
+  "id": "tsa_21",
+  "dur": 9.213,
+  "pieces": 2,
+  "seed": 60,
+  "out": "/kaggle/working/out_tattvasandoha/tsa_21.wav"
+ }
+]
