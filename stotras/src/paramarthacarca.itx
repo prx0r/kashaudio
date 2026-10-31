@@ -1,0 +1,61 @@
+% Text title            : Paramarthacharcha by Abhinavagupta
+% File name             : paramArthacharchA.itx
+% Category              : major\_works, abhinavagupta, aShTaka, kAshmIrashaivadarshanam
+% Location              : doc\_z\_misc\_major\_works
+% Author                : Abhinavagupta
+% Transliterated by     : Ruma Dewan
+% Proofread by          : Ruma Dewan
+% Description-comments  : from Abhinavastotravali
+% Latest update         : December 18, 2021
+% Send corrections to   : sanskrit at cheerful dot c om
+%
+% This text is prepared by volunteers and is to be used for personal study 
+% and research. The file is not to be copied or reposted for promotion of 
+% any website or individuals or for commercial purpose without permission. 
+% Please help to maintain respect for volunteer spirit.
+%
+\documentstyle[11pt,multicol,itrans]{article}
+#include=ijag.inc
+#endwordvowel=.h
+\portraitwide
+\parindent=100pt                
+\let\usedvng=\Largedvng      % for 1 column     
+\pagenumbering{itrans} 
+\def\engtitle#1{\hrule\medskip\centerline{\LARGE #1}}
+\def\itxtitle#1{\medskip\centerline{\LARGEdvng #1}\medskip\hrule}
+\def\endtitles{\medskip\obeyspaceslines}
+%%
+\begin{document}
+\engtitle{.. paramArthacharchA ..}##
+\itxtitle{.. paramArthacharchA ..}##\endtitles ##
+arkendudIpAdyavabhAsabhinnaM nAbhAtyativyAptatayA tatashcha |
+prakAsharUpaM tadiyat prakAshyaprakAshatAkhyA vyavahAra eva || 1||
+j~nAnadvibhinno na hi kashchidarthaH tattatkR^itaH saMvidi nAsti bhedaH |
+svaya.nprakAshAchChatamaikadhAmni prAtisvikI nApi vibheditA syAt || 2||
+itthaM svasaMvidghana eka eva shivaH sa vishvasya paraH prakAshaH|
+tatrApi bhAtyeva vichitrashaktau grAhmagR^ihItR^ipravibhAgabhedaH || 3||
+bhedaH sa chAyaM na tato vibhinnaH svachChandasusvachChatamaikadhAmnaH|
+prAsAdahastyashvapayodasindhugiryAdi yadvanmaNidarpaNAdeH || 4||
+AdarshakukSho pratibimbakAri sabimbakaM syAdyadi mAnasiddham |
+svachChandasaMvinmukurAntarAle bhAveShu hetvantaramasti nAnyat || 5||
+saMvidghanastena parastvameva tvayyeva vishvAni chakAsati drAk |
+sphuranti cha tvanmahasaH prabhAvAt tvameva chaiShAM parameshakartA || 6||
+itthaM svasaMvedanamAdisiddhamasAdhyamAtmAnamanIshamIsham |
+svashaktisampUrNavadeshakAlaM nityaM vibhuM bhairavanAthamIDe || 7||
+sadvR^ittasaptakamidaM galitAnyachintAH
+      samyak smaranti hR^idaye paramArthakAmAH |
+te bhairavIyaparadhAma muhurvishanti
+      jAnanti cha trijagatIparamArthacharchAm || 8||
+
+|| iti shrImadabhinavaguptavirachitA paramArthacharchA samAptA ||
+
+##
+Encoded and proofread by Ruma Dewan
+
+\medskip\hrule\obeylines
+
+Please send corrections to sanskrit@cheerful.com
+Last updated \today
+https://sanskritdocuments.org
+
+\end{document}

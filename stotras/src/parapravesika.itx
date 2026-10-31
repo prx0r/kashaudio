@@ -1,0 +1,136 @@
+% Text title            : parApraveshikAkShemarAja
+% File name             : parApraveshikAkShemarAja.itx
+% Category              : shiva, major\_works
+% Location              : doc\_shiva
+% Proofread by          : Swamini Tattvapriyananda tattvapriya3108 at gmail.com
+% Latest update         : October 20, 2019
+% Send corrections to   : Sanskrit@cheerful.com
+%
+% This text is prepared by volunteers and is to be used for personal study 
+% and research. The file is not to be copied or reposted for promotion of 
+% any website or individuals or for commercial purpose without permission. 
+% Please help to maintain respect for volunteer spirit.
+%
+\documentstyle[11pt,multicol,itrans]{article}
+#include=ijag.inc
+#endwordvowel=.h
+\portraitwide
+\parindent=100pt                
+\let\usedvng=\Largedvng      % for 1 column     
+\pagenumbering{itrans} 
+\def\engtitle#1{\hrule\medskip\centerline{\LARGE #1}}
+\def\itxtitle#1{\medskip\centerline{\LARGEdvng #1}\medskip\hrule}
+\def\endtitles{\medskip\obeyspaceslines}
+%%
+\begin{document}
+\engtitle{.. Parapraveshika ..}##
+\itxtitle{.. parApraveshikA ..}##\endtitles ##
+OM namaH parAshaktyai ||
+vishvAtmikAM taduttIrNA hR^idayaM parameshituH |
+parAdishaktibhedena sphurantIM saMvidaM numaH || ## var ## parAdishaktirUpeNa
+iha khalu parameshvaraH prakAshAtmA prakAshashcha vimarshasvabhAvaH ||
+vimarsho hi nAma vishvAkAreNa vishvaprakAshena vishvasaMharaNena
+chAkR^itrimAhamiti visphuraNam | yadi nirvimarshaH syAdanIshvaro
+jaDashcha prasajyeta | eSha eva cha vimarshaH \- chichchaitanyaM
+svarasoditAparAvAksvAtantryaM paramAtmano mukhyamaishvaryaM kartR^itvaM
+sphurattA sAro hR^idayaM spanda ityAdishabdairAgameShUdghoShyate.ata
+evAkR^itrimAhamiti\-satattvam | svayamprakAshasvarUpaH
+parameshvaraH pArameshvaryAt shivAdidharaNyantaM jagadAtmanA
+sphurati prakAshate | etadevAsya janArtR^itvamajaDatvaM cha |
+jagatashcha kAryatvama.apyetadadhInaprakAshatvamevaivambhUtaM
+jagat prakAsharUpAt karturmaheshvarAdabhinnameva | bhinnatve hi
+aprakAshamAnatvena prakAshanAyogAd na ki~nchitsyAd | anena cha
+jagatAsya bhagavataH prakAshAtmakaM rUpaM na kadAchidtirodhIyata
+etatprakAshanena pratiShThAM labdhvA prakAshamAnamidaM jagadAtmanaH
+prANabhUtaM kathaM niroddhuM shaknuyAt | kathaM cha rUpaM tannirudhya
+svayamavatiShTheta | atashchAsya vastunaH sAdhakamidaM vAdhakamidaM
+pramANamityanusandhAnAtmakasAdhakavAdhakapramAtR^irUpatayA chAsya
+sadbhAvaH | tatsadbhAve kiM pramANam \- iti vastusadbhAvamanumanye |
+tAdR^iksvabhAvavatve kiM pramANam \- iti praShTR^irUpatayA
+cha pUrvasiddhasya parameshvarasya svayamprakAshatvaM sarvasya
+svasaMvedanasiddham | ki~ncha pramANamapi yamAshritya pramANaM
+bhavati tasya pramANasya tadadhInasharIraprANanIlasukhAdivedyaM
+chAtishayya sadA bhAsamAnasya vedakaikarUpasya sarvapramitibhAjaH
+siddhAvabhinavArthaprakAshasya pramANavarAkasya kashchopayogaH |
+evaM cha shabdarAshimayapUrNAnantAhantAparAmarshasAratvAt
+paramashiva eva ShaTtriMshattattvAni | kAni ityAha ||
+shivashaktisadAshiveshvarashuddhavidyAmAyAkalAvidyAkAlaniyatipuruSha
+prakR^itimanobud.hdhyaha~NkArashrotratvakchakShurjihvAghrANa\-
+vAkpANipAdapAyUpasthashabdasparshUparasagandhAkAshavAyuvahnisalilabhUmayaH
+ityetAni ShaTtriMshat lakShaNAni | tatra shivatattvaM nAma
+ichChAj~nAnakriyAtmakakevalapUrNAnandasvabhAvarUpaH paramashiva eva || 1||
+
+asya jagatsraShTumichChAparigR^ihItavataH parameshvarasya prathamaspanda
+evechChAshaktitattvam || 2||
+
+apratihatechChatvAta sadaivA~NkurAyamANamidaM jagat
+svAtmanAhantayAchChAdyAvasthitaM sadAshivatattvam || 3||
+
+a~NkuritaM jagadidantayAvR^ityAsthitamIshvaratattvam || 4||
+
+ahantvedantayoraikyasvarUpeShu bhedabhAvaprathA mAyA || 5||
+
+svasvarUpeShu bhedabhAvaprathA mAyA || 6||
+
+yadA tu parameshvaraH pArameshvaryA mAyAshaktyA svarUpaM gR^ihayitvA
+sa~NkuchitagrAhakatAmashnute tadA puruShasa.nj~no.ayameva mAyAmohitaH
+karmabandhanaH saMsArI parameshvarAdabhinno.apyasya mohaH parameshvarasya
+na bhavet | indrajAlamiva aindrajAlikasya svechChayA sampAditabhrAnteH
+bhrAnta eva rvidyAbhij~nAteshvaryastu chidghano muktaH paramashivaH |
+asyaiva sarvakartR^itvaM sarvaj~natvaM pUrNatvaM vyApakatvaM
+nityatvaM cha | shaktayo.asa~NkuchitA api sa~NkochagrahaNena
+kalAvidyArAgakAlaniyatirUpatayA bhavanti || 7||
+
+tatra kalAnAmasya puruShasya ki~nchitkartR^itvahetuH || 8||
+
+vidyA ki~nchijj~natvakAraNam || 9||
+
+rAgo viShayeShvabhiShva~NgaH || 10||
+
+kAlo hi bhAvanAM bhAsanAbhAsanAtmakAnAM kramo.avachChedako
+bhUtAdirniyatirmamedaM kartavyamiti niyamanahetuH || 11||
+
+etatpa~nchakamasya svarUpAvarakatvAtka~nchukamityuchyate |
+mahadAdipR^ithivyantAnAM tattvAnAM kAraNaM mUlaprakR^itiH |
+eShA cha sattvarajastamasAM sAmyAvasthA | avibhaktarUpaM manaH
+sa~NkalpasAdhanAbuddhiH  nishchayasAdhanA aha~NkAro nAma \-
+mamedaM na mamedamityabhimAnasAdhanam | etattrayamantaHkaraNam |
+shabdasparsharUparasagandhAtmakAnAM viShayANAM krameNa sAdhanAni
+shrotratvakchakShurjihvAghrANAni pa~ncha j~nAnendriyANi |
+vachanAdAnaviharaNavisargAnandAtmakriyAsAdhanAni
+paripAThya vAkpANipAdapAyUpasthAni pa~ncha karmendriyANi |
+shabdasparsharUparasagandhasAmAnyAkArANi pa~nchatanmAtrANi |
+AkAshamavakAshapradam | vAyuH sa~njIvanam | agnirdAhakaH pAchakashcha
+salilamApyAyanaM dravarUpaM cha |  bhUmirdhArikA kaThinarUpA cha | etat
+sarvam |
+yathA nyagrodhabIjasthaH shaktirUpo mahAdrumaH |
+tathA hR^idayabIjasthaM jagadetachcharAcharam ||
+
+ityAmnAyarItyA parAbhaTTArikArUpe hR^idayabIje.antarbhUtam | kathamityAha
+|| \- yathA ghaTasharAvAdInAM mR^idvikArANAM pAramArthikaM rUpaM mR^ideva
+bhavati | yathA vA jalAdidravajAtInAM vichAryamANaM vyavasthitaM rUpaM
+jalAdisAmAnyameva bhavati tathA pR^ithivyAdimAyAntAnAM tattvAnAM satattvaM
+mImAMsyamAnaM sadeva bhaved, asyApi padasya nirUpyamANaM svalakShaNaM
+dhAtvarthavya~njakaM pratyayAMshaM visR^ijya prakR^itimAtrarUpaM
+sAkAramAtram  evAvashiShyate | tadantargatamekatriMshattatvam | ataH paraM
+shuddhavidyeshvarasadAshivatattvAni j~nAnakriyAsArANi | shaktivisheShatvAt
+o~NkAre.abhyupagamarUpe anuttarashaktimaye paramarahasye ye.antarbhUtAni
+| ataH paramUrdhvAdhaH sR^iShTimaye tu visarjanIyaH | evambhUtasya
+hR^idayabIjasya mahAmantrAtmako vishvamayo vishvottIrNaH paramashiva
+evodayavishrAntisthAnatvAnnija svabhAvaH | IdR^ishaM hR^idayaM bIjaM
+tattvato yo veda svAtmatayA samAvishati cha sa paramArthato dIkShitaH
+prANAn dhArayan laukikavadvartamAno jIvanmukta eva bhaviShyati ||
+## var ## jIvanmukta eva bhavati, dehapAte parashivabhaTTAraka ve bhavati ||
+
+iti parApraveshikAkR^itiriyaM kShemarAjasya ||
+
+##
+Proofread by Swamini Tattvapriyananda tattvapriya3108 at gmail.com
+
+\medskip\hrule\obeylines
+
+Please send corrections to sanskrit at cheerful dot c om
+Last updated \today
+https://sanskritdocuments.org
+
+\end{document}
