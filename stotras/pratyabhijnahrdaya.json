@@ -1,0 +1,222 @@
+[
+ {
+  "id": "hrd_01",
+  "meter": "gadya",
+  "padas": [
+   "चितिः स्वतन्त्रा विश्वसिद्धिहेतुः ।",
+   "चितिः स्वतन्त्रा विश्वसिद्धिहेतुः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_01.wav"
+ },
+ {
+  "id": "hrd_02",
+  "meter": "gadya",
+  "padas": [
+   "स्वेच्छया स्वभित्तौ विश्वम् उन्मीलयति ।",
+   "स्वेच्छया स्वभित्तौ विश्वम् उन्मीलयति ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_02.wav"
+ },
+ {
+  "id": "hrd_03",
+  "meter": "gadya",
+  "padas": [
+   "तन् नाना अनुरूपग्राह्यग्राहकभेदात् ।",
+   "तन् नाना अनुरूपग्राह्यग्राहकभेदात् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_03.wav"
+ },
+ {
+  "id": "hrd_04",
+  "meter": "gadya",
+  "padas": [
+   "चितिसंकोचात्मा चेतनो ऽपि संकुचितविश्वमयः ।",
+   "चितिसंकोचात्मा चेतनो ऽपि संकुचितविश्वमयः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_04.wav"
+ },
+ {
+  "id": "hrd_05",
+  "meter": "gadya",
+  "padas": [
+   "चित्तम् ।",
+   "चित्तम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_05.wav"
+ },
+ {
+  "id": "hrd_06",
+  "meter": "anushtubh",
+  "padas": [
+   "तन्मयो मायाप्रमाता ।",
+   "तन्मयो मायाप्रमाता ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_06.wav"
+ },
+ {
+  "id": "hrd_07",
+  "meter": "anushtubh",
+  "padas": [
+   "सप्तपञ्चकस्वभावः ।",
+   "सप्तपञ्चकस्वभावः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_07.wav"
+ },
+ {
+  "id": "hrd_08",
+  "meter": "gadya",
+  "padas": [
+   "तद्भूमिकाः सर्वदर्शनस्थितयः ।",
+   "तद्भूमिकाः सर्वदर्शनस्थितयः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_08.wav"
+ },
+ {
+  "id": "hrd_09",
+  "meter": "gadya",
+  "padas": [
+   "चिद्वत् तच् छक्तिसंकोचात् मलावृतः संसारी ।",
+   "चिद्वत् तच् छक्तिसंकोचात् मलावृतः संसारी ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_09.wav"
+ },
+ {
+  "id": "hrd_10",
+  "meter": "gadya",
+  "padas": [
+   "तथापि तद्वत् पञ्चकृत्यानि करोति ।",
+   "तथापि तद्वत् पञ्चकृत्यानि करोति ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_10.wav"
+ },
+ {
+  "id": "hrd_11",
+  "meter": "gadya",
+  "padas": [
+   "तानि ।",
+   "तानि ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_11.wav"
+ },
+ {
+  "id": "hrd_12",
+  "meter": "gadya",
+  "padas": [
+   "संसारित्वम् ।",
+   "संसारित्वम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_12.wav"
+ },
+ {
+  "id": "hrd_13",
+  "meter": "gadya",
+  "padas": [
+   "चेतनपदाध्यारोहात् चितिः ।",
+   "चेतनपदाध्यारोहात् चितिः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_13.wav"
+ },
+ {
+  "id": "hrd_14",
+  "meter": "gadya",
+  "padas": [
+   "मेयेन्धनं प्लुष्यति ।",
+   "मेयेन्धनं प्लुष्यति ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_14.wav"
+ },
+ {
+  "id": "hrd_15",
+  "meter": "gadya",
+  "padas": [
+   "बललाभे विश्वम् आत्मसात्करोति ।",
+   "बललाभे विश्वम् आत्मसात्करोति ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_15.wav"
+ },
+ {
+  "id": "hrd_16",
+  "meter": "gadya",
+  "padas": [
+   "चिदैकात्म्यप्रतिपत्तिदार्ढ्यं जीवन्मुक्तिः ।",
+   "चिदैकात्म्यप्रतिपत्तिदार्ढ्यं जीवन्मुक्तिः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_16.wav"
+ },
+ {
+  "id": "hrd_17",
+  "meter": "gadya",
+  "padas": [
+   "मध्यविकासाच् चिदानन्दलाभः ।",
+   "मध्यविकासाच् चिदानन्दलाभः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_17.wav"
+ },
+ {
+  "id": "hrd_18",
+  "meter": "gadya",
+  "padas": [
+   "इह उपायाः ।",
+   "इह उपायाः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_18.wav"
+ },
+ {
+  "id": "hrd_19",
+  "meter": "gadya",
+  "padas": [
+   "चिदैक्यामर्शान् नित्योदितसमाधिलाभः ।",
+   "चिदैक्यामर्शान् नित्योदितसमाधिलाभः ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_19.wav"
+ },
+ {
+  "id": "hrd_20",
+  "meter": "gadya",
+  "padas": [
+   "भवतीति शिवम् ।",
+   "भवतीति शिवम् ॥"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "out/hrd_20.wav"
+ }
+]
