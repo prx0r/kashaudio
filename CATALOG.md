@@ -2,75 +2,69 @@
 
 Single source of truth. Supersedes `STATUS.md` / `targets.md` (kept for history).
 "Audio" = AI (Vagdhenu) is the deliverable voice; traditional = ear-ref only.
-**My lane: audio (render + align).** Translations = prx0r/ipvv. Cards + fulls = alignment agent.
+**Lane split: audio (render+align) = this repo. Translations = prx0r/ipvv. Cards + fulls = alignment agent.**
 
-## Fully shipped — render + align + cards + fulls
+## Fully shipped — render + align + cards + fulls (10 works, 362 verses)
 
-| # | Text | Author | Verses | Cards | Full | Translations |
-|---|---|---|---|---|---|---|
-| 1 | Bhairavastava (+ phala) | Abhinavagupta | 10 | ✅ 10/10 | ✅ | ✅ |
-| 2 | Anuttarāṣṭikā | Abhinavagupta | 8 | ✅ 8/8 | ✅ | ✅ |
-| 3 | Stavacintāmaṇi | Bhaṭṭa Nārāyaṇa | 120 | ✅ 120/120 | ✅ | ✅ |
-| 4 | Dehasthadevatācakra | anon (Krama) | 16 | ✅ 16/16 | ✅ | ✅ |
-| 5 | Bodhapañcadaśikā | Abhinavagupta | 15 | ✅ 15/15 | ✅ | ✅ |
-| 6 | Mahopadeśaviṃśatikā | Abhinavagupta | 20 | ✅ 20/20 | ✅ | ✅ |
-| 7 | Rahasyapañcadaśikā | Abhinavagupta | 15+colophon | ✅ 16/16 | ✅ | ✅ |
-| 8 | Paramārthadvādaśikā | Abhinavagupta | 12+phala | ✅ 13/13 | ✅ | ✅ |
-| 9 | Pañcaślokī | Abhinavagupta | 5 | ✅ 5/5 | ✅ | ✅ (canonical) |
-| 10 | Kramastotra | Abhinavagupta | 29+dating | ✅ 30/30 | ✅ | ✅ (Singh/Maheshvarananda) |
+| # | Text | Author | Verses |
+|---|---|---|---|
+| 1 | Bhairavastava (+ phala) | Abhinavagupta | 10 |
+| 2 | Anuttarāṣṭikā | Abhinavagupta | 8 |
+| 3 | Stavacintāmaṇi | Bhaṭṭa Nārāyaṇa | 120 |
+| 4 | Dehasthadevatācakra | anon (Krama) | 16 |
+| 5 | Bodhapañcadaśikā | Abhinavagupta | 15 |
+| 6 | Mahopadeśaviṃśatikā | Abhinavagupta | 20 |
+| 7 | Rahasyapañcadaśikā | Abhinavagupta | 15+colophon |
+| 8 | Paramārthadvādaśikā | Abhinavagupta | 12+phala |
+| 9 | Pañcaślokī | Abhinavagupta | 5 |
+| 10 | Kramastotra | Abhinavagupta | 29+dating |
 
-**Totals: 362 verses fully shipped across 10 works. 10 fulls on disk + R2.**
+10 fulls on disk + R2 (`publish_r2.sh`).
 
-## Render + align done, cards pending
+## Render + align done — cards waiting on translations (18 works, 399 verses)
 
-| # | Text | Author | Verses | Wavs | Aligned | Cards | Blocker |
-|---|---|---|---|---|---|---|---|
-| 11 | Śivastotrāvalī Stotra 1 rest | Utpaladeva | 25 | ✅ | ✅ | 3/25 | ipvv translations (25 verses) |
+| # | Text | Author | Verses |
+|---|---|---|---|
+| 11 | Śivastotrāvalī Stotra 1 rest | Utpaladeva | 25 |
+| 12 | Anubhavanivedana | Abhinavagupta | 4 |
+| 13 | Bodhavilāsa | Kṣemarāja | 42 |
+| 14 | Bhairavānukaraṇastotra | Kṣemarāja | 48 |
+| 15 | Ajadapramātṛsiddhi | Utpaladeva | 27 |
+| 16 | Paryantapañcāśikā | Abhinavagupta | 53 |
+| 17 | Pratyabhijñāhṛdayam | Kṣemarāja | 20 sūtras |
+| 18 | Paramārthasāra | Abhinavagupta | 105 |
+| 19 | Sambandhasiddhi | Utpaladeva | 9 |
+| 20 | Īśvarasiddhi | Utpaladeva | 17 |
+| 21 | PTV Madhyama | Abhinavagupta | 12 |
+| 22 | Paramārthacarcā | Abhinavagupta | 8 |
+| 23 | Parāprāveśikā | Kṣemarāja | 12 |
+| 24 | Tattvasandoha | Kṣemarāja | 21 |
+| 25 | Svabodhasiddhi | Bhūtirāja | 8 |
+| 26 | Śaktavijñāna | Somānanda | 10 |
+| 27 | Spandakārikā | Vasugupta | 13 |
+| 28 | Śivasūtra | Vasugupta | 75 |
 
-## In flight (v11 on Kaggle, ~1h left)
+**Grand total: 761 verses across 28 works rendered + aligned. 0 errors, 0 badchars.**
 
-| # | Text | Author | Verses | State |
-|---|---|---|---|---|
-| 12 | Anubhavanivedana | Abhinavagupta | 4 | rendering |
-| 13 | Bodhavilāsa | Kṣemarāja | 42 | rendering |
-| 14 | Bhairavānukaraṇastotra | Kṣemarāja | 48 | rendering |
-| 15 | Ajadapramātṛsiddhi | Utpaladeva | 27 | rendering |
+## Recitation gold remaining in prx0r/ipvv
 
-## Shards built, awaiting kernel (v12)
+Filter: verse/kārikā/stotra type (not commentary), text held or sourceable.
 
-| # | Text | Author | Verses | Format | Status |
+| Work | Author | Size | ipvv status | Text | Priority |
 |---|---|---|---|---|---|
-| 16 | Pratyabhijñāhṛdayam | Kṣemarāja | 20 sūtras | **gadya** (prose) | FORMAT FLAG: pilot 2–3 first |
-| 17 | Paryantapañcāśikā | Abhinavagupta | 53 | anuṣṭubh | ready |
+| **Anuttaraśataka** | Abhinavagupta | 100 vv | STOCKPILE | need source | HIGH — short century |
+| **Prakaraṇastotra** | Abhinavagupta | ? | STOCKPILE | need source | HIGH |
+| **Paramārthasaṃgraha** | Abhinavagupta | ? | STOCKPILE | need source | MED |
+| **Tantravaṭadhānikā** | Abhinavagupta | verse | STOCKPILE | need source | MED — "Seed of Tantra" |
+| **Tattvādhvaprakāśikā** | Abhinavagupta | ? | STOCKPILE | need source | MED |
+| **Spandasandoha** | Kṣemarāja | short | SOURCE_HELD | `spandasandoha.txt` ✅ | HIGH — text in hand |
+| **Śivastotrāvalī Stotras 2–20** | Utpaladeva | 19 songs | SOURCE_HELD | full shard exists ✅ | SING phase (not chant) |
+| **IPK** | Utpaladeva | 4 adhikāras | SOURCE_HELD | `ipk.txt` ✅ | LOW — dense philosophy, STUDY |
+| **Venisamhara** | Bhaṭṭa Nārāyaṇa | 6 acts | SOURCE_HELD | drama, not chant | SKIP |
+| **Spandanirṇaya** | Kṣemarāja | 53 comm. | SOURCE_HELD | commentary | STUDY |
+| **Śivasūtravimarśinī** | Kṣemarāja | 77 comm. | SOURCE_HELD | commentary | STUDY |
 
-## Need text source (not on GRETIL)
-
-| # | Text | Author | Verses | Note |
-|---|---|---|---|---|
-| 18 | Parāprāveśikā | Kṣemarāja | 1 aphorism | not on GRETIL; try Muktabodha |
-| 19 | Paramārthacarcā | Abhinavagupta | TBD | not on GRETIL; Pandey appendix |
-| 20 | Īśvara/Sambandha-siddhis | Utpaladeva | TBD | Ajadapramātṛsiddhi done; others need source |
-| 21 | Tattvasandoha | Kṣemarāja | verify | Tier 2 if short |
-| 22 | Paramārthasāra | Abhinavagupta | 105 | GRETIL ✅; next capstone |
-
-## Out of scope — huge targets for Fish Audio / other agent
-
-These are too large for our Kaggle quota + Vagdhenu pipeline (100+ verses
-each), but Fish Audio's S2.1-Pro has a **free API** (`s2.1-pro-free`) and
-voice-clone from 10–30s reference audio. Another agent with a Fish key
-could render these:
-
-| Target | Author | Size | Why out of scope | Source |
-|---|---|---|---|---|
-| **Paramārthasāra** | Abhinavagupta | 105 verses | fits but it's our next capstone — do with Vagdhenu | GRETIL TEI ✅ |
-| **Tantrasāra** | Abhinavagupta | ~268p, mostly prose | STUDY by our rule; but verse portions could be chanted | GRETIL TEI ✅ |
-| **Tantrāloka** | Abhinavagupta | 37+ chapters, thousands of verses | massive; STUDY; verse insertions only if desired | GRETIL TEI ✅ |
-| **Vijñāna Bhairava Tantra** | tradition | 162 verses | not trio; but hugely popular for chanting | multiple sources |
-| **Śivadṛṣṭi** | Somānanda | ~30 verses | non-trio (pre-Utpaladeva); short enough for anyone | need source |
-| **Spandakārikā** | Vasugupta | ~33 verses | non-trio; foundational; short | GRETIL TEI ✅ |
-| **Śivasūtra** | Vasugupta | 77 sūtras | non-trio; gadya format like Hṛdayam | GRETIL TEI ✅ |
-| **Bhagavad Gītā** | tradition | 700 | huge; universal chanting target | multiple |
-| **Śrīmad Bhāgavatam** | tradition | 16,017 | Vagdhenu already did this (per README) | already done |
+**Immediate next:** Spandasandoha (text in hand) + Anuttaraśataka (source hunt).
 
 ## Delivery rules
 
@@ -78,12 +72,13 @@ could render these:
 - **SING** = melodic bhakti — Stotrāvalī Stotras 2–20 wait for singing phase.
 - **STUDY** = treatises, commentaries — never audio targets.
 
-## Pipeline state (see PROCESS.md)
+## Pipeline state (see PROCESS.md for laws)
 
-- Render: v10 = 109/109 clean; v11 running. Env law: numpy 2.2.x, IndicF5
-  pinned to live HEAD `13f7c4d...cacacdc7`, `indic-transliteration` explicit.
-  Verify cell RAISES on failure (v10 false-COMPLETE incident).
-- Align: word MMS → syllable MMS authority → matra rhythm. Means 0.92–0.94.
+- Render: v10–v17 complete, 761 clips, 0 env failures across 592 session clips.
+  Env law: numpy 2.2.x, IndicF5 pinned to live HEAD, verify cell RAISES.
+- Align: word MMS → syllable MMS authority → matra rhythm. Means 0.87–0.94.
 - Cards: stills-first law, per-frame overflow guard, LEAD=0.28 locked.
-- R2: `publish_r2.sh` backs up working tree + finals. Latest: `v10-cards`.
-- Quota: ~9h of 30h/week used. Disk: ~2.9G free — watch /tmp.
+  10 works shipped; 18 works waiting on translations.
+- R2: `publish_r2.sh` = 3 targets (R2 backup + R2 finals + opencode2 volume).
+- Quota: ~15h of 30h/week used (v8–v17). Disk: ~2.4G free.
+- Translations: 278/761 done (Qwen + canonical). 483 pending — prx0r/ipvv lane.

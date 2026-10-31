@@ -222,3 +222,63 @@ taste/structure-only; two consecutive verdict batches now refuted.
   `r2:ets/finals-20261030/`. Ship + verify script: `publish_r2.sh`.
 - Uncommitted at time of writing: `build_fulls.py` fix, 5 rebuilt fulls,
   `publish_r2.sh`, this PROCESS entry. Commit + push when owner confirms.
+
+## Session notes (2026-10-31 — mass render v10→v17, 761 verses)
+
+### Batches pushed and completed
+
+| Kernel | Works | Clips | Result |
+|---|---|---|---|
+| v10 | Rahasya 16, Dvādaśikā 13, Mahopadeśa 20, Pañcaślokī 5, Kramastotra 30, Stotra-1 rest 25 | 109 | 0 errors |
+| v11 | Anubhavanivedana 4, Bodhavilāsa 42, Bhairavānukaraṇastotra 48, Ajadapramātṛsiddhi 27 | 121 | 0 errors |
+| v12 | Paryantapañcāśikā 53, Pratyabhijñāhṛdayam 20 | 73 | 0 errors |
+| v13 | Paramārthasāra 105 | 105 | 0 errors |
+| v14 | Sambandhasiddhi 9, Īśvarasiddhi 17, PTV Madhyama 12 | 38 | 0 errors |
+| v15 | Paramārthacarcā 8, Parāprāveśikā 11 | 19 | 0 errors |
+| v16 | Tattvasandoha 21 | 21 | 0 errors |
+| v17 | Svabodhasiddhi 8, Śaktavijñāna 10, Spandakārikā 13, Śivasūtra 75 | 106 | 0 errors |
+
+**Session total: 592 new verses rendered + aligned. Grand total: 761 across 28 works.**
+
+### Text sourcing finds
+
+- Paramārthacarcā, Parāprāveśikā: sanskritdocuments ITX (GRETIL miss, Archive miss).
+- Tattvasandoha: delivered via `handover/tattvasandoha` branch (21 stanzas,
+  Pradipaka's sanskrit-trikashaivism page; KSTS13 scan OCR unusable).
+- Spandakārikā, Śivasūtra, Śaktavijñāna, Svabodhasiddhi: ipvv `samples/*/L1-full.md`
+  (clean controlled IAST, passage-block format).
+
+### Shard-build pitfalls fixed
+
+- **ipvv L1 verse counts are approximate** — L1 prose merges padas into
+  sentences; parser extracts pairs but lands below source count (e.g. 9 vs 21
+  for Sambandhasiddhi). Fine for audio; translation layer maps back.
+- **Parāprāveśikā ITX**: prose commentary markers `|| N ||` are NOT verse
+  boundaries — parser grabbed 1744-char pada1 from prose. Rebuilt by extracting
+  invocation + numbered verse fragments only (12 clips).
+- **TeX line-continuation `\-`** leaked into Anubhavanivedana shard (badchar).
+  `norm_line` in build_shards4.py now strips `:` `;` `\\-` and adds junk scan.
+- **Ajadapramātṛsiddhi TEI**: verses split across `[p]` (first half, no marker)
+  and `[l]` (second half, has `UtAjp_N`). Parser pairs by accumulating
+  non-marker lines until marker found.
+
+### Environment law (confirmed v10–v17, zero env failures)
+
+- numpy 2.2.x, IndicF5 `--no-deps` pinned to live HEAD
+  `13f7c4d627cc10111aea8fe9c0039462cacacdc7`, `indic-transliteration` explicit.
+- **Verify cell RAISES on failure** — v10's earlier false-COMPLETE incident
+  (pinned hash vanished upstream) now impossible: assert fails, kernel FAILED.
+- `--file-pattern 'out_|res_'` on `kernels output` avoids pulling 3GB of repo.
+
+### Three-target publish
+
+`publish_r2.sh <label>`: R2 working tree + R2 finals + opencode2 volume
+(`root@2.28.50.109:/mnt/HC_Volume_106427611/patala/backup/`). SSH key auth
+configured (`~/.ssh/id_ed25519`, comment `opencode3-backup-r2`). All three
+byte-verified on `v10-prep` run.
+
+### Disk law
+
+Session cleaned: shivastotravali/ (804M → R2), figgsite temp (566M),
+pip cache, /tmp f32. Local disk fluctuates 1.9–4.1G. Always run
+`rm -rf /tmp/v*out` after fetch, `rm -rf cards/_join_tmp` after fulls.
