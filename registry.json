@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T06:35:44.270025+00:00",
+ "generated_at": "2026-11-01T07:27:23.604210+00:00",
  "audio_root": "/home/ubuntu/kashmir_audio",
  "cards_dir": "/home/ubuntu/kashmir_audio/cards",
  "translations_file": "/home/ubuntu/kashmir_audio/translations.json",
@@ -384,8 +384,8 @@
    "orphan_cards": [
     "shivastotravali_1_1.mp4 (no timing)"
    ],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "shivastotravali_1_full.mp4",
+   "full_bytes": 6405269,
    "translations_have": 25,
    "translations_missing": 0,
    "status": "audio-done"
@@ -417,8 +417,8 @@
    "cards_mid": 4,
    "cards_held": 4,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "anubhavanivedana_full.mp4",
+   "full_bytes": 2543251,
    "translations_have": 0,
    "translations_missing": 4,
    "status": "audio-done"
@@ -452,8 +452,8 @@
    "cards_mid": 42,
    "cards_held": 42,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "bodhavilasa_full.mp4",
+   "full_bytes": 10589760,
    "translations_have": 0,
    "translations_missing": 42,
    "status": "audio-done"
@@ -487,8 +487,8 @@
    "cards_mid": 48,
    "cards_held": 48,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "bhairavanukarana_full.mp4",
+   "full_bytes": 12654630,
    "translations_have": 0,
    "translations_missing": 48,
    "status": "audio-done"
@@ -522,8 +522,8 @@
    "cards_mid": 27,
    "cards_held": 27,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "ajadapramatrsiddhi_full.mp4",
+   "full_bytes": 4845409,
    "translations_have": 0,
    "translations_missing": 27,
    "status": "audio-done"
@@ -557,8 +557,8 @@
    "cards_mid": 53,
    "cards_held": 53,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "paryantapancasika_full.mp4",
+   "full_bytes": 13417299,
    "translations_have": 0,
    "translations_missing": 53,
    "status": "audio-done"
@@ -592,8 +592,8 @@
    "cards_mid": 20,
    "cards_held": 20,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "pratyabhijnahrdaya_full.mp4",
+   "full_bytes": 2979971,
    "translations_have": 0,
    "translations_missing": 20,
    "status": "audio-done"
@@ -627,8 +627,8 @@
    "cards_mid": 105,
    "cards_held": 105,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "paramarthasara_full.mp4",
+   "full_bytes": 27632480,
    "translations_have": 0,
    "translations_missing": 105,
    "status": "audio-done"
@@ -640,7 +640,8 @@
    "kind": "chant",
    "expected_clips": 9,
    "issues": [
-    "very low mms min 0.0029 (check silent/short)"
+    "very low mms min 0.0029 (check silent/short)",
+    "full sambandhasiddhi_full.mp4 suspiciously small (1914327B) — broken?"
    ],
    "wavs_on_disk": 9,
    "wavs_empty": 0,
@@ -662,8 +663,8 @@
    "cards_mid": 9,
    "cards_held": 9,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "sambandhasiddhi_full.mp4",
+   "full_bytes": 1914327,
    "translations_have": 0,
    "translations_missing": 9,
    "status": "audio-done"
@@ -697,8 +698,8 @@
    "cards_mid": 17,
    "cards_held": 17,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "isvarasiddhi_full.mp4",
+   "full_bytes": 3122945,
    "translations_have": 0,
    "translations_missing": 17,
    "status": "audio-done"
@@ -730,8 +731,8 @@
    "cards_mid": 12,
    "cards_held": 12,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "ptvmadhyama_full.mp4",
+   "full_bytes": 2788721,
    "translations_have": 0,
    "translations_missing": 12,
    "status": "audio-done"
@@ -763,8 +764,8 @@
    "cards_mid": 8,
    "cards_held": 8,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "paramarthacarca_full.mp4",
+   "full_bytes": 2730148,
    "translations_have": 0,
    "translations_missing": 8,
    "status": "audio-done"
@@ -799,8 +800,8 @@
    "cards_mid": 11,
    "cards_held": 11,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "parapravesika_full.mp4",
+   "full_bytes": 2900473,
    "translations_have": 0,
    "translations_missing": 11,
    "status": "audio-done"
@@ -834,8 +835,8 @@
    "cards_mid": 21,
    "cards_held": 21,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "tattvasandoha_full.mp4",
+   "full_bytes": 5670254,
    "translations_have": 0,
    "translations_missing": 21,
    "status": "audio-done"
@@ -869,8 +870,8 @@
    "cards_mid": 8,
    "cards_held": 8,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "svabodhasiddhi_full.mp4",
+   "full_bytes": 4431504,
    "translations_have": 0,
    "translations_missing": 8,
    "status": "audio-done"
@@ -904,8 +905,8 @@
    "cards_mid": 10,
    "cards_held": 10,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "saktavijnana_full.mp4",
+   "full_bytes": 2222349,
    "translations_have": 0,
    "translations_missing": 10,
    "status": "audio-done"
@@ -939,8 +940,8 @@
    "cards_mid": 13,
    "cards_held": 13,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "spandakarika_full.mp4",
+   "full_bytes": 5410518,
    "translations_have": 0,
    "translations_missing": 13,
    "status": "audio-done"
@@ -974,8 +975,8 @@
    "cards_mid": 75,
    "cards_held": 75,
    "orphan_cards": [],
-   "full_mp4": null,
-   "full_bytes": 0,
+   "full_mp4": "sivasutra_full.mp4",
+   "full_bytes": 10404995,
    "translations_have": 0,
    "translations_missing": 75,
    "status": "audio-done"
@@ -1050,7 +1051,6 @@
    "status": "sing-audio-only"
   }
  ],
- "r2_cards_prefix": "r2:kashaudio-backup/cards-noen-20261101-noen (1524 files: 508 noen per-clip mp4s + 1016 stills, byte-verified, local mp4s deleted after verify)",
- "r2_finals": "r2:ets/finals-20261101-noen (29 full mp4s: 18 noen + 11 EN)",
- "noen_layout": "Sanskrit-only centered: deva 84/roman 40 (dense svb_08 class: 70/33 fallback), block [90,990], LEAD 0.28, no English footer. make_card.py --no-en / --no-en-small. Videos deleted locally after R2 verify; rebuild with: for id in <ids>; do make_card.py <id> <work> --no-en --render; done"
+ "r2_volume_backup": "opencode2 root@2.28.50.109:/mnt/HC_Volume_106427611/patala/backup/kashmir-video-20261101/ (fulls 48 files 343,976,133B; shiva_cards 1346 files 341,042,768B; shiva_render 111M) — byte-verified before local delete",
+ "site_relay": "r2:svread-audio/audio (1193 mp3s, 28 works, byte-verified) + karaoke/ (3 json)"
 }
