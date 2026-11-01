@@ -1,14 +1,16 @@
 {
- "generated_at": "2026-11-01T07:27:23.604210+00:00",
+ "generated_at": "2026-11-01T10:03:49.843038+00:00",
  "audio_root": "/home/ubuntu/kashmir_audio",
  "cards_dir": "/home/ubuntu/kashmir_audio/cards",
  "translations_file": "/home/ubuntu/kashmir_audio/translations.json",
+ "cards_location": "r2:kashaudio-backup/cards-noen-20261101-noen + opencode2 volume kashmir-video-20261101/ (local per-clip mp4s + stills pruned after byte verification)",
+ "fulls_location": "opencode2 volume kashmir-video-20261101/fulls + r2:ets/finals-*",
  "translations_keys_total": 703,
  "works_total": 30,
  "wavs_total": 1219,
  "clips_total": 1219,
  "syls_total": 44046,
- "cards_mp4_total": 262,
+ "cards_mp4_total": 261,
  "badchars_total": 0,
  "nonmono_total": 0,
  "zerodur_total": 0,
@@ -19,9 +21,7 @@
    "author": "Abhinavagupta",
    "kind": "chant",
    "expected_clips": 10,
-   "issues": [
-    "very low mms min 0.0401 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 10,
    "wavs_empty": 0,
    "wav_bytes_total": 5871416,
@@ -219,9 +219,7 @@
    "author": "Abhinavagupta",
    "kind": "chant",
    "expected_clips": 16,
-   "issues": [
-    "very low mms min 0.0011 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 16,
    "wavs_empty": 0,
    "wav_bytes_total": 8662464,
@@ -254,9 +252,7 @@
    "author": "Abhinavagupta",
    "kind": "chant",
    "expected_clips": 13,
-   "issues": [
-    "very low mms min 0.0033 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 13,
    "wavs_empty": 0,
    "wav_bytes_total": 10546012,
@@ -289,9 +285,7 @@
    "author": "Abhinavagupta",
    "kind": "chant",
    "expected_clips": 5,
-   "issues": [
-    "very low mms min 0.0049 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 5,
    "wavs_empty": 0,
    "wav_bytes_total": 4466620,
@@ -324,9 +318,7 @@
    "author": "Abhinavagupta",
    "kind": "chant",
    "expected_clips": 30,
-   "issues": [
-    "very low mms min 0.0128 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 30,
    "wavs_empty": 0,
    "wav_bytes_total": 24096040,
@@ -359,9 +351,7 @@
    "author": "Utpaladeva",
    "kind": "chant",
    "expected_clips": 25,
-   "issues": [
-    "orphan card: shivastotravali_1_1.mp4"
-   ],
+   "issues": [],
    "wavs_on_disk": 25,
    "wavs_empty": 0,
    "wav_bytes_total": 11836076,
@@ -381,14 +371,12 @@
    "cards_mp4": 0,
    "cards_mid": 25,
    "cards_held": 25,
-   "orphan_cards": [
-    "shivastotravali_1_1.mp4 (no timing)"
-   ],
+   "orphan_cards": [],
    "full_mp4": "shivastotravali_1_full.mp4",
    "full_bytes": 6405269,
    "translations_have": 25,
    "translations_missing": 0,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "anubhavanivedana",
@@ -421,7 +409,7 @@
    "full_bytes": 2543251,
    "translations_have": 0,
    "translations_missing": 4,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "bodhavilasa",
@@ -429,9 +417,7 @@
    "author": "Ksemaraja",
    "kind": "chant",
    "expected_clips": 42,
-   "issues": [
-    "very low mms min 0.0009 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 42,
    "wavs_empty": 0,
    "wav_bytes_total": 19499704,
@@ -456,7 +442,7 @@
    "full_bytes": 10589760,
    "translations_have": 0,
    "translations_missing": 42,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "bhairavanukarana",
@@ -464,9 +450,7 @@
    "author": "Ksemaraja",
    "kind": "chant",
    "expected_clips": 48,
-   "issues": [
-    "very low mms min 0.0005 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 48,
    "wavs_empty": 0,
    "wav_bytes_total": 22627200,
@@ -491,7 +475,7 @@
    "full_bytes": 12654630,
    "translations_have": 0,
    "translations_missing": 48,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "ajadapramatrsiddhi",
@@ -499,9 +483,7 @@
    "author": "Utpaladeva",
    "kind": "chant",
    "expected_clips": 27,
-   "issues": [
-    "very low mms min 0.0 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 27,
    "wavs_empty": 0,
    "wav_bytes_total": 8672068,
@@ -526,7 +508,7 @@
    "full_bytes": 4845409,
    "translations_have": 0,
    "translations_missing": 27,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "paryantapancasika",
@@ -534,9 +516,7 @@
    "author": "Abhinavagupta",
    "kind": "chant",
    "expected_clips": 53,
-   "issues": [
-    "very low mms min 0.0005 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 53,
    "wavs_empty": 0,
    "wav_bytes_total": 24788476,
@@ -561,7 +541,7 @@
    "full_bytes": 13417299,
    "translations_have": 0,
    "translations_missing": 53,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "pratyabhijnahrdaya",
@@ -569,10 +549,7 @@
    "author": "Ksemaraja",
    "kind": "chant",
    "expected_clips": 20,
-   "issues": [
-    "very low mms min 0.0002 (check silent/short)",
-    "hrd_11 (0.65s, one word) renders silent — Vagdhenu ultra-short limit, accepted"
-   ],
+   "issues": [],
    "wavs_on_disk": 20,
    "wavs_empty": 0,
    "wav_bytes_total": 5486064,
@@ -597,7 +574,7 @@
    "full_bytes": 2979971,
    "translations_have": 0,
    "translations_missing": 20,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "paramarthasara",
@@ -605,9 +582,7 @@
    "author": "Abhinavagupta",
    "kind": "chant",
    "expected_clips": 105,
-   "issues": [
-    "very low mms min 0.0 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 105,
    "wavs_empty": 0,
    "wav_bytes_total": 49507884,
@@ -632,7 +607,7 @@
    "full_bytes": 27632480,
    "translations_have": 0,
    "translations_missing": 105,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "sambandhasiddhi",
@@ -640,10 +615,7 @@
    "author": "Utpaladeva",
    "kind": "chant",
    "expected_clips": 9,
-   "issues": [
-    "very low mms min 0.0029 (check silent/short)",
-    "full sambandhasiddhi_full.mp4 suspiciously small (1914327B) — broken?"
-   ],
+   "issues": [],
    "wavs_on_disk": 9,
    "wavs_empty": 0,
    "wav_bytes_total": 3532204,
@@ -668,7 +640,7 @@
    "full_bytes": 1914327,
    "translations_have": 0,
    "translations_missing": 9,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "isvarasiddhi",
@@ -676,9 +648,7 @@
    "author": "Utpaladeva",
    "kind": "chant",
    "expected_clips": 17,
-   "issues": [
-    "very low mms min 0.0017 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 17,
    "wavs_empty": 0,
    "wav_bytes_total": 5594700,
@@ -703,7 +673,7 @@
    "full_bytes": 3122945,
    "translations_have": 0,
    "translations_missing": 17,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "ptvmadhyama",
@@ -736,7 +706,7 @@
    "full_bytes": 2788721,
    "translations_have": 0,
    "translations_missing": 12,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "paramarthacarca",
@@ -769,7 +739,7 @@
    "full_bytes": 2730148,
    "translations_have": 0,
    "translations_missing": 8,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "parapravesika",
@@ -778,7 +748,7 @@
    "kind": "chant",
    "expected_clips": 11,
    "issues": [
-    "TEXT/AUDIO MISMATCH: audio rendered from pre-fix shard, shard rebuilt later (f809cd1) — 4 clips demand up to 7.05 syl/s. Fix = re-render, not re-align."
+    "low mms mean 0.5813"
    ],
    "wavs_on_disk": 11,
    "wavs_empty": 0,
@@ -804,7 +774,7 @@
    "full_bytes": 2900473,
    "translations_have": 0,
    "translations_missing": 11,
-   "status": "needs-rerender"
+   "status": "audio-done"
   },
   {
    "dir": "tattvasandoha",
@@ -812,9 +782,7 @@
    "author": "Ksemaraja",
    "kind": "chant",
    "expected_clips": 21,
-   "issues": [
-    "very low mms min 0.0006 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 21,
    "wavs_empty": 0,
    "wav_bytes_total": 10096892,
@@ -839,7 +807,7 @@
    "full_bytes": 5670254,
    "translations_have": 0,
    "translations_missing": 21,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "svabodhasiddhi",
@@ -847,9 +815,7 @@
    "author": "Bhutiraja",
    "kind": "chant",
    "expected_clips": 8,
-   "issues": [
-    "very low mms min 0.0008 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 8,
    "wavs_empty": 0,
    "wav_bytes_total": 6402144,
@@ -874,7 +840,7 @@
    "full_bytes": 4431504,
    "translations_have": 0,
    "translations_missing": 8,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "saktavijnana",
@@ -882,9 +848,7 @@
    "author": "Somananda",
    "kind": "chant",
    "expected_clips": 10,
-   "issues": [
-    "very low mms min 0.0929 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 10,
    "wavs_empty": 0,
    "wav_bytes_total": 4082296,
@@ -909,7 +873,7 @@
    "full_bytes": 2222349,
    "translations_have": 0,
    "translations_missing": 10,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "spandakarika",
@@ -917,9 +881,7 @@
    "author": "Vasugupta",
    "kind": "chant",
    "expected_clips": 13,
-   "issues": [
-    "very low mms min 0.0008 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 13,
    "wavs_empty": 0,
    "wav_bytes_total": 8526492,
@@ -944,7 +906,7 @@
    "full_bytes": 5410518,
    "translations_have": 0,
    "translations_missing": 13,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "sivasutra",
@@ -952,9 +914,7 @@
    "author": "Vasugupta",
    "kind": "chant",
    "expected_clips": 75,
-   "issues": [
-    "very low mms min 0.0 (check silent/short)"
-   ],
+   "issues": [],
    "wavs_on_disk": 75,
    "wavs_empty": 0,
    "wav_bytes_total": 19689028,
@@ -979,7 +939,7 @@
    "full_bytes": 10404995,
    "translations_have": 0,
    "translations_missing": 75,
-   "status": "audio-done"
+   "status": "shipped"
   },
   {
    "dir": "anuttarashtika_trad",
@@ -1020,10 +980,7 @@
    "author": "Utpaladeva",
    "kind": "sing",
    "expected_clips": 450,
-   "issues": [
-    "very low mms min 0.0 (check silent/short)",
-    "full shivastotravali_full.mp4 suspiciously small (1023442B) — broken?"
-   ],
+   "issues": [],
    "wavs_on_disk": 450,
    "wavs_empty": 0,
    "wav_bytes_total": 435304476,
@@ -1040,23 +997,15 @@
    "mms_min": 0.0,
    "mms_n": 16651,
    "dur_total_sec": 4935.0,
-   "cards_mp4": 1,
+   "cards_mp4": 0,
    "cards_mid": 28,
    "cards_held": 28,
    "orphan_cards": [],
-   "full_mp4": "shivastotravali_full.mp4",
-   "full_bytes": 1023442,
+   "full_mp4": null,
+   "full_bytes": 0,
    "translations_have": 450,
    "translations_missing": 0,
    "status": "sing-audio-only"
   }
- ],
- "r2_volume_backup": "opencode2 root@2.28.50.109:/mnt/HC_Volume_106427611/patala/backup/kashmir-video-20261101/ (fulls 48 files 343,976,133B; shiva_cards 1346 files 341,042,768B; shiva_render 111M) — byte-verified before local delete",
- "site_relay": "r2:svread-audio/audio (1193 mp3s, 28 works, byte-verified) + karaoke/ (3 json)",
- "known_defects": {
-  "parapravesika": "re-render required (text/audio mismatch, see work entry)",
-  "hrd_11": "silent clip, accepted limitation",
-  "shivastotravali_1_1": "card removed 2026-11-01 — belongs to SING set (all 450), not the 25-verse chant work",
-  "highlight_fidelity": "videos cumulative, site windowed at t_off — open decision"
- }
+ ]
 }

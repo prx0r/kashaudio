@@ -44,7 +44,7 @@ Cards + fulls = this repo. Site (recite pages, syllable karaoke) = prx0r/ipvv.**
 | 19 | Īśvarasiddhi | Utpaladeva | 17 | 0.92 |
 | 20 | PTV Madhyama | Abhinavagupta | 12 | 0.93 |
 | 21 | Paramārthacarcā | Abhinavagupta | 8 | 0.94 |
-| 22 | Parāprāveśikā | Kṣemarāja | 11 | see note |
+| 22 | Parāprāveśikā | Kṣemarāja | 11 | **needs re-render** |
 | 23 | Tattvasandoha | Kṣemarāja | 21 | 0.91 |
 | 24 | Svabodhasiddhi | Bhūtirāja | 8 | 0.92 |
 | 25 | Śaktavijñāna | Somānanda | 10 | 0.91 |
@@ -55,10 +55,17 @@ Cards + fulls = this repo. Site (recite pages, syllable karaoke) = prx0r/ipvv.**
 Plus **Śivastotrāvalī stotras 2–20** as SING-source audio: 424 verses,
 0.88 mean, cards + 19 per-stotra fulls built.
 
-Known alignment outliers (below the 0.90 pack, audited individually):
-`Parāprāveśikā` 0.58 (re-aligned 2026-11-01); `Śivasūtra` 0.87 and
+**Parāprāveśikā is the one work not truly done.** Re-aligning (2026-11-01)
+moved it 0.58 → 0.57, which proved alignment was never the problem: the
+audio was rendered from the *pre-fix* shard and the shard was rebuilt
+afterwards (commit `f809cd1`), so text and audio disagree. Four clips
+demand up to 7.05 syllables/second — impossible for chant. **Fix is a
+re-render from the current shard, then align** (11 clips, ~5 min GPU).
+
+Other alignment outliers, audited and accepted:
+`Śivasūtra` 0.87 and
 `Pratyabhijñāhṛdayam` 0.87 are prose sūtras — short clips score low by
-nature. `hrd_11` (0.65s, one word) renders silent — Vagdhenu limit on
+nature (median 3.4 syl/s means the audio is fine). `hrd_11` (0.65s, one word) renders silent — Vagdhenu limit on
 ultra-short input, accepted.
 
 ## Site state (prx0r/ipvv)
