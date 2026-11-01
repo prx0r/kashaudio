@@ -570,7 +570,8 @@
    "kind": "chant",
    "expected_clips": 20,
    "issues": [
-    "very low mms min 0.0002 (check silent/short)"
+    "very low mms min 0.0002 (check silent/short)",
+    "hrd_11 (0.65s, one word) renders silent — Vagdhenu ultra-short limit, accepted"
    ],
    "wavs_on_disk": 20,
    "wavs_empty": 0,
@@ -777,8 +778,7 @@
    "kind": "chant",
    "expected_clips": 11,
    "issues": [
-    "low mms mean 0.5813",
-    "very low mms min 0.0 (check silent/short)"
+    "TEXT/AUDIO MISMATCH: audio rendered from pre-fix shard, shard rebuilt later (f809cd1) — 4 clips demand up to 7.05 syl/s. Fix = re-render, not re-align."
    ],
    "wavs_on_disk": 11,
    "wavs_empty": 0,
@@ -804,7 +804,7 @@
    "full_bytes": 2900473,
    "translations_have": 0,
    "translations_missing": 11,
-   "status": "audio-done"
+   "status": "needs-rerender"
   },
   {
    "dir": "tattvasandoha",
@@ -1052,5 +1052,11 @@
   }
  ],
  "r2_volume_backup": "opencode2 root@2.28.50.109:/mnt/HC_Volume_106427611/patala/backup/kashmir-video-20261101/ (fulls 48 files 343,976,133B; shiva_cards 1346 files 341,042,768B; shiva_render 111M) — byte-verified before local delete",
- "site_relay": "r2:svread-audio/audio (1193 mp3s, 28 works, byte-verified) + karaoke/ (3 json)"
+ "site_relay": "r2:svread-audio/audio (1193 mp3s, 28 works, byte-verified) + karaoke/ (3 json)",
+ "known_defects": {
+  "parapravesika": "re-render required (text/audio mismatch, see work entry)",
+  "hrd_11": "silent clip, accepted limitation",
+  "shivastotravali_1_1": "card removed 2026-11-01 — belongs to SING set (all 450), not the 25-verse chant work",
+  "highlight_fidelity": "videos cumulative, site windowed at t_off — open decision"
+ }
 }

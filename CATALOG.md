@@ -1,84 +1,127 @@
-# Catalog — Kashmir Shaiva chant collection (2026-10-31)
+# Catalog — Kashmir Shaiva chant collection (2026-11-01)
 
 Single source of truth. Supersedes `STATUS.md` / `targets.md` (kept for history).
+`registry.json` holds machine-readable verified state; this file explains it.
+
 "Audio" = AI (Vagdhenu) is the deliverable voice; traditional = ear-ref only.
-**Lane split: audio (render+align) = this repo. Translations = prx0r/ipvv. Cards + fulls = alignment agent.**
+**Lane split: audio (render+align) = this repo. Translations = prx0r/ipvv.
+Cards + fulls = this repo. Site (recite pages, syllable karaoke) = prx0r/ipvv.**
 
-## Fully shipped — render + align + cards + fulls (10 works, 362 verses)
+## State at a glance
 
-| # | Text | Author | Verses |
-|---|---|---|---|
-| 1 | Bhairavastava (+ phala) | Abhinavagupta | 10 |
-| 2 | Anuttarāṣṭikā | Abhinavagupta | 8 |
-| 3 | Stavacintāmaṇi | Bhaṭṭa Nārāyaṇa | 120 |
-| 4 | Dehasthadevatācakra | anon (Krama) | 16 |
-| 5 | Bodhapañcadaśikā | Abhinavagupta | 15 |
-| 6 | Mahopadeśaviṃśatikā | Abhinavagupta | 20 |
-| 7 | Rahasyapañcadaśikā | Abhinavagupta | 15+colophon |
-| 8 | Paramārthadvādaśikā | Abhinavagupta | 12+phala |
-| 9 | Pañcaślokī | Abhinavagupta | 5 |
-| 10 | Kramastotra | Abhinavagupta | 29+dating |
+- **769 chant verses across 28 works** rendered + aligned: 0 badchars,
+  0 non-monotonic, 0 zero-duration. Plus 450 Śivastotrāvalī SING verses
+  (stotras 1–20) and 8 traditional ear-ref cuts.
+- **All 28 chant works have cards + fulls.** No work is waiting on English
+  any more — the approved Sanskrit-only centred layout unblocked them.
+- **All 769 are live on the ipvv site** as verse-by-verse recite pages with
+  syllable-exact highlighting (words conjoined). 1193 mp3s.
+- **English: 286/769.** 483 still missing (prx0r/ipvv lane). Cards render
+  Sanskrit-only and are complete without it.
 
-10 fulls on disk + R2 (`publish_r2.sh`).
+## Shipped — render + align + cards + fulls (28 works, 769 verses)
 
-## Render + align done — cards waiting on translations (18 works, 399 verses)
+| # | Text | Author | Verses | Align |
+|---|---|---|---|---|
+| 1 | Bhairavastava (+phala) | Abhinavagupta | 10 | 0.92 |
+| 2 | Anuttarāṣṭikā | Abhinavagupta | 8 | 0.94 |
+| 3 | Stavacintāmaṇi | Bhaṭṭa Nārāyaṇa | 120 | 0.93 |
+| 4 | Dehasthadevatācakra | anon (Krama) | 16 | 0.93 |
+| 5 | Bodhapañcadaśikā | Abhinavagupta | 15 | 0.93 |
+| 6 | Mahopadeśaviṃśatikā | Abhinavagupta | 20 | 0.93 |
+| 7 | Rahasyapañcadaśikā | Abhinavagupta | 16 | 0.92 |
+| 8 | Paramārthadvādaśikā | Abhinavagupta | 13 | 0.94 |
+| 9 | Pañcaślokī | Abhinavagupta | 5 | 0.92 |
+| 10 | Kramastotra (+dating) | Abhinavagupta | 30 | 0.93 |
+| 11 | Anubhavanivedana | Abhinavagupta | 4 | 0.94 |
+| 12 | Bodhavilāsa | Kṣemarāja | 42 | 0.93 |
+| 13 | Bhairavānukaraṇastotra | Kṣemarāja | 48 | 0.92 |
+| 14 | Ajadapramātṛsiddhi | Utpaladeva | 27 | 0.89 |
+| 15 | Paryantapañcāśikā | Abhinavagupta | 53 | 0.93 |
+| 16 | Pratyabhijñāhṛdayam | Kṣemarāja | 20 | 0.87 |
+| 17 | Paramārthasāra | Abhinavagupta | 105 | 0.93 |
+| 18 | Sambandhasiddhi | Utpaladeva | 9 | 0.92 |
+| 19 | Īśvarasiddhi | Utpaladeva | 17 | 0.92 |
+| 20 | PTV Madhyama | Abhinavagupta | 12 | 0.93 |
+| 21 | Paramārthacarcā | Abhinavagupta | 8 | 0.94 |
+| 22 | Parāprāveśikā | Kṣemarāja | 11 | see note |
+| 23 | Tattvasandoha | Kṣemarāja | 21 | 0.91 |
+| 24 | Svabodhasiddhi | Bhūtirāja | 8 | 0.92 |
+| 25 | Śaktavijñāna | Somānanda | 10 | 0.91 |
+| 26 | Spandakārikā | Vasugupta | 13 | 0.92 |
+| 27 | Śivasūtra | Vasugupta | 75 | 0.87 |
+| 28 | Śivastotrāvalī 1 (rest) | Utpaladeva | 25 | 0.93 |
 
-| # | Text | Author | Verses |
-|---|---|---|---|
-| 11 | Śivastotrāvalī Stotra 1 rest | Utpaladeva | 25 |
-| 12 | Anubhavanivedana | Abhinavagupta | 4 |
-| 13 | Bodhavilāsa | Kṣemarāja | 42 |
-| 14 | Bhairavānukaraṇastotra | Kṣemarāja | 48 |
-| 15 | Ajadapramātṛsiddhi | Utpaladeva | 27 |
-| 16 | Paryantapañcāśikā | Abhinavagupta | 53 |
-| 17 | Pratyabhijñāhṛdayam | Kṣemarāja | 20 sūtras |
-| 18 | Paramārthasāra | Abhinavagupta | 105 |
-| 19 | Sambandhasiddhi | Utpaladeva | 9 |
-| 20 | Īśvarasiddhi | Utpaladeva | 17 |
-| 21 | PTV Madhyama | Abhinavagupta | 12 |
-| 22 | Paramārthacarcā | Abhinavagupta | 8 |
-| 23 | Parāprāveśikā | Kṣemarāja | 12 |
-| 24 | Tattvasandoha | Kṣemarāja | 21 |
-| 25 | Svabodhasiddhi | Bhūtirāja | 8 |
-| 26 | Śaktavijñāna | Somānanda | 10 |
-| 27 | Spandakārikā | Vasugupta | 13 |
-| 28 | Śivasūtra | Vasugupta | 75 |
+Plus **Śivastotrāvalī stotras 2–20** as SING-source audio: 424 verses,
+0.88 mean, cards + 19 per-stotra fulls built.
 
-**Grand total: 761 verses across 28 works rendered + aligned. 0 errors, 0 badchars.**
+Known alignment outliers (below the 0.90 pack, audited individually):
+`Parāprāveśikā` 0.58 (re-aligned 2026-11-01); `Śivasūtra` 0.87 and
+`Pratyabhijñāhṛdayam` 0.87 are prose sūtras — short clips score low by
+nature. `hrd_11` (0.65s, one word) renders silent — Vagdhenu limit on
+ultra-short input, accepted.
 
-## Recitation gold remaining in prx0r/ipvv
+## Site state (prx0r/ipvv)
 
-Filter: verse/kārikā/stotra type (not commentary), text held or sourceable.
+- 47 recite pages, 1193 mp3s, syllable-level karaoke verified on all.
+- Audio relayed to `r2:svread-audio/audio/<work>/<id>.mp3`, byte-verified
+  (1193/1193). Public URL not yet enabled — blocker for trimming git.
+- Highlight fidelity note: videos are cumulative (a syllable stays lit
+  once its onset passes; `t_off` unused for display). The site engine
+  un-lights at `t_off`, so a sustained final syllable goes dark early.
+  Open design decision.
 
-| Work | Author | Size | ipvv status | Text | Priority |
-|---|---|---|---|---|---|
-| **Anuttaraśataka** | Abhinavagupta | 100 vv | STOCKPILE | need source | HIGH — short century |
-| **Prakaraṇastotra** | Abhinavagupta | ? | STOCKPILE | need source | HIGH |
-| **Paramārthasaṃgraha** | Abhinavagupta | ? | STOCKPILE | need source | MED |
-| **Tantravaṭadhānikā** | Abhinavagupta | verse | STOCKPILE | need source | MED — "Seed of Tantra" |
-| **Tattvādhvaprakāśikā** | Abhinavagupta | ? | STOCKPILE | need source | MED |
-| **Spandasandoha** | Kṣemarāja | short | SOURCE_HELD | `spandasandoha.txt` ✅ | HIGH — text in hand |
-| **Śivastotrāvalī Stotras 2–20** | Utpaladeva | 19 songs | SOURCE_HELD | full shard exists ✅ | SING phase (not chant) |
-| **IPK** | Utpaladeva | 4 adhikāras | SOURCE_HELD | `ipk.txt` ✅ | LOW — dense philosophy, STUDY |
-| **Venisamhara** | Bhaṭṭa Nārāyaṇa | 6 acts | SOURCE_HELD | drama, not chant | SKIP |
-| **Spandanirṇaya** | Kṣemarāja | 53 comm. | SOURCE_HELD | commentary | STUDY |
-| **Śivasūtravimarśinī** | Kṣemarāja | 77 comm. | SOURCE_HELD | commentary | STUDY |
+## Recitation targets — what is actually recitable
 
-**Immediate next:** Spandasandoha (text in hand) + Anuttaraśataka (source hunt).
+Filter that matters: **is the text a hymn (stotra/kārikā/stava) or a
+treatise?** Treatises and commentaries are never audio targets, no matter
+how famous.
+
+### Yes — recitable, source pending
+
+| Work | Author | Size | Text | Note |
+|---|---|---|---|---|
+| **Anuttaraśataka** | Abhinavagupta | 100 vv | need source | ipvv: `category: stotra`. HIGH — the big one left |
+| **Prakaraṇastotra** | Abhinavagupta | ? | need source | stotra; HIGH |
+| **Paramārthasaṃgraha** | Abhinavagupta | ? | need source | MED |
+| **Tantravaṭadhānikā** | Abhinavagupta | verse | need source | MED — "Seed of Tantra" |
+| **Tattvādhvaprakāśikā** | Abhinavagupta | ? | need source | MED |
+| **Sixteen Amṛtas** | ? | 16 vv | Wisdom appendix | unknown category — confirm before promising |
+
+### No — NOT recitation texts (removed from chant queue)
+
+| Work | Why not |
+|---|---|
+| **Spandasandoha** | ipvv: `category: spanda`. Kṣemarāja's prose treatise, ~81 verse markers embedded in dense commentary. Root kārikās already done as Spandakārikā. STUDY. |
+| **Spandanirṇaya** | commentary on 53 kārikās. STUDY. |
+| **Śivasūtravimarśinī** | commentary on 77 sūtras. STUDY. |
+| **IPK** | 4 adhikāras of dense Pratyabhijñā argument. STUDY. |
+| **Venisamhara** | drama in 6 acts. Not chant. |
+| Śivastotrāvalī 2–20 | recitable but SING material — done as source audio, not chant. |
+
+**Next action:** source Anuttaraśataka (100 vv, stotra). Then Sixteen Amṛtas
+needs its category confirmed from the Wisdom appendix before any work.
 
 ## Delivery rules
 
 - **CHANT** = mantra-recitation, Vagdhenu syllable pipeline.
-- **SING** = melodic bhakti — Stotrāvalī Stotras 2–20 wait for singing phase.
+- **SING** = melodic bhakti — recitable lyrics, sung not chanted.
 - **STUDY** = treatises, commentaries — never audio targets.
+- Sanskrit-only cards are complete deliverables; English is an enhancement.
+  **Never** block a card on translation.
 
 ## Pipeline state (see PROCESS.md for laws)
 
-- Render: v10–v17 complete, 761 clips, 0 env failures across 592 session clips.
+- Render: v8–v17 + session 2026-11-01, 769 chant clips, 0 env failures.
   Env law: numpy 2.2.x, IndicF5 pinned to live HEAD, verify cell RAISES.
 - Align: word MMS → syllable MMS authority → matra rhythm. Means 0.87–0.94.
 - Cards: stills-first law, per-frame overflow guard, LEAD=0.28 locked.
-  10 works shipped; 18 works waiting on translations.
-- R2: `publish_r2.sh` = 3 targets (R2 backup + R2 finals + opencode2 volume).
-- Quota: ~15h of 30h/week used (v8–v17). Disk: ~2.4G free.
-- Translations: 278/761 done (Qwen + canonical). 483 pending — prx0r/ipvv lane.
+  `--no-en` (centred, deva 84 / roman 40) is the shipped layout;
+  `--no-en-small` (70/33) auto-fallback for dense padas.
+- Fulls: gap 1.05 / pale 0.28 target. Long natural speech tails push gap
+  past target on some joins — pale is the invariant that matters.
+- Storage: R2 backup + R2 finals + opencode2 volume (`publish_r2.sh`).
+  Per-clip mp4s and stills live on `r2:kashaudio-backup/cards-noen-*` and
+  the volume; local copies pruned after byte verification.
+- Disk law: purge `*.f32` after align, `_join_tmp` after fulls.
+- Translations: 286/769 done. 483 pending — prx0r/ipvv lane.
