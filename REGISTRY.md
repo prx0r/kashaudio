@@ -74,3 +74,13 @@ Translations file: 703 keys = 253 chant shipped + 450 sing (shivastotravali full
 - shivastotravali: very low mms min 0.0 (check silent/short); full shivastotravali_full.mp4 suspiciously small (1023442B) — broken?
 
 Source of truth: registry.json in this dir. CATALOG.md is narrative, STATUS.md/targets.md are history.
+
+## R2 locations (noen Sanskrit-only set, 2026-11-01)
+
+- Per-clip mp4s + stills: `r2:kashaudio-backup/cards-noen-20261101-noen` —
+  1524 files (508 mp4s + 1016 mid/held PNGs), byte-verified with
+  `rclone lsjson`, THEN deleted locally. Rebuild command above.
+- Fulls: `r2:ets/finals-20261101-noen` — 29 full mp4s (18 noen + 11 EN).
+  Local fulls kept in `cards/`.
+- 18 noen fulls: 17 PATTERN OK (gap 1.05 / pale 0.28), parapravesika
+  PATTERN OFF (3 CHECK joins, best-effort — its 0.581 alignment needs redo).

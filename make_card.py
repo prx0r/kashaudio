@@ -32,46 +32,76 @@ LEAD = 0.28       # transition pattern: new page cuts in 0.28s BEFORE its first
                   # syllable's voice beat (page pale -> word lights ON the beat)
 
 def bounds_check(im, tag):
-    """Mistake-log rule: no dark pixels may touch frame edges."""
+    """Mistake-log rule: no dark pixels may touch frame edges.
+    All-pale pages (e.g. sub-second clips mid-switch) have no dark
+    pixels at all — that is OK, nothing can overflow."""
     g = np.array(im.convert("L"))
     ys = np.where((g < 150).any(axis=1))[0]
     xs = np.where((g < 150).any(axis=0))[0]
-    ok = ys.max() < H - 8 and xs.min() > 8 and xs.max() < W - 8
+    if len(ys) == 0 or len(xs) == 0:
+        print(f"  bounds[{tag}]: all-pale (no dark ink) -> OK")
+        return True
+    ok = ys.min() > 8 and ys.max() < H - 8 and xs.min() > 8 and xs.max() < W - 8
     print(f"  bounds[{tag}]: y {ys.min()}-{ys.max()} x {xs.min()}-{xs.max()} -> {'OK' if ok else 'OVERFLOW!'}")
     return ok
 
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     do_render = "--render" in sys.argv
+    noen = "--no-en" in sys.argv or "--no-en-small" in sys.argv
+    noen_small = "--no-en-small" in sys.argv
     id_ = args[0] if args else "bhairava_01"
     textdir = args[1] if len(args) > 1 else (
         "bhairavastava" if id_.startswith("bhairava") else "anuttarashtika")
     wt = {c["id"]: c for c in json.load(open(AUD / textdir / "word_timings.json"))}[id_]
-    en = json.load(open(AUD / "translations.json", encoding="utf-8"))[id_]
+    if noen:
+        en_txt = []
+    else:
+        en = json.load(open(AUD / "translations.json", encoding="utf-8"))[id_]
     syls = wt["syls"]
     dur = wt["dur"]
     padas = sorted({s["pada"] for s in syls})
 
+    if noen:
+        # Sanskrit-only centered variant (no English footer): bigger, optical-center.
+        # --no-en-small: same layout/faces at EN sizes for dense padas (auto fallback).
+        if noen_small:
+            DEVA, ROMAN = 70, 33
+            gap = 34
+            maxw = 1500
+        else:
+            DEVA, ROMAN = 84, 40
+            gap = 40
+            maxw = 1600
+        sk_top, sk_span = 90, 900   # centers within [90, 990]
+    else:
+        DEVA, ROMAN = 70, 33
+        gap = GAP
+        sk_top, sk_span = SK_TOP, SK_SPAN
+        maxw = 1500
     # approved sizes, Sanskrit +1: deva 64->70, roman 30->33, English unchanged 46
-    fd, fr, fe = ImageFont.truetype(FD, 70), ImageFont.truetype(FR, 33), ImageFont.truetype(FE, 46)
-    lh_d, lh_r, lh_e = int(70 * 1.35), int(33 * 1.35), int(46 * 1.4)
+    fd, fr, fe = ImageFont.truetype(FD, DEVA), ImageFont.truetype(FR, ROMAN), ImageFont.truetype(FE, 46)
+    lh_d, lh_r, lh_e = int(DEVA * 1.35), int(ROMAN * 1.35), int(46 * 1.4)
     tmp = ImageDraw.Draw(Image.new("RGB", (W, H)))
-    enw, en_lines, cur, curw = en.split(), [], [], 0
-    sp = tmp.textlength(" ", font=fe)
-    for i, w in enumerate(enw):
-        ww = tmp.textlength(w, font=fe)
-        if cur and curw + sp + ww > EN_W:
-            en_lines.append(cur); cur, curw = [], 0
+    if noen:
+        pass
+    else:
+        enw, en_lines, cur, curw = en.split(), [], [], 0
+        sp = tmp.textlength(" ", font=fe)
+        for i, w in enumerate(enw):
+            ww = tmp.textlength(w, font=fe)
+            if cur and curw + sp + ww > EN_W:
+                en_lines.append(cur); cur, curw = [], 0
+            if cur:
+                curw += sp
+            cur.append(i); curw += ww
         if cur:
-            curw += sp
-        cur.append(i); curw += ww
-    if cur:
-        en_lines.append(cur)
-    en_txt = [" ".join(enw[i] for i in ln) for ln in en_lines]
-    # HARD CLAMP: English block bottom never crosses H-36 (mistake-log rule)
-    en_h = len(en_txt) * lh_e
-    en_y = min(EN_Y, H - en_h - 36)
-    assert en_y >= 700, f"English block too tall for frame: {en_h}px (id={id_})"
+            en_lines.append(cur)
+        en_txt = [" ".join(enw[i] for i in ln) for ln in en_lines]
+        # HARD CLAMP: English block bottom never crosses H-36 (mistake-log rule)
+        en_h = len(en_txt) * lh_e
+        en_y = min(EN_Y, H - en_h - 36)
+        assert en_y >= 700, f"English block too tall for frame: {en_h}px (id={id_})"
 
     # ── transition pattern: page cuts in LEAD before its first voice beat,
     # so every page boundary is identical: new page PALE -> word ON at beat.
@@ -99,20 +129,20 @@ def main():
         cur_s = [s for s in syls if s["pada"] == api]
         rows, row, roww = [], [], 0
         for s in cur_s:
-            w = pair_w(s) + GAP
-            if row and roww + w - GAP > 1500:
+            w = pair_w(s) + gap
+            if row and roww + w - gap > maxw:
                 rows.append(row); row, roww = [], 0
             row.append(s); roww += w
         if row:
             rows.append(row)
         block_h = len(rows) * (lh_d + lh_r + 26) - 26
-        y0 = SK_TOP + (SK_SPAN - block_h) / 2
+        y0 = sk_top + (sk_span - block_h) / 2
         im = Image.new("RGB", (W, H), LIGHT)
         d = ImageDraw.Draw(im)
         lit = []
         y = y0
         for r in rows:
-            total = sum(pair_w(s) + GAP for s in r) - GAP
+            total = sum(pair_w(s) + gap for s in r) - gap
             x = (W - total) / 2
             for s in r:
                 on = t >= s["t_on"]
@@ -123,12 +153,13 @@ def main():
                 d.text((x + (pair_w(s) - dw) / 2, y), s["d"], font=fd, fill=INK if on else FADE)
                 d.text((x + (pair_w(s) - rw) / 2, y + lh_d), s["r"], font=fr,
                        fill=INK50 if on else FADE50)
-                x += pair_w(s) + GAP
+                x += pair_w(s) + gap
             y += lh_d + lh_r + 26
-        yy = en_y
-        for ln in en_txt:
-            ctext(d, ln, fe, yy)
-            yy += lh_e
+        if not noen:
+            yy = en_y
+            for ln in en_txt:
+                ctext(d, ln, fe, yy)
+                yy += lh_e
         return im, api, lit
 
     # ── STILLS (default): mid + held, bounds-checked, NO video ──
@@ -188,7 +219,8 @@ def main():
             continue
         im, api, lit = slide((t0 + t1) / 2)
         g = np.array(im.convert("L"))
-        ymax = int(np.where((g < 150).any(axis=1))[0].max())
+        dark = np.where((g < 150).any(axis=1))[0]
+        ymax = int(dark.max()) if len(dark) else -1  # all-pale frame: nothing can overflow
         if ymax >= H - 8:
             sys.exit(f"FRAME OVERFLOW at t={t0:.2f} (ymax={ymax}) — refusing to render {id_}")
         im.save(fdir / f"{idx:06d}.png")
